@@ -1,0 +1,175 @@
+% Anmerkungen:
+%   Empfohlende Pakete:
+%     cm-super für sauberere Schriftdarstellung
+
+\documentclass[fontsize=10pt,paper=a4,DIV=12,abstract=true,toc=bibliography,toc=listof,toc=index]{scrreprt}
+
+% Fonts, Sprachunterstuetzung
+\usepackage[utf8]{inputenc} %Deutsche Umlaute im Quellext
+\usepackage[T1]{fontenc}
+%\usepackage{lmodern}
+\usepackage[ngerman]{babel} %Deutsche Silbentrennung, etc.
+\usepackage{babelbib} %Mehrsprachige Literaturliste
+
+% Graphiken und Farbe
+\usepackage{graphicx} %Graphiken
+\usepackage{color} %Farbe
+\usepackage{pdfpages} %PDF-Seiten einbinden
+
+% Mathematisches
+\usepackage{amsmath}
+\usepackage{amssymb} % mathfrak + amsfonts + spezielle Symbole
+\usepackage{amsxtra} % Weitere Extrasymbole
+\usepackage{mathrsfs} % \mathscr - normal ist \mathcal http://en.wikipedia.org/wiki/File:Mathscr-vs-mathcal.png
+\usepackage{amsthm} % Definiert sind
+%theorem, corollary, definition, definitions, fact, example,
+%examples, Problem, Loesung, Definition, Satz, Beweis,
+%Folgerung, Lemma, Fakt, Beispiel, and Beispiele.
+%Beispiel: \proof{Ich habe etwas bewiesen.\qed}
+
+% Mathematische Schrifterweiterungen
+\usepackage{dsfont} %\mathds{A} alternativ zu mathbb
+\usepackage{bm} %\bm{A} Boldface im Mathemodus
+
+% Verbesserte Enumerate-Umgebung
+\usepackage{enumerate}
+
+% Verbesserte Tabellen- und Equation-Umgebung
+\usepackage{array}
+\usepackage{eqnarray}
+\usepackage{longtable}
+
+% Diagramme
+\usepackage[all]{xy}
+
+\usepackage{url}
+\usepackage{makeidx}
+\usepackage{fancyhdr}
+
+\definecolor{darkgreen}{rgb}{0,0.7,0} 
+\definecolor{darkred}{rgb}{0.7,0,0} 
+\definecolor{darkblue}{rgb}{0,0,0.7} 
+\definecolor{lightgrey}{rgb}{0.97,0.97,0.97} 
+
+\usepackage[ngerman]{varioref}
+%\usepackage[pdfborder=000, pdftex=true, plainpages=false, colorlinks=true, linkcolor=black, filecolor=black, urlcolor=black, citecolor=black, backref]{hyperref}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=red,urlcolor=darkgreen]{hyperref}
+\usepackage[ngerman]{cleveref}
+
+
+\makeindex
+
+\addtokomafont{caption}{\raggedright} % Bildunterschriften linksbündig
+
+\newcommand{\todo}[1]{\textcolor{red}{TODO: #1}}
+\newcommand{\degree}{\ensuremath{^\circ}}
+
+%\renewcommand{\figurename}{Abbildung}
+%\renewcommand{\tablename}{Tabelle}
+%\renewcommand\contentsname{Inhaltsverzeichnis}
+
+
+
+\input{tex/title}
+
+
+%\renewcommand{\subsectionmark}[1]{
+%  \markright{\thesubsection{} #1}
+%}
+
+%\setcounter{secnumdepth}{4}
+%\setcounter{tocdepth}{4}
+
+
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+\fancyhead[L]{\textsc{\nouppercase{\leftmark}}} %Kopfzeile links
+\fancyhead[R]{\textsc{\nouppercase{\rightmark}}} %Kopfzeile rechts
+\fancyfoot[C]{\thepage} %Seitennummer
+\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+
+\fancypagestyle{plain}{
+  \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+  \fancyfoot[C]{\thepage} %Seitennummer
+  \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
+  \renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+}
+
+
+\begin{document}
+
+
+
+\pdfbookmark{Startseite}{title}\maketitle
+
+
+\pdfbookmark{\abstractname}{abstract}
+\begin{abstract}
+\input{tex/abstract}
+\end{abstract}
+
+
+\pdfbookmark{\contentsname}{toc}\tableofcontents
+%\clearpage
+
+
+%\begin{enumerate}
+% \item Erster Block. Hier wird die Marke gesetzt.\label{verweis}
+% \item Mittels \pageref{verweis} kann auf die Seitennummer des fraglichen Labels verwiesen werden.
+% \end{enumerate}
+
+
+% \vspace*{10cm}
+ % \begin{longtable}{|l|r|c|p{2cm}|}
+ % \hline
+ % Linksbündige Spalte.&Rechtsbündige Spalte&Zentrierte Spalte&Parbox\\
+ % \hline
+ % Kurzer Text.&Kurzer Text.&Kurzer Text.&Kurzer Text.\\
+ % \hline
+ % Text.&Text.&Text.&In diesem Felde nun ein elendslanger text, um Umbrüche innerhalb eines Feldes zu erzeugen.\\
+ % \hline
+ % Text.&Text.&Text.&der Befehl $\backslash$vspace*\{\} weiter oben im Quellcode hat einem Umbruch vor dieser Zeile bewirkt.\\
+ % \hline
+ % \end{longtable}
+
+
+% \begin{enumerate}
+% \item Zweiter Block. Hier wird nach \vref{verweis} verwiesen.
+% \item Mittels \pageref{verweis} kann auf die Seitennummer des fraglichen Labels verwiesen werden.
+% \end{enumerate}
+
+
+% \section{Erster Abschnitt}\label{sec:firstsection}
+% Wenn $a=2$ und $b=3$ dann gilt:
+% \begin{equation}\label{eq:simpleeq}
+% a+b =2+3=5
+% \end{equation}
+% Wie in \cref{eq:simpleeq} gezeigt \ldots
+% \newpage
+% \section{Zweiter Abschnitt}\label{zweiter Abschnitt}
+% \Cref{eq:simpleeq}\vpageref{eq:simpleeq} verdeutlichte bereits \ldots
+
+
+% So sind 96 \% der bundesdeutschen Schulen mit Computern ausgestattet. \cite[S. 7]{bmbf} ...
+
+
+\input{tex/overview}
+\input{tex/strategies}
+\input{tex/background}
+\input{tex/remarks}
+\input{tex/changelog}
+\appendix
+\input{tex/csvfiles}
+
+
+%\listoffigures
+%\listoftables
+\printindex
+
+\begin{thebibliography}{BGW/VKU, 2007}
+   \bibitem[BGW, 2006]{bgwp20068}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft} (2006): \textit{Leitfaden SLP. Praxisinformation P 2006/8 Gastransport/Betriebswirtschaft: Anwendung von Standardlastprofilen zur Belieferung nicht"=leistungsgemessener Kunden.}
+   \bibitem[BGW/VKU, 2007]{bgwvkup200713}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft; Verband kommunaler Unternehmen e. V.} (2007): \textit{Praxisinformation P2007/13 Gastransport/Betriebswirtschaft: Abwicklung von Standardlastprofilen.}
+   % \bibitem[BMBF, 2003]{bmbf}"'IT-Ausstattung der allgemein bildenden und berufsbildenden Schulen in Deutschland"', http://www.schulen-ans-netz.de/neuemedien/fakten/dokus/it-ausstattung-2003.pdf, 10.03.2005
+\end{thebibliography}
+
+\end{document} 

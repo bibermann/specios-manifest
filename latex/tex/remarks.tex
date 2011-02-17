@@ -1,0 +1,13 @@
+\chapter{Verschiedenes}\label{chap:remarks}
+
+\begin{itemize}
+\item Wochentagsfaktoren und Kundenwert beeinflussen das Ergebnis linear.
+\item Das Bundesland beeinflusst die Feiertage und die Sigmoid"=Koeffizienten.
+\item Das SLP beeinflusst die Sigmoid"=Koeffizienten und die Wochentagsfaktoren.
+\item Die SLP"=Ausprägung beeinflusst die Sigmoid"=Koeffizienten.
+\item Latitude und Longitude können aus einer Google"=Maps"=Adresse entnommen werden: Sie werden im Parameter "`\verb|ll|"' kodiert. Ausschnitt eines Beispieles: "`\verb|http://maps.google.de/?[...]\&ll=52.523866,13.321325&[...]|"'; hier ist Latitude = 52,523866\degree und Longitude = 13,321325\degree . Alternativ kann folgender Code in die Adresszeile des Browsers geschrieben werden, um die Koordinaten des aktuell zentrierten Punktes anzuzeigen:
+\begin{verbatim}
+javascript:void(prompt('',gApplication.getMap().getCenter()));
+\end{verbatim}
+
+\end{itemize}

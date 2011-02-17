@@ -1,0 +1,108 @@
+\chapter{Vorgehensweisen}\label{chap:strategies}
+
+\section{Allgemeine Daten verstehen und pflegen}
+
+\subsection{Feiertage}\label{sec:holidays}
+
+Feiertage entsprechen bei der Berechnung einem Sonntag, d.h. Feiertage an Sonntagen müssen nicht berücksichtigt werden.
+Folgende beweglichen christlichen bundesweiten Feiertage werden vom Programm automatisch berechnet: Karfreitag, Ostermontag, Christi Himmelfahrt, Pfingstmontag.
+
+Alle anderen Feiertage müssen in die Tabelle "`Feiertage"' eingetragen werden. Dabei kann das Bundesland=null gesetzt werden, sofern der jeweilige Feiertag bundesweit gilt, und/oder das Jahr=null gesetzt werden, sofern der jeweilige Feiertag jedes Jahr am selben Datum stattfindet.
+
+\subsection{Temperaturen}\label{sec:temperatures}
+
+Zur Berechnung des Kundenwertes müssen explizite Tagestemperaturen von mindestens einem Jahr innerhalb des Zeitraumes von 3 Jahren vor dem Ausrolljahr bis zum Ausrolljahr selbst vorliegen, das ist eine Zeitspanne von 4 Jahren, bzw. praktisch eher 3 Jahre, da für das Ausrolljahr selbst normalerweise noch keine gemessenen Temperaturen zusammen mit dem Jahresverbrauch vorliegen. Nur Jahre, in denen beides, explizite Temperaturangaben und der gemessene Jahresverbrauch, vorhanden sind, werden für die Kundenwertberechnung verwendet. Als explizite Temperatur gelten alle Temperaturen mit einer Jahresangabe. Temperaturangaben mit Zuordnung zu der Messstation, die dem Kunden zugeordnet ist, werden gegenüber messstationsunabhängigen Temperaturangaben bevorzugt.
+
+Optimalerweise sollten Temperaturwerte vom 29.---31.12. des 4. Jahres vor dem Ausrolljahr ebenfalls vorliegen, da alle Temperaturwerte von Slp"=Rollout nicht direkt, sondern mit Hilfe einer geometrischen Reihe über den aktuellen und die vergangenen 3 Tage ermittelt wird (wobei der letzte dieser Tage doppelt so hoch gewichtet wird wie der vorletzte usf.), um die Wärmespeicherfähigkeit von Gebäuden zu berücksichtigen. Der Algorithmus ist dabei tolerant gegenüber fehlenden Temperaturangaben, so dass für bis zu 3 aufeinanderfolgende Tage Temperaturwerte fehlen können, ohne dass Slp"=Rollout versagt.
+
+
+Wie gesagt können die Tempetraturwerte in die Tabelle "`Tagestemperaturen"' also ohne die Angabe der Temperaturquelle und/oder des Jahres eingetragen werden.
+
+Geschätzte Temperaturangaben (z.B. des laufenden Jahres) sollten allerspätestens dann, nachdem eine Gesamtmenge für dieses Jahr eingetragen wurde, auf gemessene Werte aktualisiert werden.
+
+Neue Temperaturquellen müssen in der Tabelle "`Temperaturquellen"' eingetragen werden --- wichtig ist das Feld Adresse für die manuelle Zuordnung und die geographische Position für die automatische Messstationszuordnung: Latitude (geographische Breite (N---S), in Grad), Longitude (geographische Länge (W---E), in Grad) und Altitude (Höhe über Normalhöhennull, in Metern).
+
+\section{Kunden hinzufügen und Kundendaten ändern}\label{sec:modifyclients}
+
+Alternativ zu den im Folgenden genannten Vorgehensweisen, kann die Kunden-Tabelle auch manuell bearbeitet werden.
+
+Andernfalls muss das Programm Slp"=Rollout gestartet werden.
+
+In den Einstellungen (erscheinen beim Programmstart) muss der Pfad zur Access"=Hauptdatenbank angegeben werden.
+
+Das Kontrollkästchen "`Neue Daten"' muss markiert werden, wenn neue Daten (Kunden oder Gesamtmengen) hinzugefügt werden sollen.
+
+Im Gruppenrahmen dieses Kontrollkästchens kann dann der Tabellenname der neuen Kundendaten und das Jahr, für welches die Gesamtmengen angegeben sind, eingestellt werden.
+
+Anschließend auf die Schaltfläche "`Übernehmen \verb|>>|"' klicken. Es wird eine Verbindung zur Datenbank aufgebaut und einige Tabellen mit Parametern, SLP"=Namen usw. werden geladen. Außerdem werden diverse Abfragen ausgeführt, um die Kunden"=Tabellen u.ä. im Programm zu füllen.
+
+\subsection{Kunden hinzufügen}\label{sec:modifyclients/add}
+
+In der Registerkarte "`Kunden vervollständigen"' werden alle unvollständigen und neuen Kunden angezeigt, wo sie direkt bearbeitet werden können. Mehrere Kunden können dazu gleichzeitig ausgewählt werden.
+
+Angepasst werden müssen "`Bundesland"', "`SLP"', "`SLP"=Ausprägung"' und "`Temperaturquelle"'. Einige Felder werden automatisch versucht auszufüllen, siehe dazu \vref{sec:clientautocompletion}.
+
+Unterhalb der Tabelle werden für die ausgewählten Kunden all diese Felder für die aktuelle Auswahl angezeigt. Gibt es Abweichungen in der Auswahl, bleibt das entsprechende Feld leer, ansonsten wird der gemeinsame Wert angezeigt.
+
+Über Dropdown"=Listen können die Werte nun geändert werden. Mit einem Klick auf "`Übernehmen \verb|>>|"' werden sie auf folgende Weise übernommen: Ist ein Feld leer, wird dieses Feld nicht angefasst, enthält ein Feld einen Wert, werden alle markierten Kunden mit diesem neuen Wert überschrieben.
+
+Hinweis: Über die Buttons "`nicht ändern"' kann ein gesetztes Feld wieder geleert werden, um es nicht anzufassen.
+
+
+Die Schaltfläche "`Datenbank aktualisieren"' überträgt nun (alle) Kunden in die Kundentabelle, wobei ihnen eine eindeutige ID zugewiesen wird, falls der Kunde noch nicht exisitert; andernfalls wird er aktualisiert. Ist das Kontrollkästchen "`Auch unausgefüllte Kunden übertragen"' nicht markiert, werden Kunden, bei denen Bundesland, SLP und Temperaturquelle nicht gesetzt ist und SLP"=Ausprägung gleich "`\verb|o|"' ist, nicht übertragen. Andernfalls werden alle Kunden übertragen.
+
+\subsection{Kunden ändern}\label{sec:modifyclients/modify}
+
+Die Eigenschaften, oben Felder genannt, aller übertragenen Kunden können jederzeit geändert werden. Die Ausroll"=Funktionalität ist Abhängig von diesen Eigenschaften ("`Bundesland"', "`SLP"', "`SLP"=Ausprägung"' und "`Temperaturquelle"').
+
+Die Vorgehensweise ist dieselbe wie in \vref{sec:modifyclients/add} beschrieben.
+
+\subsection{Gesamtmengen hinzufügen bzw. ändern}
+
+In der Registerkarte "`Gesamtmengen übertragen"' werden die Gesamtmengen für alle Kunden angezeigt, die sich in der Datenbank befinden und für die es in der neuen Tabelle (siehe \vref{sec:modifyclients}) abweichende oder neue Gesamtmengen für das jeweilige Jahr gibt.
+
+Die Schaltfläche "`Auswahl in Datenbank übertragen"' überträgt alle ausgewählten Gesamtmengen in die Datenbank, dabei werden sie ggf. überschrieben, falls für das jeweilige Jahr bereits Daten vorhanden waren.
+
+Hinweis: Mit der Schaltfläche "`Alle auswählen"' können alle Gesamtmengen schnell ausgewählt werden.
+
+\section{SLPs erraten}
+
+Hierfür muss das Programm Slp"=Rollout gestartet werden.
+
+Hinweis: Ggf. muss vorher der Tabellenname in der Datei "`comparison\_query.sql"' angepasst werden.
+
+Die Einstellungen im Gruppenrahmen "`Ausrollen"' müssen angepasst werden.
+
+Anschließend auf die Schaltfläche "`Übernehmen \verb|>>|"' klicken. Einige Daten werden geladen, siehe \vref{sec:modifyclients}.
+
+
+In der Registerkarte "`SLPs erraten"' werden nun alle Kunden aufgelistet, für die vollständige ausroll"=spezifische Informationen vorliegen (bis auf SLP, welches null sein muss) und für die es mindestens eine Jahres"=Gesamtmenge gibt.
+
+Hier können nun alle Kunden markiert werden, für die das best"=passendste SLP berechnet werden soll.
+
+Hinweis: Mit der Schaltfläche "`Alle auswählen"' können alle Kunden schnell ausgewählt werden.
+
+Bei Klick auf die Schaltfläche "`Bis zu 70 Kombinationen ausrollen und bestes SLP setzen"' wird eben dies getan. Im Ordner "`comparison\_results"' können die Ergebnisse manuell eingesehen werden.
+
+\section{SLPs ausrollen}
+
+Hierfür muss das Programm Slp"=Rollout gestartet werden.
+
+In den Einstellungen (erscheinen beim Programmstart) muss der Pfad zur Access"=Hauptdatenbank angegeben werden.
+
+Das Kontrollkästchen "`Neue Daten"' muss nicht markiert werden.
+
+Anschließend auf die Schaltfläche "`Übernehmen \verb|>>|"' klicken. Einige Daten werden geladen, siehe \vref{sec:modifyclients}.
+
+
+In der Registerkarte "`SLPs ausrollen"' werden nun alle Kunden aufgelistet, für die vollständige ausroll"=spezifische Informationen vorliegen und für die es mindestens eine Jahres"=Gesamtmenge gibt.
+
+Hier können nun alle Kunden markiert werden, die ausgerollt werden sollen.
+
+Hinweis: Mit der Schaltfläche "`Alle auswählen"' können alle Kunden schnell ausgewählt werden.
+
+Ist das Kontrollkästchen "`Jeden Kunden vorher bestätigen"' markiert, wird vor dem Ausrollen eines jeden Kunden eine Zusammenfassung der ausgerollten Daten angezeigt, die bestätigt werden muss. Die Zusammenfassung enthält z.B. die Information welche Jahre für die Kundenwertberechnung verwendet wurden (siehe \vref{sec:rollout_mathematics}). Wenn sehr viele Kunden ausgerollt werden sollen, empfiehlt es sich dieses Kontrollkästchen nicht zu markieren.
+%Ist das Kontrollkästchen "`Nur Tageswerte"' markiert, werden nur Tageswerte geschrieben (das Feld "`Stunde"' wird auf 0 gesetzt und das Feld "`Jahresstunde"' beginnt beim 1. Tag des Jahres bei 12).
+
+Bei Klick auf die Schaltfläche "`Ausrollen"' werden nun alle ausgewählten Kunden in die Datenbank ausgerollt.
+%Sollen die Kunden nicht in die Datenbank, sondern in eine CSV"=Datei ausgerollt werden, kann stattdessen die Schaltfläche "`In CSV..."' verwendet werden.

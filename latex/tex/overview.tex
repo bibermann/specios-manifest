@@ -1,0 +1,39 @@
+\chapter{Übersicht}\label{chap:overview}
+
+Dieses Kapitel bietet eine Übersicht über das System.
+
+\section{Haupttabellen}
+
+Die wichtigste Tabelle ist die "`Kunden"'"=Tabelle, in der alle Kunden mit allen nötigen Informationen, z.B. dem anzuwendenen Standardlastprofil, gelistet sind. Slp"=Rollout unterstützt Sie dabei, die Informationen über Kunden zu vervollständigen.
+
+Die Tabelle "`Gesamtmengen"' enthält den gemessenen Gesamtverbrauch eines Kunden für jedes Jahr. Mit Slp"=Rollout können die Daten importiert werden.
+Der Verbrauch der vergangenen 3 Jahre wird aus dieser Tabelle verwendet, um den Kundenwert zu berechnen. Der Kundenwert ist ein Maß für die Größe des Verbrauches im Verhältnis zu den mit Hilfe des Kundenmodells mathematisch berechneten Referenz"=Werten.
+
+Die Tabelle "`Stundenwerte"' enthält die ausgerollten Verbrauchswerte eines Kunden für jede Stunde eines Jahres, mit einer Genauigkeit von 24h.
+
+\section{Weitere Tabellen}
+
+Der wichtigste Faktor bei der Schätzung des Verbrauchs ist die durschnittliche Tagestemperatur. Sie wird mit Hilfe von Wetterstationen erfasst, dessen Daten in der Tabelle "`Tagestemperaturen"' gepflegt werden müssen.
+
+Jeder Eintrag in dieser Tabelle ist mit einer "`Temperaturquelle"' verknüpft, welche in der gleichnamigigen Tabelle hinterlegt wird.
+
+
+Die Tabellen "`PLZBundelandZuordnungen"' und "`OrtBundelandZuordnungen"' dienen Slp"=Rollout zur automatisierten Zuordnung von Kunden zu den Bundesländern anhand der Postleitzahl oder des Ortes. Die Tabelle "`VertragsnameSLPZuordnungen"' enthält entsprechend Zuordnungen von Vertragsname"=Bestandteilen zu dem zu verwendenden SLP.
+
+Die Tabelle "`Feiertage"' enthält alle festen (optional bundeslandspezifischen) Feiertage. Bewegliche christliche Feiertage berechnet das Programm selbstständig.
+
+Alle anderen Tabellen beinhalten die von der TU München ermittelten Parameter für die SLP"=Ausrollung bzw. die Namen, die sich hinter Bundesland- und SLP"=Kennungen verbergen.
+
+\section{Parameter, Auswirkungen}
+
+Der ausgerollte Verbrauchswert eines Tages ist abhängig vom Bundesland, vom gewählten SLP und dessen Ausprägung (\verb|++|, \verb|+|, \verb|o|, \verb|-| oder \verb|--|), vom Wochentag/Feiertag, von der Durchschnittstemperatur und vom Kundenwert (siehe \vref{sec:rollout_mathematics}).
+
+Das bedeutet, dass, wenn für einen ganzen Monat die selbe Temperatur angenommen werden würde, die einzige lokal greifende Variable der Wochentag wäre. Sofern keine Feiertage dazwischen liegen, würde sich das Verbrauchsschema also alle 7 Tage wiederholen, beim Ein- und Mehrfamilienhaushalt würde der Verbrauch sogar an jedem Tag des Monats identisch sein, da sie wochentagsunabhängig sind.
+
+Kunden mit denselben Parametern (Bundesland, Temperaturquelle, SLP, SLP"=Ausprägung) haben relativ gesehen exakt dasselbe Profil, lediglich die Absolutwerte sind je nach Kundenwert unterschiedlich (aber gleichmäßig) skaliert.
+
+%\begin{figure}
+%\caption[Überblick/Datenbank]{Überblick über die vom Programm verwendeten Tabellen}
+%\includegraphics[width=\textwidth]{gfx/overview_database.png}
+%\label{fig:overview_database}
+%\end{figure}
