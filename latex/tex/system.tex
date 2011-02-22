@@ -1,0 +1,25 @@
+\chapter{System-Architektur}
+
+In diesem Kapitel wird die praktische Umsetzung des in \vref{chap:concept} beschriebenen Konzeptes von Specios betrachtet.
+
+\section{Verwaltung}
+
+\section{Wahlsystem}
+
+ich glaub ich mach das so:
+1) daten oder datenblöcke (intern dasselbe, aber der verbund muss wiedererkennbar sein, um blockweise wahlen zu ermöglichen) über alles mögliche, aber immer mit orts-, zeitraum- und genauigkeits-angaben können von jedem benutzer über spezielle webinterfaces oder über eine API eingetragen werden. jeder benutzer kann daten über dieselbe sache in derselben orts- und zeit-ebene nur 1x im system haben, darf sich auch nicht überschneiden. wenn ein benutzer die daten einer anderen person wählt, ist das logisch (und vielleicht auch technisch) dasselbe als würde er eben diese daten von sich aus einfügen.
+2) auf magische weise werden dann mehrheits- und kompetenzgewichtungen reingeworfen, überschneidungen und konflikte aufgelöst (besonders lustig bei zahlendaten) und am ende stehen dann die besten vorschläge da.
+3) in einem schritt, vielleicht demselben, werden dann konflikte zwischen abstraktionsschichten irgendwie aufgelöst, diese überhaupt zu finden ist vielleicht auch nicht gerade einfach. und untere schichten müssen auf alle oberen vereinfacht werden.
+4) ein problem ist bei dem ganzen kram, dass bestimmte operationen vorzugsweise unmittelbar vom system bearbeitet werden müssen, z.b. übersetzungen von wörtern müssen sofort übernommen werden, das einfügen neuer daten sollte sofort sichtbar sein, usw.
+5) und dann kommt die richtige magie, lauter demokratisch ermittelte scripte, die zusammenhänge zwischen den rohdaten herstellen und höhere tatsachen definieren. z.b. die wichtigkeit der spezies mücke bezogen auf dessen intelligenz und der anzahl lebender exemplare in deutschland oder so. diese scripte generieren also neue daten, die die "richtigkeit" der baiserenden daten mit einbeziehen muss, damit falls sie neue daten definieren für die es bereits manuelle meinungen gibt, wieder neu entschieden werden kann was denn nun korrekt ist - klingt kompliziert.
+6) und zum schluss muss specios aktions-skripte und dessen auswirkungen über die zeit simulieren, um zu ermitteln wie am ende die basisziele maximal erfüllt werden. für einen gedanken muss ggf. alles ab punkt 3 wiederholt werden. ungenaue aber schneller ableitbare folgen mit entsprechend schlechteren wahrscheinlichkeiten erhöhen dabei die arbeitsgeschwindigkeit, also muss der kompromisse zwischen zeit, genauigkeit und wichtigkeit fällen.
+klingt das machbar?
+
+\section{Künstliche Intelligenz}
+
+ich glaube die implementierung von specios würde einer ki wie ich/falk sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
+z.b. muss es informationen verallgemeinern können (aus effizienzgründen), abschätzen welchen fehler informationen haben und ggf. spezialisieren/neu berechnen. dafür muss es aber hoffentlich nicht unbedingt informationen in zusammenhang setzen oder neue informationen ableiten, das ist ja mehr oder weniger der demokratische akt: meinungen sammeln, zusammenhänge aufbauen, gesetze formulieren. das system zeigt quasi nur auf abstrakter weise auf was sache ist und was getan werden muss.
+und es muss aktivitäten simulieren, was auswirkungen auf sämtliche daten hat und erkenntnisse zulässt.
+das hauptproblem neben der spezifikation ist vermutlich der denkvorgang mit dem beschränkten arbeitsspeicher.
+
+\section{Sicherheit}

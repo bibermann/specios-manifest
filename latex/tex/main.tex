@@ -2,7 +2,18 @@
 %   Empfohlende Pakete:
 %     cm-super für sauberere Schriftdarstellung
 
-\documentclass[fontsize=10pt,paper=a4,DIV=12,abstract=true,toc=bibliography,toc=listof,toc=index]{scrreprt}
+\documentclass[
+  fontsize=10pt
+  ,paper=a4
+  ,DIV=12
+  ,abstract=true
+  ,toc=bibliography
+  ,toc=listof
+  ,toc=index
+  %,parskip=half
+  ,twoside=true
+  %,open=right
+]{scrreprt}
 
 % Fonts, Sprachunterstuetzung
 \usepackage[utf8]{inputenc} %Deutsche Umlaute im Quellext
@@ -32,7 +43,8 @@
 \usepackage{bm} %\bm{A} Boldface im Mathemodus
 
 % Verbesserte Enumerate-Umgebung
-\usepackage{enumerate}
+%\usepackage{enumerate}
+\usepackage{paralist} % siehe http://kaldor.vwl.uni-hannover.de/karl/ltxmp/latex.php
 
 % Verbesserte Tabellen- und Equation-Umgebung
 \usepackage{array}
@@ -54,6 +66,10 @@
 \usepackage[ngerman]{varioref}
 %\usepackage[pdfborder=000, pdftex=true, plainpages=false, colorlinks=true, linkcolor=black, filecolor=black, urlcolor=black, citecolor=black, backref]{hyperref}
 \usepackage[colorlinks=true,linkcolor=blue,citecolor=red,urlcolor=darkgreen]{hyperref}
+\hypersetup{
+	pdfpagelayout=TwoPageRight
+	%,pdfstartview=Fit
+}
 \usepackage[ngerman]{cleveref}
 
 
@@ -67,6 +83,9 @@
 %\renewcommand{\figurename}{Abbildung}
 %\renewcommand{\tablename}{Tabelle}
 %\renewcommand\contentsname{Inhaltsverzeichnis}
+
+
+\newcommand*\vmyref[1]{\nameref{#1}, \vref{#1}}
 
 
 
@@ -96,10 +115,17 @@
 }
 
 
+% Folgende Befehle machen den Veränderten Rand durch twoside=true wieder weg.
+% Wird twoside=true nicht verwendet oder soll das ganze gebunden werden, sollten
+% diese Befehle entfernt werden.
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+
+
 \begin{document}
 
 
-
+\dedication{\input{tex/dedication}}
 \pdfbookmark{Startseite}{title}\maketitle
 
 
@@ -153,22 +179,27 @@
 % So sind 96 \% der bundesdeutschen Schulen mit Computern ausgestattet. \cite[S. 7]{bmbf} ...
 
 
-\input{tex/overview}
-\input{tex/strategies}
-\input{tex/background}
-\input{tex/remarks}
-\input{tex/changelog}
+%\input{tex/overview}
+\input{tex/introduction}
+\input{tex/situation}
+\input{tex/consequences}
+\input{tex/concept}
+\input{tex/system}
+%\input{tex/strategies}
+%\input{tex/background}
+%\input{tex/remarks}
+%\input{tex/changelog}
+%\input{tex/csvfiles}
 \appendix
-\input{tex/csvfiles}
 
 
-%\listoffigures
-%\listoftables
+\listoffigures
+\listoftables
 \printindex
 
 \begin{thebibliography}{BGW/VKU, 2007}
-   \bibitem[BGW, 2006]{bgwp20068}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft} (2006): \textit{Leitfaden SLP. Praxisinformation P 2006/8 Gastransport/Betriebswirtschaft: Anwendung von Standardlastprofilen zur Belieferung nicht"=leistungsgemessener Kunden.}
-   \bibitem[BGW/VKU, 2007]{bgwvkup200713}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft; Verband kommunaler Unternehmen e. V.} (2007): \textit{Praxisinformation P2007/13 Gastransport/Betriebswirtschaft: Abwicklung von Standardlastprofilen.}
+   %\bibitem[BGW, 2006]{bgwp20068}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft} (2006): \textit{Leitfaden SLP. Praxisinformation P 2006/8 Gastransport/Betriebswirtschaft: Anwendung von Standardlastprofilen zur Belieferung nicht"=leistungsgemessener Kunden.}
+   %\bibitem[BGW/VKU, 2007]{bgwvkup200713}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft; Verband kommunaler Unternehmen e. V.} (2007): \textit{Praxisinformation P2007/13 Gastransport/Betriebswirtschaft: Abwicklung von Standardlastprofilen.}
    % \bibitem[BMBF, 2003]{bmbf}"'IT-Ausstattung der allgemein bildenden und berufsbildenden Schulen in Deutschland"', http://www.schulen-ans-netz.de/neuemedien/fakten/dokus/it-ausstattung-2003.pdf, 10.03.2005
 \end{thebibliography}
 
