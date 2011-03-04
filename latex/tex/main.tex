@@ -18,6 +18,7 @@
 % Fonts, Sprachunterstuetzung
 \usepackage[utf8]{inputenc} %Deutsche Umlaute im Quellext
 \usepackage[T1]{fontenc}
+\usepackage{textcomp} %z.B. Währungssymbole (Euro €, Pfund Sterling £)
 %\usepackage{lmodern}
 \usepackage[ngerman]{babel} %Deutsche Silbentrennung, etc.
 \usepackage{babelbib} %Mehrsprachige Literaturliste
@@ -44,7 +45,7 @@
 
 % Verbesserte Enumerate-Umgebung
 %\usepackage{enumerate}
-\usepackage{paralist} % siehe http://kaldor.vwl.uni-hannover.de/karl/ltxmp/latex.php
+\usepackage[pointlessenum]{paralist} % siehe http://kaldor.vwl.uni-hannover.de/karl/ltxmp/latex.php
 
 % Verbesserte Tabellen- und Equation-Umgebung
 \usepackage{array}
@@ -73,6 +74,11 @@
 \usepackage[ngerman]{cleveref}
 
 
+%\usepackage[numbers,round]{natbib}
+\usepackage[numbers,square]{natbib}
+\bibliographystyle{alphadin}
+
+
 \makeindex
 
 \addtokomafont{caption}{\raggedright} % Bildunterschriften linksbündig
@@ -85,7 +91,7 @@
 %\renewcommand\contentsname{Inhaltsverzeichnis}
 
 
-\newcommand*\vmyref[1]{\nameref{#1}, \vref{#1}}
+\newcommand*\myvref[1]{\nameref{#1}, \vref{#1}}
 
 
 
@@ -185,11 +191,8 @@
 \input{tex/consequences}
 \input{tex/concept}
 \input{tex/system}
-%\input{tex/strategies}
-%\input{tex/background}
-%\input{tex/remarks}
-%\input{tex/changelog}
-%\input{tex/csvfiles}
+\input{tex/miscellaneous}
+\input{tex/conclusion}
 \appendix
 
 
@@ -197,10 +200,11 @@
 \listoftables
 \printindex
 
-\begin{thebibliography}{BGW/VKU, 2007}
+%\begin{thebibliography}{BGW/VKU, 2007}
    %\bibitem[BGW, 2006]{bgwp20068}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft} (2006): \textit{Leitfaden SLP. Praxisinformation P 2006/8 Gastransport/Betriebswirtschaft: Anwendung von Standardlastprofilen zur Belieferung nicht"=leistungsgemessener Kunden.}
    %\bibitem[BGW/VKU, 2007]{bgwvkup200713}\textsc{Bundesverband der deutschen Gas- und Wasserwirtschaft; Verband kommunaler Unternehmen e. V.} (2007): \textit{Praxisinformation P2007/13 Gastransport/Betriebswirtschaft: Abwicklung von Standardlastprofilen.}
    % \bibitem[BMBF, 2003]{bmbf}"'IT-Ausstattung der allgemein bildenden und berufsbildenden Schulen in Deutschland"', http://www.schulen-ans-netz.de/neuemedien/fakten/dokus/it-ausstattung-2003.pdf, 10.03.2005
-\end{thebibliography}
+%\end{thebibliography}
+\bibliography{main}
 
 \end{document} 
