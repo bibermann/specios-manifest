@@ -2,10 +2,14 @@
 %   Empfohlende Pakete:
 %     cm-super für sauberere Schriftdarstellung
 
+% Vorlagen
+%   Pfeil als Randnotiz, der nach innen zeigt: \marginpar[\hfill$\Longrightarrow$]{$\Longleftarrow$}
+
 \documentclass[
-  fontsize=10pt
-  ,paper=a4
+  fontsize=9pt
+  ,paper=a5
   ,DIV=12
+  ,BCOR=5mm
   ,abstract=true
   ,toc=bibliography
   ,toc=listof
@@ -64,9 +68,15 @@
 \definecolor{darkblue}{rgb}{0,0,0.7} 
 \definecolor{lightgrey}{rgb}{0.97,0.97,0.97} 
 
+% choco
+%\definecolor{mycolor_background}{rgb}{0.1015625,0.05859375,0.04296875}
+%\definecolor{mycolor_foreground}{rgb}{0.484375,0.64453125,0.38671875}
+%\pagecolor{mycolor_background}
+%\color{mycolor_foreground}
+
 \usepackage[ngerman]{varioref}
 %\usepackage[pdfborder=000, pdftex=true, plainpages=false, colorlinks=true, linkcolor=black, filecolor=black, urlcolor=black, citecolor=black, backref]{hyperref}
-\usepackage[colorlinks=true,linkcolor=blue,citecolor=red,urlcolor=darkgreen]{hyperref}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=black,urlcolor=darkgreen]{hyperref}
 \hypersetup{
 	pdfpagelayout=TwoPageRight
 	%,pdfstartview=Fit
@@ -92,6 +102,9 @@
 
 
 \newcommand*\myvref[1]{\nameref{#1}, \vref{#1}}
+\newcommand{\mynote}[1]{\marginpar[\raggedleft\footnotesize #1]{\raggedright\footnotesize #1}}
+\newcommand{\mynotetwo}[2]{\marginpar[\raggedleft\footnotesize #1]{\raggedright\footnotesize #2}}
+\newcommand{\myindexednote}[1]{\mynote{#1}\index{#1}}
 
 
 
@@ -107,25 +120,33 @@
 
 
 \pagestyle{fancy} %eigener Seitenstil
+%\renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter\ #1}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\renewcommand{\sectionmark}[1]{\markright{#1.\ \ \thesection}}
 \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-\fancyhead[L]{\textsc{\nouppercase{\leftmark}}} %Kopfzeile links
-\fancyhead[R]{\textsc{\nouppercase{\rightmark}}} %Kopfzeile rechts
-\fancyfoot[C]{\thepage} %Seitennummer
-\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+
+\fancyhead[EL]{\textsc{\nouppercase{\leftmark}}} %Kopfzeile links
+\fancyhead[OR]{\textsc{\nouppercase{\rightmark}}} %Kopfzeile rechts
+%\fancyfoot[R]{\thepage} %Seitennummer
+\fancyfoot[OR]{\thepage} %Seitennummer
+\fancyfoot[EL]{\thepage} %Seitennummer
+%\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
 
 \fancypagestyle{plain}{
   \fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
-  \fancyfoot[C]{\thepage} %Seitennummer
+  %\fancyfoot[R]{\thepage} %Seitennummer
+  \fancyfoot[OR]{\thepage} %Seitennummer
+  \fancyfoot[EL]{\thepage} %Seitennummer
   \renewcommand{\headrulewidth}{0pt} %obere Trennlinie
-  \renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+  %\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
 }
 
 
 % Folgende Befehle machen den Veränderten Rand durch twoside=true wieder weg.
 % Wird twoside=true nicht verwendet oder soll das ganze gebunden werden, sollten
 % diese Befehle entfernt werden.
-\setlength{\oddsidemargin}{0cm}
-\setlength{\evensidemargin}{0cm}
+%\setlength{\oddsidemargin}{0cm}
+%\setlength{\evensidemargin}{0cm}
 
 
 \begin{document}
@@ -197,7 +218,7 @@
 
 
 \listoffigures
-\listoftables
+%\listoftables
 \printindex
 
 %\begin{thebibliography}{BGW/VKU, 2007}

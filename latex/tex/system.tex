@@ -1,4 +1,4 @@
-\chapter{System-Architektur}\label{chap:architecture}
+\chapter{System"=Architektur}\label{chap:architecture}
 
 In diesem Kapitel wird die praktische Umsetzung des in \vref{chap:concept} beschriebenen Konzeptes von Specios betrachtet; die Implementierung eines Supera Specios\index{Supera Specios}.
 
@@ -8,7 +8,7 @@ Das Grundprinzip ist mit der Wikipedia vergleichbar: Das System ist interaktiv u
 
 \subsection{Lokalisierung}\label{sec:maintenance/localization}
 
-Da das Systeme für alle Menschen mit den selben Inhalten zugänglich sein muss, habe ich für einfache Ausdrücke (Bezeichnungen, kurze Erklärungen udgl.) ein dynamisches Sprachsystem entwickelt, welches folgende Merkmale aufweist:
+Da das System für alle Menschen mit den selben Inhalten zugänglich sein muss, habe ich für einfache Ausdrücke (Bezeichnungen, kurze Erklärungen udgl.) ein dynamisches Sprachsystem entwickelt, welches folgende Merkmale aufweist:
 \begin{itemize}
 \item Ausdrücke können initial in einer beliebigen Sprache formuliert werden.
 \item Mitglieder können Ausdrücke jederzeit in ihre eigene oder eine andere Sprache übersetzen.
@@ -64,11 +64,10 @@ ich glaub ich mach das so:
 5) und dann kommt die richtige magie, lauter demokratisch ermittelte scripte, die zusammenhänge zwischen den rohdaten herstellen und höhere tatsachen definieren. z.b. die wichtigkeit der spezies mücke bezogen auf dessen intelligenz und der anzahl lebender exemplare in deutschland oder so. diese scripte generieren also neue daten, die die "richtigkeit" der baiserenden daten mit einbeziehen muss, damit falls sie neue daten definieren für die es bereits manuelle meinungen gibt, wieder neu entschieden werden kann was denn nun korrekt ist - klingt kompliziert.
 
 6) und zum schluss muss specios aktions-skripte und dessen auswirkungen über die zeit simulieren, um zu ermitteln wie am ende die basisziele maximal erfüllt werden. für einen gedanken muss ggf. alles ab punkt 3 wiederholt werden. ungenaue aber schneller ableitbare folgen mit entsprechend schlechteren wahrscheinlichkeiten erhöhen dabei die arbeitsgeschwindigkeit, also muss der kompromisse zwischen zeit, genauigkeit und wichtigkeit fällen.
-klingt das machbar?
 
 \subsection{Sicherheit}\label{sec:maintenance/security}
 
-Vor Manipulationen kann man sich mit Hilfe verteilter Gegenrechnungen, zertifizierter Snapshots und spezieller Notpläne schützen, welche zeitlich begrenzte Gültigkeit besitzen. Mit Notplänen sind (gedruckte) zertifizierte Repräsentationen der wesentlichen abstrahierten Regeln gemeint, welche in jedem Haushalt oder ähnlichen, möglicherweise größeren Gruppierungen gehalten und durch einen sicheren, möglichst persönlichen Mehrheitsentscheid aktiviert werden können.
+Vor Manipulationen kann man sich mit Hilfe verteilter Gegenrechnungen, zertifizierter Systemschnappschüsse und spezieller Notpläne schützen. \myindexednote{Notpläne}Mit Notplänen sind (gedruckte) zertifizierte Repräsentationen der wesentlichen abstrahierten Regeln gemeint, welche in jedem Haushalt oder ähnlichen, möglicherweise größeren Gruppierungen gehalten und durch einen sicheren, möglichst persönlichen Mehrheitsentscheid aktiviert werden können. Schnappschüsse und Notpläne besitzen eine zeitlich begrenzte Gültigkeit, um dem Missbrauch von nachträglich entdeckten Gesetzeslücken vorzubeugen.
 
 \section{Künstliche Intelligenz}\label{sec:ki}
 
@@ -101,7 +100,7 @@ Viele Daten besitzen zusätzlich Orts"~, Zeit"~/""Gültigkeits"~ und Genauigkeit
 
 \subsubsection{Durchmischtes}
 
-ich glaube die implementierung von specios würde einer ki wie ich/falk sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
+ich glaube die implementierung von specios würde einer ki wie wir sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
 z.b. muss es informationen verallgemeinern können (aus effizienzgründen), abschätzen welchen fehler informationen haben und ggf. spezialisieren/neu berechnen. dafür muss es aber hoffentlich nicht unbedingt informationen in zusammenhang setzen oder neue informationen ableiten, das ist ja mehr oder weniger der demokratische akt: meinungen sammeln, zusammenhänge aufbauen, gesetze formulieren. das system zeigt quasi nur auf abstrakter weise auf was sache ist und was getan werden muss.
 und es muss aktivitäten simulieren, was auswirkungen auf sämtliche daten hat und erkenntnisse zulässt.
 das hauptproblem neben der spezifikation ist vermutlich der denkvorgang mit dem beschränkten arbeitsspeicher.
