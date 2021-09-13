@@ -2,11 +2,15 @@
 /.Rproj.user/
 /.Rhistory
 
-# JetBrains
-/.idea/
-
 # Output
 /_book/
 /_bookdown_files/
 /dist/
 /specios-manifest.rds
+
+# Misc
+/.git/
+/.github/
+/.gitignore
+/.dockerignore
+/scripts/

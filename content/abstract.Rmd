@@ -1,0 +1,8 @@
+# Zusammenfassung {-}
+
+```{python results = 'asis', echo=FALSE}
+f = open("README.md", "r")
+for _ in range(3):
+    f.readline();
+print(f.read())
+```

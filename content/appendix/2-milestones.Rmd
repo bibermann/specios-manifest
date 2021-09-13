@@ -1,0 +1,8 @@
+# Meilensteine {#sec-milestones}
+
+1. Ausarbeitung des Konzeptes.
+2. Strukturiertes System zur Erstellung und Bewertung von Inhalten.
+3. Automatische Ableitung von höheren Zielen, Regeln u.&nbsp;ä. anhand der elementaren Entscheidungen.
+4. Zuverlässige Repräsentation des Meinungsbildes der Bevölkerung.
+5. Adaption der Politik an diese Regeln.
+6. Stabiles und sicheres Konzept zur Wahrung des Supera Specios.

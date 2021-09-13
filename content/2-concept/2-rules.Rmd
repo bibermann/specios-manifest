@@ -1,0 +1,43 @@
+# Regelwerk {#sec-rulebook}
+
+Das Regelwerk des Specios formuliert die Grundgesetze und legt den Umgang mit anderen Systemen und Lebewesen fest.
+Aufbauend darauf können dann spezielle, auf die jeweilige Umgebung angepasste,
+sogenannte \index{Supera Specios}Supera Specios erstellt werden,
+die eine realistische politische und gesetzliche Umgebung schaffen,
+sich aber vollständig, also kompromisslos, an das Regelwerk halten müssen.
+Die Schaffung eines Supera Specios wird im Teil [System-Architektur](#chap-architecture) beschrieben.
+
+## Idee
+
+Das nachfolgende Regelwerk stammt aus einer alten Konzeptbeschreibung, veranschaulicht aber gut die Idee hinter Specios.
+
+1\. Der Wohlstand exisitierender Lebewesen muss so gut wie möglich gewahrt werden,
+sodass eine relative Gleichberechtigung zwischen allen Wesen entsteht.
+
+1.1\. Dabei müssen Mitglieder eines Supera Specios, im folgenden Mitglieder genannt, dafür sorgen,
+dass alle Mitglieder erhalten bleiben, d.&nbsp;h. es dürfen auch keine Opferungen gegen den Willen des Opfernden stattfinden.
+
+1.1.1\. Unter "erhalten bleiben" versteht sich die Erhaltung eines minimalen Wohlstandslevels,
+welcher über folgenden beispielhaften Zuständen liegt: Tod, irreversible Verletzungen (körperliche wie seelische).
+
+1.2\. Der Grad des zu wahrenden Wohlstandes hängt von der Wichtigkeit des jeweiligen Lebewesens ab.
+
+1.2.1\. Die Wichtigkeit eines Lebewesens berechnet sich wie folgt: Entwicklungsgrad * Intelligenz.
+
+1.2.2\. Die Wichtigkeit einer Gattung berechnet sich wie folgt:
+$\frac{\text{Durchschnittliche Wichtigkeit ihrer Lebewesen}}{\text{Prozentualer Anteil dieser Gattung in ihrem Lebensraum}}$
+
+1.2.3\. Die Wichtigkeit von Mitgliedern ist etwas höher als die Wichtigkeit gleichwertiger Nicht-Mitglieder.
+
+2\. Ein Supera Specios kann auf weitere Wesen erweitert werden, sofern beide Parteien einverstanden sind
+und jedes Mitglied das Specios akzeptiert.
+
+2.1\. Aus 1.1. folgt, dass ein Supera Specios nicht (wieder) aufgeteilt werden kann,
+eine Verschmelzung muss also sorgfältig durchdacht werden.
+
+2.2\. Direkte Verwandte eines jeden Mitgliedes oder Arten mit biologisch ähnlichem Aufbau
+bekommen entsprechend des Verwandtschaftsgrades (biologischer Übereinstimmung) einen entsprechenden Schutzstatus
+(welcher aufgehoben werden kann, sofern entsprechendes Wesen die Absicht hat gegen 1.1. bzgl. eines der Mitglieder zu verstoßen)
+und die Empfehlung in das System integriert zu werden.
+
+2.2.1\. Neugeborene eines Mitgliedes werden automatisch in das Supera Specios integriert.

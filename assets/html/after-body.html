@@ -1,0 +1,31 @@
+<script>
+    // Adjustments for menu max-height optimization
+    
+    let footer;
+    function recalculateMenuHeight() {
+        const footerTop = footer[0].getBoundingClientRect().top;
+        const viewHeight = $("body").prop("clientHeight");
+        const diff = viewHeight - footerTop;
+        $('.sidebar').each(function() {
+            const el = $(this);
+            if(el.css('position')!=='sticky') {
+                el.css('max-height', '');
+            } else {
+                if(diff > 0) {
+                    const value = 'calc(100vh - ' + diff + 'px)';
+                    el.css('max-height', value);
+                } else {
+                    el.css('max-height', '100vh');
+                }
+            }
+        });
+    }
+    (function() {
+        $(document).ready(function() {
+            footer = $("footer");
+            recalculateMenuHeight();
+            $(window).resize(recalculateMenuHeight);
+            $(window).scroll(recalculateMenuHeight);
+        });
+    })();
+</script>

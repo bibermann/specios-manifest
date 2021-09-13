@@ -1,0 +1,26 @@
+# Callout blocks
+
+::: {.rmdnote}
+:::
+
+::: {.rmdcaution}
+:::
+
+::: {.rmdimportant}
+:::
+
+::: {.rmdtip}
+:::
+
+::: {.rmdwarning}
+:::
+
+# Math
+
+$a^2 + b^2 = c^2$
+
+# RStudio
+
+```{r eval=FALSE}
+bookdown::serve_book()
+```

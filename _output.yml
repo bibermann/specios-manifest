@@ -1,11 +1,22 @@
 bookdown::bs4_book:
-  css: bs4_style.css
+  css: assets/html/style.css
+  includes:
+    #in_header: assets/html/in-header.html
+    #before_body: assets/html/before-body.html
+    after_body: assets/html/after-body.html
   theme:
-    primary: "#096B72"
-  repo: https://github.com/rstudio/bookdown-demo
+    primary: "#228B22" # Forest Green #228B22, Green #008000
+    code_font:
+      google:
+        family: IBM Plex Mono
+        local: false
+  repo:
+    base: https://github.com/bibermann/specios-manifest
+    branch: main
+  template: assets/html/template.html
 bookdown::pdf_book:
   includes:
-    in_header: preamble.tex
+    in_header: assets/latex/preamble.tex
   latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes

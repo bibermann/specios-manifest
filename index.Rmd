@@ -1,18 +1,19 @@
---- 
-title: "A Minimal Book Example"
-author: "John Doe"
-date: "`r Sys.Date()`"
+---
+title: "Manifest des Specios"
+author: "der [Community auf GitHub](https://github.com/bibermann/specios-manifest/graphs/contributors)"
+date: "`r format(Sys.Date(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+bibliography: [content/main.bib]
+# url:
+# cover-image:
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::bs4_book,
-  set in the _output.yml file.
+  Dies ist die Online-Version des Buches "Specios: Manifest".
+  Es wird von der Community geschrieben auf GitHub.com.
 biblio-style: apalike
-csl: chicago-fullnote-bibliography.csl
+csl: assets/chicago-fullnote-bibliography.csl
 ---
 
-# Dummy
+
+```{r child="content/welcome.Rmd"}
+```

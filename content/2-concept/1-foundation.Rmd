@@ -1,0 +1,94 @@
+# Grundlage {#sec-basis}
+
+Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt,
+noch ist es explizit für den Planeten Erde entwickelt.
+
+## Ziel {#sec-basis-aim}
+
+Die Frage nach dem eigentlichen Ziel ist die tiefgreifendste und zugleich schwierigste.
+Daher wird nun versucht, dieses so wissenschaftlich wie möglich herzuleiten.
+Moral soll hier keine Rolle spielen, da sie kulturabhängig und meist auf religiös verankerte Axiome fundiert ist.
+
+### Feststellungen
+
+Zunächst muss man feststellen, dass es keinen \index{Gott}göttlichen Grund für die Existenz von Lebewesen gibt
+und auch kein höheres Ziel, wie z.&nbsp;B. das Leben selbst oder den Wohlstand im engeren Sinne.
+Man muss verstehen, dass wir lediglich die zufällige Folge einer physikalischen Kettenreaktion sind.
+Angefangen beim Urknall, der zwar noch ein Rätsel darstellt aber hier irrelevant ist,
+^[Ob unsere Physik mit dem Urknall geschaffen wurde oder bereits vorher bestand ändert nichts an der Allgegenwärtigkeit
+derselben. Recherchieren Sie dazu auch das Thema [Paralleluniversum](https://de.wikipedia.org/wiki/Paralleluniversum).]
+über die Formung unseres Planeten, bis hin zur Evolution des Menschen.
+
+Die Existenz eines Geistes kann ebenfalls ausgeschlossen werden, sein Begriff existiert aus demselben Grund wie griechische Götter.
+Denn obwohl biologische Prozesse wie die Zellteilung oder unser Nervensystem
+aufgrund der Komplexität noch nicht bis ins letzte Detail erforscht sind,
+spricht alles dafür, dass sogar unser (menschliches) Verhalten,
+mitsamt unseren bewussten und unbewussten Denkprozessen inkl. der Selbstreflexionen, in unserem physikalischen Modell erklärbar ist
+und beispielsweise durch eine Turing-Maschine reproduziert werden könnte.
+Beziehungsweise präziser ausgedrückt: Es spricht bisher absolut nichts dagegen, denn alle jemals beobachteten
+oder aus der Vergangenheit rekonstruierten Ereignisse passen zusammen, ohne dass eine unbekannte Macht einmal hätte eingreifen müssen.
+
+Da jedoch eine gewisse Unsicherheit vorliegt, vor Allem bei der Modellierung von Quanteneffekten und biologischen Prozessen,
+dürfen wir uns nicht anmaßen, dort grob fahrlässig eingreifen zu dürfen.
+
+### Zielbestimmung
+
+Nachdem man einsehen muss, dass es keinen Gott und keine andere höhere Macht gibt, welche mit uns ein Ziel verfolgen könnte,
+und auch die Existenz eines Geistes nicht erforderlich ist, um unser Dasein und Handeln zu erklären,
+bleibt uns nicht mehr viel übrig, an das wir uns festhalten können.
+Aus Sicht des erkannten und angenommenen Weltbildes können wir machen, was wir wollen.
+Aufgrund der erwähnten Unsicherheit müssen wir aber vorsichtig sein,
+also gehen wir von der grundlegensten sicheren Beobachtung aus, die wir machen können.
+
+Durch das Studium der Entwicklung aller lebenden Wesen können wir relativ sicher eine Gemeinsamkeit feststellen,
+welche man zum Ziel bzw. Recht erheben kann: Die Fortpflanzung seiner selbst bzw. den Erhalt seiner Spezies.
+Welches von beiden das jeweils andere impliziert, spielt dabei keine Rolle.
+Mit dieser Grundlage kann man alle sozialen Strukturen erklären (nicht nur menschliche).
+Der Umgang mit anderen Wesen und der Umwelt, insbesondere seiner Nachkommen, erfolgt hierbei zweckdienlich.
+
+Dieser einprogrammierte Zweck ist natürlich wieder nur eine logische Konsequenz der Selektion,
+aber das einzige, woran wir uns festhalten können.
+Aufgrund der erwähnten Unsischerheiten sollten wir aber keine der biologischen Entwicklung entgegengesetzten Entscheidungen treffen,
+also nehmen wir diese Populationserhaltung und -regelung als das allgemeine Ziel von Lebewesen an.
+Für die Konservativen und Gläubigen unter uns ist diese Ansicht ebenfalls keinesfalls schädlich,
+da die meisten Glaubenssätze und Moralvorstellungen übergeordnete Notwendigkeiten darstellen,
+um diesem konstruierten Zweck gerecht zu werden.
+
+Auf dieser Basis können wir nun also bessere (weniger eingeschränkte) Gesetze ausarbeiten,
+als sie uns durch unser instinktives Verhalten mitgegeben wurden
+(eine Argumentation zum Sinn von Gesetzen wurde bereits in Abschnitt \@ref(sec-situation-laws) gegeben).
+Zwecks Robustheit muss das Ganze möglichst allgemeingültig und systematisch formuliert werden.
+
+Aufgrund der prinzipiell erlaubten Willkür, können wir unter Einhaltung erwähnter Grenzen allen Mitgliedern,
+die sich an die festgelegten Regeln halten,
+von aktiver Schädigung befreien und allgemein gegen die Herstellung maximaler Zufriedenheit streben.
+Je nach genetischer Verwandtheit werden die Rechte auf andere Lebensformen entsprechend übertragen,
+d.&nbsp;h. insbesondere, dass auch Tiere ein Recht auf Wohlstand haben.
+Ob es erlaubt sein wird, sie zu töten um sie zu verspeisen, hängt von vielen Wichtungsfaktoren ab, welche, wie alles andere auch,
+mit Hilfe des kompetenzgewichtet-demokratischen Wahlsystemes festgelegt werden.
+Dabei werden von den Mitgliedern möglichst elementare Entscheidungen getroffen
+und nach oben zu allgemeineren Schlussfolgerungen synthetisiert.
+Dies wird im Teil [System-Architektur](#chap-architecture) näher erläutert.
+
+## Implikationen {#sec-basis-implications}
+
+Nur lebende biologische Organismen werden als Mitglieder akzeptiert, sofern sie dem zustimmen.
+Das Erbgut vorhandener Mitglieder definiert indirekt den Schutzgrad aller anderen Wesen.
+
+Das System wird mit einer beliebigen Mitgliederzahl arbeiten,
+kann zunächst also beispielsweise auf kommunaler oder nationaler Ebene angewendet werden.
+Es wird im Wohle seiner Mitglieder arbeiten und kann jederzeit auf weitere Wesen ausgedehnt werden.
+
+Darüberhinaus ist es wichtig zu berücksichtigen,
+dass der Sinn unserer Existenz dabei mit Religion und Natürlichkeit aufrecht erhalten werden muss,
+wie die Folgenden Abschnitte darlegen.
+
+### Religion
+
+Religion (nicht unbedingt im klassischen Sinne) ist wichtig für hochintelligente Wesen, auch wenn es keine Götter gibt,
+um mit der Tatsache, dass eigentlich alles egal ist, umgehen zu können.
+Sie füllt sozusagen die Wissenslücke zur Existenzbegründung des Universums.
+
+### Genetik
+
+Eingriffe in die Genetik des Menschen lassen uns vom Evolutionsgedanken entgleisen, auf dem das System aber fundiert ist.

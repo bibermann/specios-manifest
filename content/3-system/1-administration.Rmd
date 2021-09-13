@@ -1,0 +1,111 @@
+# Verwaltung {#sec-maintenance}
+
+Das Grundprinzip ist mit der Wikipedia vergleichbar: Das System ist interaktiv und multilingual,
+die Daten werden von den Mitgliedern über einen Internetzugang erstellt.
+Recherchieren Sie dazu die Themen [Schwarmauslagerung](https://de.wikipedia.org/wiki/Schwarmauslagerung)
+und [Schwarmintelligenz](https://de.wikipedia.org/wiki/Schwarmintelligenz).
+
+## Lokalisierung {#sec-maintenance-localization}
+
+Da das System für alle Menschen mit den selben Inhalten zugänglich sein muss, habe ich für einfache Ausdrücke (Bezeichnungen, kurze Erklärungen udgl.) ein dynamisches Sprachsystem entwickelt, welches folgende Merkmale aufweist:
+
+- Ausdrücke können initial in einer beliebigen Sprache formuliert werden.
+- Mitglieder können Ausdrücke jederzeit in ihre eigene oder eine andere Sprache übersetzen.
+- Mitglieder können eine priorisierte Liste ihrer beherrschten Sprachen erstellen, sodass jeweils automatisch die am besten passendste Übersetzung ausgewählt wird. Die Übersetzungsvorschrift wird standardmäßig von den im Internetbrowser eingestellten Sprachen abgeleitet. Im Folgenden sehen Sie eine beispielhafte Übersetzungsvorschrift für die Spracheinstellung `de,en,es-cl`:
+    1. *de-DE: deutsch (Deutschland)*.
+    2. Der älteste Ausdruck aller anderen deutschen Dialekte wie *de-AT: deutsch (Österreich)*.
+    3. *en-US: English (United States)*.
+    4. Der älteste Ausdruck aller anderen englischen Dialekte wie *en-GB: Englisch (United Kingdom)*.
+    5. *es-CL: español (Chile)* -- weil in der Spracheinstellung direkt angegeben.
+    6. *es-ES: español (España)*.
+    7. Der älteste Ausdruck aller anderen spanischen Dialekte.
+    9. Der älteste Ausdruck aller anderen Sprachen.
+- Über Übersetzungsvorschläge kann direkt an Ort und Stelle in einem kontextsensitiven Bearbeitungs-Menü abgestimmt werden.
+- Intelligente Zielsprachauswahllisten bei der Erstellung von Übersetzungen (basierend auf bereits vorhandenen Übersetzungen und persönlichen Sprachpräferenzen).
+
+Das Sprachsystem verwendet derzeit MySQL, was für eine riesige Datenmenge an Ausdrücken vermutlich ungeeignet ist.
+Zumindest die Abstimmungen müssen in ein leistungsstärkeres Datenbanksystem ausgelagert werden, wobei dann auf das derzeit vorhandene direkte Feedback bei Änderungen wahrscheinlich verzichtet werden muss.
+Siehe dazu Kapitel \@ref(sec-database).
+
+## Wahlsystem {#sec-maintenance-voting}
+
+```{r echo=FALSE}
+caption <- paste(
+  "Gelb: Über Regeln und Aktionsvorschläge wird kompetenzgewichtet abgestimmt.",
+  "Grün: Aktuelle Ressourcen, Gesetzmäßigkeiten und Tatsachen werden demokratisch katalogisiert.",
+  sep = " ")
+```
+```{r choices, echo=FALSE, out.width="75%", fig.alt="Wahlsystem (Übersicht)", fig.cap=caption}
+knitr::include_graphics("content/3-system/speciosgraph2_small.png")
+```
+
+Mit Hilfe des Wahlsystemes entscheidet jedes Mitglied über grundlegende Dinge und Daten bzw. definiert sie,
+siehe Abbildung \@ref(fig:choices).
+Daraus baut das System mit Hilfe von ebenfalls gewählten einfachen Formeln oder komplexen Skripten
+diverse Zusammenhänge zwischen den Daten auf, welche mit Hilfe einer künstlichen Intelligenz (siehe Kapitel \@ref(sec-ki))
+möglichst effektiv zu Regeln und Handlungsempfehlungen synthetisiert werden.
+
+Es können verschiedene Daten zum selben Sachverhalt eingetragen werden, wobei jedes Datum an mindestens ein Mitglied gebunden ist.
+Dadurch wird eine dynamische Abstimmung zu jedem Sachverhalt ermöglicht.
+
+Zum Schutz vor Fehlinformationen aufgrund von Unwissenheit oder Meinungen aus dem Bauchgefühl heraus, gibt es zwei Lösungen:
+Zum einen werden vom System abstrahierte Sachverhalte, welche auf spezielleren, grundlegenderen Daten beruhen,
+höher bewertet als allgemeine Aussagen.
+Zum anderen werden die Qualifikationen des Wählers berücksichtigt,
+welche zur Erfassung des jeweiligen Sachverhaltes benötigt werden (Kompetenzwichtung).
+Diese werden von anderen Mitgliedern (z.&nbsp;B. Lehrern, Professoren udgl.) geliefert und müssen verifiziert werden,
+bzw. ergeben sich aus Zeugnissen oder sonstigen Leistungsnachweisen.
+
+### Benutzerschnittstelle
+
+In einer persönlichen Übersicht wird jedes Mitglied einsehen können,
+welche seiner Eingaben nicht mit den aktuellen Festlegungen übereinstimmen,
+um sie ggf. zu korrigieren oder die entsprechende Stimme zu entfernen.
+Umgekehrt werden "unsichere" Daten, die zwar auf mehrheitlichen oder fundamentaleren Ansichten basieren,
+aber (soweit möglich automatisch korrigierte) Konflikte mit anderen Daten aufweisen
+oder eine nicht zu vernachlässigende Menge an Gegenmeinungen besitzen, hervorgehoben,
+damit strukturelle Fehler, neue Erkenntnisse oder alternative Betrachtungen Aufmerksamkeit erhalten.
+
+### Durchmischtes
+
+::: {.rmdwarning}
+Warnung: Es folgen nicht überarbeitete Notizen.
+:::
+
+ich glaub ich mach das so:
+
+1) daten oder datenblöcke (intern dasselbe, aber der verbund muss wiedererkennbar sein, um blockweise wahlen zu ermöglichen)
+über alles mögliche, aber immer mit orts-, zeitraum- und genauigkeits-angaben
+können von jedem benutzer über spezielle webinterfaces oder über eine API eingetragen werden.
+jeder benutzer kann daten über dieselbe sache in derselben orts- und zeit-ebene nur 1x im system haben,
+darf sich auch nicht überschneiden.
+wenn ein benutzer die daten einer anderen person wählt, ist das logisch (und vielleicht auch technisch) dasselbe
+als würde er eben diese daten von sich aus einfügen.
+2) auf magische weise werden dann mehrheits- und kompetenzgewichtungen reingeworfen,
+überschneidungen und konflikte aufgelöst (besonders lustig bei zahlendaten)
+und am ende stehen dann die besten vorschläge da.
+3) in einem schritt, vielleicht demselben, werden dann konflikte zwischen abstraktionsschichten irgendwie aufgelöst,
+diese überhaupt zu finden ist vielleicht auch nicht gerade einfach.
+und untere schichten müssen auf alle oberen vereinfacht werden.
+4) ein problem ist bei dem ganzen kram, dass bestimmte operationen vorzugsweise unmittelbar vom system bearbeitet werden müssen,
+z.&nbsp;B. übersetzungen von wörtern müssen sofort übernommen werden, das einfügen neuer daten sollte sofort sichtbar sein, usw.
+5) und dann kommt die richtige magie, lauter demokratisch ermittelte scripte, die zusammenhänge zwischen den rohdaten herstellen
+und höhere tatsachen definieren. z.&nbsp;B. die wichtigkeit der spezies mücke
+bezogen auf dessen intelligenz und der anzahl lebender exemplare in deutschland oder so.
+diese scripte generieren also neue daten, die die "richtigkeit" der baiserenden daten mit einbeziehen muss,
+damit falls sie neue daten definieren für die es bereits manuelle meinungen gibt, wieder neu entschieden werden kann
+was denn nun korrekt ist - klingt kompliziert.
+6) und zum schluss muss specios aktions-skripte und dessen auswirkungen über die zeit simulieren,
+um zu ermitteln wie am ende die basisziele maximal erfüllt werden.
+für einen gedanken muss ggf. alles ab punkt 3 wiederholt werden.
+ungenaue aber schneller ableitbare folgen mit entsprechend schlechteren wahrscheinlichkeiten
+erhöhen dabei die arbeitsgeschwindigkeit, also muss der kompromisse zwischen zeit, genauigkeit und wichtigkeit fällen.
+
+## Sicherheit {#sec-maintenance-security}
+
+Vor Manipulationen kann man sich mit Hilfe verteilter Gegenrechnungen, zertifizierter Systemschnappschüsse und spezieller Notpläne schützen.
+\index{Notpläne}Mit Notplänen sind (gedruckte) zertifizierte Repräsentationen der wesentlichen abstrahierten Regeln gemeint,
+welche in jedem Haushalt oder ähnlichen, möglicherweise größeren Gruppierungen gehalten
+und durch einen sicheren, möglichst persönlichen Mehrheitsentscheid aktiviert werden können.
+Schnappschüsse und Notpläne besitzen eine zeitlich begrenzte Gültigkeit,
+um dem Missbrauch von nachträglich entdeckten Gesetzeslücken vorzubeugen.

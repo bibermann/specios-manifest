@@ -1,0 +1,7 @@
+# Datenbanksystem {#sec-database}
+
+Es ist ein dokumentbasiertes Datenbanksystem erforderlich, bei dem jeder Datenpunkt durch eine Datei repräsentiert wird.
+Aufgrund der Menge an Daten ist ein kompliziertes Verwaltungssystem erforderlich, welches einfach überschaubar und handhabbar ist.
+Sämtliche Hilfssysteme wie ein Indizierungssystem müssen optional sein.
+D.&nbsp;h. das Datenbanksystem muss sich bei Problemen vollständig selbst rekonstruieren können,
+sofern die jeweilige Datendateien oder Sicherungen von Ihnen zugänglich sind.

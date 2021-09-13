@@ -1,0 +1,36 @@
+# Konsequenzen {#sec-consequences}
+
+In diesem Abschnitt werden die Konsequenzen aus der in Kapitel \@ref(sec-situation) dargelegten Situations-Analyse gezogen,
+welche die notwendigen Anforderungen an die Gesellschaftsrevolution definieren.
+
+## Anforderungen {#sec-consequences-requirements}
+
+Folgende Anforderungen müssen erfüllt werden, um einen erfolgreichen Wandel herbeizuführen:
+
+- Massive Verhaltensänderungen oder massive Proteste gegen gegenwärtige Ideologien müssen organisiert und konsistent ablaufen.
+- Es muss viel bessere Aufklärungsarbeit geleistet werden -- flächendeckend, logisch und einfach nachvollziehbar.
+- Die Regeln müssen jederzeit von jedem nachvollziehbar sein und in Frage gestellt werden können.
+- kein Mensch oder anderes Lebewesen darf im Mittel mehr Einfluss haben als die anderen.
+
+## Synthese {#sec-consequences-synthesis}
+
+Aus den Anforderungen folgt folgende notwendige Ideologie:
+
+- Jegliche Meinungen der Menschen müssen in Relation zu ihrer Kompetenz auf dem themasierten Gebiet betrachtet werden
+und das System direkt beeinflussen.
+- Man benötigt ein Werkzeug, welches (komplexe) Zusammenhänge sowohl verdeutlicht als auch verifiziert.
+- Das gesamte System muss transparent über ein überall verfügbares Medium erfassbar sein.
+- Konsistenz, Korrektheit und Nachvollziehbarkeit muss durch Selbstdefinition der Regeln
+anhand so elementarer Entscheidungen wie möglich gewährleistet werden.
+
+Es ist also ein (wenn man so will im wahrsten Sinne des Wortes diktatorisches) Computersystem erforderlich,
+dessen "Gehirn" von der Menschheit demokratisch aufgebaut wird und dadurch nicht selbst korrupt werden kann.
+Sämtliche abstrahierten/finalen Entscheidungen sind demnach architektonisch bedingt von der Bevölkerung gedeckt
+und können jederzeit durch Argumentationsarbeit (Erweiterung/Korrektur des Wissens des Systemes) angepasst werden.
+Zu den Anpassungen zählen nicht nur einfache Daten sondern auch Formeln, welche Zusammenhänge definieren.
+
+Um nicht am Konservatismus zu scheitern muss eine möglichst vollständige Zielvorstellung vorgelegt werden.
+Dies kann am effektivsten mit dem Aufbau eines virtuellen \index{Parallelsystem}Parallelsystemes erfüllt werden,
+welches die Vorteile und Wege klar präsentiert und somit auf Basis der Einsicht und Akzeptanz fließend angewendet werden kann.
+Die herrschende Minderheit wird auf diese Weise moralisch gezwungen sein, die Weichen entsprechen zu stellen
+und schließlich gewaltlos entmächtigt.

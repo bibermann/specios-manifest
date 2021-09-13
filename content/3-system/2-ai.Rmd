@@ -1,0 +1,52 @@
+# Künstliche Intelligenz {#sec-ki}
+
+Die künstliche Intelligenz (KI) muss die Folgen möglicher Tätigkeiten simulieren und daraus notwendige Handlungen berechnen.
+Da dies ziemlich rechenaufwendig ist, besteht das Hauptproblem darin,
+einen Kompromiss zwischen Prioritäten, Zeit und Abstraktionsebene zu finden
+und Berechnungen je nach Notwendigkeit nach und nach verfeinern und optimieren zu können.
+Die vorrausschauende Planung der notwendigen Berechnungen ist dabei von zentraler Bedeutung.
+
+Die Arbeitsweise kann in folgende Prozesse eingeteilt werden:
+
+- Wahlprozess (siehe Abschnitt \@ref(sec-maintenance-voting))
+- Konfliktkorrekturprozess
+- Zusammenführungsprozess
+- Auswertungsprozess
+- Abstrahierungsprozess
+- u.&nbsp;a.
+- Simulationsprozess
+
+Die verschiedenen Prozesse werden im Folgenden näher beschrieben.
+
+## Simulationsprozess {#sec-ki-simulation}
+
+Die KI führt Effizienz-Abschätzungen durch, wobei für mögliche Tätigkeiten und Betrachtungen
+jeweils die Wahrscheinlichkeit berechnet wird, wie zielführend eine nähere Untersuchung sein wird.
+Im Endeffekt wird fortwährend versucht die erwartete Wahrscheinlichkeit, Grundgesetze einzuhalten,
+und variable Systemparameter (wie der Wohlstand von Systemmitgliedern und anderen Lebewesen, siehe dazu Abschnitt \@ref(sec-basis-aim))
+auf lange Sicht zu maximieren.
+
+Dazu werden mögliche Aktionskombinationen nicht willkürlich durchprobiert,
+sondern sie werden anhand der Zieldefinitionen und diverser Wahrscheinlichkeitsfaktoren errechnet und dynamisch verfeinert,
+so dass das System jederzeit mit der maximal denkbaren Fortschrittsgeschwindigkeit läuft.
+Um wegen chaotischem Verhalten von Aktionen oder Fehlern nicht fehlgeleitet zu werden,
+werden suboptimale Lösungswege sowie zufällig gewählte parallel analysiert, je nach Priorität der Kernanalyseaufgaben.
+
+### Daten
+
+Viele Daten besitzen zusätzlich Orts-, Zeit-/Gültigkeits- und Genauigkeits-Angaben.
+
+### Durchmischtes
+
+::: {.rmdwarning}
+Warnung: Es folgen nicht überarbeitete Notizen.
+:::
+
+ich glaube die implementierung von specios würde einer ki wie wir sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
+z.&nbsp;B. muss es informationen verallgemeinern können (aus effizienzgründen),
+abschätzen welchen fehler informationen haben und ggf. spezialisieren/neu berechnen.
+dafür muss es aber hoffentlich nicht unbedingt informationen in zusammenhang setzen oder neue informationen ableiten,
+das ist ja mehr oder weniger der demokratische akt: meinungen sammeln, zusammenhänge aufbauen, gesetze formulieren.
+das system zeigt quasi nur auf abstrakter weise auf was sache ist und was getan werden muss.
+und es muss aktivitäten simulieren, was auswirkungen auf sämtliche daten hat und erkenntnisse zulässt.
+das hauptproblem neben der spezifikation ist vermutlich der denkvorgang mit dem beschränkten arbeitsspeicher.

@@ -1,0 +1,173 @@
+# Situation {#sec-situation}
+
+Dieser Abschnitt wird die derzeitige Gesellschaftssituation verdeutlichen, warum wir hier gelandet sind,
+warum es scheinbar ganz gut funktioniert, warum bisherige Änderungsversuche scheiterten und warum das auf keinen Fall so bleiben darf.
+
+## Kapitalismus {#sec-situation-capitalism}
+
+Wir leben im Kapitalismus.
+Selbst sozialistische Staaten wie China, Nordkorea, Vietnam oder Kuba sind in die globale Marktwirtschaft eingebunden
+und eigentlich eher kapitalistisch.
+Zumindest kann nicht bestritten werden, dass jeder auf seine Weise nach Geld giert.
+
+Wird man davon glücklich? In unserem System ganz klar: Ja.
+Gesundheit, Spaß, Zeit.
+Alles kostet Geld und die meiste Arbeit heute dient einzig der Vermehrung von selbigem.
+Wenn man das Tauschmittel Geld nur oberflächlich betrachtet, macht es natürlich Sinn:
+Als Jäger und Sammler konnten wir noch eigentumslos leben, alles wurde in der Gruppe aufgeteilt.
+Später entwickelte man aber den Ackerbau und die Viehzucht, wurde sesshaft.
+Bauern waren in der Lage mehr Nahrung zu produzieren als sie selbst benötigten, ihnen fehlten dafür aber andere Dinge;
+der Tauschhandel begann.
+Um die Suche nach einem Tauschpartner zu vereinfachen, sich von der u.&nbsp;U. geringen Haltbarkeit der Tauschgüter unabhängig zu machen
+und die Frage nach dem Gegenwert zu verallgemeinern, wurden später möglichst seltene und lang haltbare Zwischentauschmittel eingeführt,
+wie z.&nbsp;B. Kaurischneckenhäuser in China irgendwann zwischen dem 7. und 11. Jahrhundert vor Christus [@yungti_2003].
+In der Folge wurden daraus Gold- und Silber-Münzen mit entsprechendem
+Gegenwert^[Häufig war der Wert einer Münze etwas höher als die enthaltenen Metalle,
+um den Herstellungsaufwand einzubeziehen und ein Wiedereinschmelzen unattraktiver zu machen.],
+bis man sich schließlich von der Notwendigkeit eines Warenwertes trennte, wie es bei unserem heutigen Bar- und Buchgeld der Fall ist.
+Das klingt zunächst wie eine perfekte Lösung.
+
+Ein großes Problem ist die Verwaltung des Geldes.
+Heutzutage wird es vermehrt ohne einen echten Gegenwert zu haben.
+Durch das Zinssystem gibt es immer mehr Schulden als (virtuelles) Geld,
+d.&nbsp;h. die ganze Welt kann den privatisierten Banken gegenüber insgesamt niemals schuldenfrei sein.
+Großkonzerne und Banken haben Geld und demnach Macht über jeden, der Geld benötigt.
+Nicht nur normale Bürger, auch die Regierungen gehören dazu.
+Folglich bringt es rein garnichts in die Politik zu gehen, wenn man etwas daran ändern möchte
+-- die sogenannte "Elite", wie sie Verschwörungstheoretiker nennen, wird das verhindern.
+Das ist nur leider keine Verschwörungstheorie sondern eine Tatsache.
+Die genauen Verhältnisse kann man überall selbst nachlesen.
+
+Ein weiteres entscheidendes Problem ist relativ jung.
+Wir sind an einem Punkt angelangt, an dem wir die gesamte Welt problemlos versorgen könnten.
+^[Siehe dazu auch die Ergebnisse des [Venus-Projektes](https://de.wikipedia.org/wiki/Jacque_Fresco#Das_Venus-Projekt).]
+Doch alles was man zum Leben benötigt kostet Geld und Geld bekommt man nur durch Arbeit.
+Wie schafft man sich Arbeit, wenn es eigentlich kaum welche geben muss? Man produziert billig und kurzlebig.
+Man sorgt künstlich für Knappheit, denn was selten ist, ist wertvoll.
+Beispielsweise werden in der Kimberly Diamantenmine Diamanten verbrannt, um den Preis hoch zu halten.
+Darüberhinaus lässt man monotone und anspruchslose Arbeit von Menschen statt von Maschinen erledigen
+um die Arbeitslosenzahlen niedrig zu halten, denn man braucht ja Arbeit, um zu leben
+-- selbst wenn sie vollkommen sinnlos ist.
+Effizienz, Reichhaltigkeit und Nachhaltigkeit widersprechen folglich der Struktur des profitorientierten Systemes.
+
+Das Wohl eines Menschen darf demnach nicht davon abhängen, möglichst viel Profit zu erwirtschaften oder allgemein gesagt Probleme zu lösen,
+denn sonst erzeugt er sie künstlich (wie Krieg oder Nahrungsmittelvernichtung).
+
+## Arbeit {#sec-situation-work}
+
+Ich führe nun den letzten Gedanken des letzten Abschnittes fort.
+Man soll demnach nicht arbeiten müssen, um ein Mindestwohlstandslevel zu erhalten.
+Für Luxusgüter wäre dies dagegen denkbar.
+Die Frage, die sich dabei auftut, ist die folgende: Wie soll die Welt funktionieren, wenn niemand arbeitet?
+Ein Punkt wurde bereits erwähnt und ist erheblich:
+Fortschritt und damit auch Automatisierung wird durch Patente oder sinnlose (es gibt auch sinnvolle)
+Parallel- oder Neuentwicklungen derselben oder bereits existierender Technologien bzw. Produkte erschwert.
+Oft sind Maschinen in unserem Wirtschaftssystem auch einfach nur unwirtschaftlich; eine Eigenschaft,
+welche in einem nicht-monetären System gänzlich anders definiert wäre.
+Die Grenzen wären nicht das Kapital und die eigenen Kompetenzen, sondern lediglich die tatsächlich vorhanden Ressourcen,
+und das Ziel wäre nicht die lokale Maximierung von Profit unter Anwendung diverser Tricks und Manipulationen auf Kosten des Gesamtwohles,
+sondern die direkte und tatsächliche Maximierung des Gesamtwohles.
+
+Ein weiterer Punkt ist die falsche Annahme, dass wir nur für Geld arbeiten.
+Tatsächlich gibt es genügend andere Motive.
+Dies beweist beispielsweise die Tatsache, dass sich sogar jetzt schon etwa 10--40\% der Konsumenten
+meist ohne direkte materielle Gegenleistungen an (Weiter-)Entwicklungen, Modifikationen und Verbesserungen von Produkten beteiligen.
+[@piller_oi_2006, S. 11]
+Folgende Beweggründe sind dafür verantwortlich. [@piller_oi_2006, SS. 11--13]
+
+- Extrinsische Motive (Selbstnutzungserwartung).
+- Intrinsische Motive (Befriedigung des Spieltriebes (Spaß, Kreativität) und des Forschungsdranges,
+verbunden mit dem Erreichen eines Flow-Zustandes (Fesselung von der Arbeit), sofern eine erfüllbare Herausforderung erkannt wird;
+eine direkte Leistungsrückkopplung steigert den Effekt).
+- Soziale Motive (Anerkennung der eigenen Arbeit
+(von anderen Menschen, insbesondere von Mitarbeitern oder einer entsprechenden Gemeinschaft)
+und gegenseitige Unterstützung).
+
+Das Potenzial wird auch anhand einer Studie deutlich [@hippel_2010], nach der sich 6,2\% der britischen Verbraucher
+an Innovationsprozessen beteiligten^[Beobachtet wurde ein Zeitraum von drei Jahren.],
+d.&nbsp;h. entweder eigene Produkte geschaffen oder bestehende angepasst haben.
+Die jährlichen Aufwendungen der Verbraucher entsprachen dabei dem 2,3-fachen der Forschungs- und Entwicklungskosten
+aller britischen Unternehmen für Verbrauchsgüter.
+<!-- (vgl. auch die Entwicklung von *Closed Innovation* zu *Open Innovation*) -->
+
+## Gesetze {#sec-situation-laws}
+
+Jedes Lebewesen ist im Kern egoistisch, das ist biologisch überlebensnotwendig.
+Allerdings muss es mit der Umwelt auf gewisse Weise kooperieren, wenn es überleben will.
+[*Überleben* als obersten Willen darzulegen ist nicht ganz korrekt, genügt aber hier. Das tatsächliche Lebensziel wird in Abschnitt \@ref(sec-basis-aim) behandelt.]
+Folglich muss sich ein Organismus einschränken und kontrollieren, um mit anderen erfolgreich zu interagieren.
+Diese symbiotischen Beziehungen werden komplexer, je wirkungsvoller und weitreichender (auch zeitlich) sie ausgelegt sind
+und können von einem Organismus ohne weiteres nicht vollständig überschaut werden.
+Daher sind (global) einzuhaltende Regeln erforderlich, um letzlich das eigene Wohl sicherzustellen.
+Aus diesem Grund haben sich auch Grundbedürfnisse und Instinkte ausgebildet und sind wir Rudeltiere geworden:
+Unsere Vorfahren haben sich in Gruppen überschauberer Größe organisiert.
+Evolutionstechnisch ist es daher auch nicht abwegig, Fremde zunächst als Feinde zu betrachten.
+Folglich wirkt Altruismus höchstens in einem Familien-Clan.
+
+Die durch unsere Gesetze und Verhaltensweisen derzeit eher destruktive Beeinflussung der Welt liegt darin begründet,
+dass wir unsere vererbten Verhaltensweisen dank komplexer Lernfunktionalitäten in immer kürzerer Zeit umgehen können.
+Das unausweichlich eingeschränkte Gesamtbild, Ignoranz bzw. Egoismus und damit Machtgier
+sind hierbei grundlegende Faktoren für die Fehlentwicklung.
+Bisher konnte sich die Natur bei solchen extremen Abweichungen durch genetische Anpassungen immer selbstständig die Waage halten.
+Seit der Mensch aber so "vehement viel denkt", laufen die Veränderungen viel zu schnell und in einem zu großem Maßstab ab,
+wobei er die Auswirkungen selbst erst jetzt zu überblicken vermag.
+
+## Demokratie {#sec-situation-democracy}
+
+Es wird allgemein behauptet, dass wir in einer Demokratie leben.
+Tatsächlich haben wir aber kaum Einfluss auf Entscheidungen.
+Wir wählen Parteien, welche anschließend machen was sie wollen.
+Wäre dies nicht der Fall und würden sie für das Allgemeinwohl des Volkes arbeiten, würde nicht so viel Elend in der Welt herrschen,
+das genügt hier als Beweis.
+
+Der Sinn dahinter war, dass Entscheidungen heruntergebrochen werden um die Komplexität zu verringern.
+Allerdings gehen übergeordnete Instanzen genauso wenig auf untergeordnete ein, wie Parteien auf die Bürger eingehen.
+Hier und da gibt es zwar Regeln, allerdings werden sie immer weiter aufgeweicht, hauptsächlich mit Hilfe psychologischer Manipulation,
+wodurch untergeordnete Instanzen -- vor allem normale Bürger -- diversen Initiativen quasi aus dem falschen Bauchgefühl heraus zustimmen.
+Ein gutes Beispiel ist der Terror-Hype.
+Seine Folgen sind u.&nbsp;a. die Lockerung des Datenschutzes inkl. steigender Überwachung
+oder die Aushebelung des deutschen Gesetzgebungsverfahrens durch den Vertrag von Lissabon.
+
+Allzu direkt darf die Demokratie jedoch auch nicht sein.
+Als einfacher Bürger kann man die Komplexität hinter den Entscheidungen garnicht überblicken und handelt oft voreingenommen.
+Die Aufgabe der Parteien und Lobbyisten ist es, komplizierte Sachverhalte zu analysieren
+und Lösungen mit entsprechenden Begründungen vorzuschlagen, welche dann akzeptiert werden können oder nicht.
+Entscheidungen beruhen also auf dem Vertrauen weniger Instanzen, welche dieses natürlich zu ihren Gunsten ausnutzen können.
+
+## Revolutionen {#sec-situation-revolutions}
+
+Versuche, den von Karl Marx und Friedrich Engels prophezeiten Kommunismus durchzusetzen,
+scheiterten bereits an der sozialisitischen Vorstufe und am Wirtschafts-Management.
+
+Allgemein scheitern Revolutionsversuche, welche keine Diktatur hervorbringen wollen, an der Trägheit der Menschen.
+Die an den wichtigen Positionen zu wohlhabende und allgemein müde Masse beginnt nicht auf Basis von systemfeindlichen Diskussionen,
+sich rückhaltlos dem gewöhnlichem Alltag zu widersetzen, geschweige denn kollektiv und ausreichend konsequent.
+Dies wäre existenzgefährdend.
+Es müsste schon gewaltiges schief laufen, allerdings ist dies sehr unwahrscheinlich: Man will seine Sklaven schließlich behalten.
+Die "Elite" wird uns füttern, gerade so viel, dass wir arbeiten können und mangels Alternativen auch arbeiten werden.
+
+Den letzten Punkt kann man gut anhand eines Spielkasinos verdeutlichen:
+Wir sind quasi die Spieler und die Politiker sind maximal die Croupiers.
+Warum sollten die Besitzer des Kasinos -- Großkonzerne und Banken -- etwas an den Regeln ändern?
+Oder gar das Kasino für alle freigeben? Es läuft für sie nunmal so wie es läuft.
+
+## Analyse {#sec-situation-analysis}
+
+Wir stellen also fest:
+
+- Eine profitorientierte oder ressourcen-arme Gesellschaft erzeugt Gier und damit Machtstreben.
+    Ersteres bedingt der Kapitalismus und letzteres wird für ihn konstruiert.
+- Allgemeingültige Selbstlosigkeit bzw. Solidarität ist nicht angeboren.
+- Absolute Demokratie führt zu Chaos und benachteiligt Randgruppen;
+    abgeschwächte Demokratie führt zum Kontrollverlust.
+- Wir werden in unseren Handlungsmöglichkeiten immer weiter eingeschränkt.
+    Schon jetzt sind wir Sklaven, aber noch arbeiten wir unter freiem Himmel.
+- Wir sind technologisch so gut wie festgefahren.
+    Noch länger auf einen Durchbruch zu warten, welcher uns zu einem besseren System befähigt, ist zu riskant.
+- Die Organisation bzw. der Aufruf zu revolutionären Tätigkeiten darf nicht von einer Minderheit ausgehen.
+
+Zusammenfassend kann man sagen, dass unser System grundlegende Widersprüche aufweist
+und Änderungen im benötigen Maßstab in ihm nicht möglich sind; wählen gehen genügt nicht.
+Man muss ganz von vorne beginnen.
+Mit den politischen Mitteln, die uns zur Verfügung gestellt werden, kommen wir nicht weiter.
+Die bloße Verteilung von aufklärenden Informationen genügt aber auch nicht.

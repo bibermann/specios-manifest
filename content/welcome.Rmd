@@ -1,0 +1,16 @@
+# Willkommen {-}
+
+Das **Manifest des Specios** wird Ihnen eine Einführung in *Specios, la specio sistemo* geben,
+welches die Grundlage eines neues Gesellschaftskonzeptes darstellt.
+
+Dieses Buch wird gemeinschaftlich entwickelt auf
+[GitHub.com](https://github.com/bibermann/specios-manifest/graphs/contributors).
+Jeder ist eingeladen, an diesem Projekt mitzuwirken.
+
+Der Begründer des Specios sowie derzeitiger Maintainer des Repositories ist
+[Fabian Sandoval Saldias](mailto:fabianvss@gmail.com?subject=Specios).
+Er ist Senior-Software-Entwickler, lebt in Berlin und hat sich dieses Projekt zu seiner Lebensaufgabe gemacht.
+Wir wollen modernste Technologie fernab der Industrie einsetzen, um ein einfaches Ziel zu erreichen:
+Verbesserung des Wohles eines jeden Wesens.
+
+Viel Spaß beim Lesen!

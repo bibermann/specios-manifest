@@ -1,0 +1,23 @@
+# (PART\*) Einführung {-}
+
+# Einführung {-#chap-introduction}
+
+Dieses Kapitel wird den Hintergrund und die Notwendigkeit von einem grundlegend neuen Gesellschaftssystem verdeutlichen.
+
+Verschiedenste Probleme sind allgemein bekannt:
+
+- Hunger, Verschmutzung, niedrige Lebensqualität
+- Tierquälerei (Massentierhaltung mit allen Konsequenzen,
+Fischerei^[Fische haben ein komplexes Schmerzbewusstsein analog zu Säugetieren, wie Studien der Gehirnaktivität
+und des Folgeverhaltens belegen. (@spiegel_10_2011)],
+Pelz-Beschaffung, überflüssige Tierversuche, Missbrauch für Unterhaltungszwecke)
+- Zerstörung der Natur (Abholzung, Ausrottung, Freisetzung fossiler CO~2~-Einlagerungen, chemische und atomare Kontaminierung)
+- tödliche Auseinandersetzungen (Kriege, Terror-Anschläge)
+- niedere Arbeiten
+- Überbevölkerung
+
+Ein großer Fehler bei den meisten bisherigen Versuchen einer entsprechenden Problemlösungsstrategie
+oder zunächst einmal einer Ursachensanalyse innerhalb der Gesellschaftsordnung war der,
+nicht naturwissenschaftlich an die Probleme heranzugehen; geblendet von Religionen und klassischen Ideologien.
+Es fängt bei der Argumentation an, was denn das Ziel für die Gesellschaft und den einzelnen Menschen darstellen soll,
+welche nur auf Grundlage willkürlicher Moralvorstellungen oder überhaupt nicht geführt wurde.

@@ -1,0 +1,25 @@
+# Geschichte {#sec-history}
+
+September 2021
+
+: Umarbeitung des Manifestes von LaTeX nach Bookdown und Veröffentlichung auf GitHub.
+
+ab August 2010
+
+: Webseitenentwicklung und nähere Analysen zur technischen Umsetzung.
+
+19.07.2010
+
+: Erste Konzept-Formulierung.
+
+25.03.2007
+
+: Die Idee zu Specios ist entstanden.
+
+15.03.2007
+
+: Die Idee zu DADD (Demokratische AutoDiktatur Deutschland)^[Urheber will nicht genannt werden.] ist entstanden.
+
+zwischen 2003 und 2006
+
+: Initiale Ideensammlung zum perfekten politischen System.

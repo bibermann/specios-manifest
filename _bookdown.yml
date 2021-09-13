@@ -1,7 +1,31 @@
-book_filename: "bootstrap"
-new_session: true
+book_filename: "specios-manifest"
+new_session: false
 before_chapter_script: _common.R
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "Kapitel "
+    appendix_name: "Anhang "
+  label:
+    fig: "Abbildung "
+    tab: "Tabelle "
+rmd_files: [
+    "index.Rmd",
+    "content/abstract.Rmd",
+    "content/prologue.Rmd",
+    "content/1-introduction/0-introduction.Rmd",
+    "content/1-introduction/1-situation.Rmd",
+    "content/1-introduction/2-consequences.Rmd",
+    "content/2-concept/0-concept.Rmd",
+    "content/2-concept/1-foundation.Rmd",
+    "content/2-concept/2-rules.Rmd",
+    "content/3-system/0-system.Rmd",
+    "content/3-system/1-administration.Rmd",
+    "content/3-system/2-ai.Rmd",
+    "content/3-system/3-database.Rmd",
+    "content/appendix/0-appendix.Rmd",
+    "content/appendix/1-history.Rmd",
+    "content/appendix/2-milestones.Rmd",
+    "content/conclusion.Rmd",
+    "content/references.Rmd",
+]
