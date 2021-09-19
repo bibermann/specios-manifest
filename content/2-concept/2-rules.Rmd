@@ -9,7 +9,9 @@ Die Schaffung eines Supera Specios wird im Teil [System-Architektur](#chap-archi
 
 ## Idee
 
-Das nachfolgende Regelwerk stammt aus einer alten Konzeptbeschreibung, veranschaulicht aber gut die Idee hinter Specios.
+::: {.rmdwarning}
+Warnung: Das nachfolgende Regelwerk stammt aus einer alten Konzeptbeschreibung, veranschaulicht aber gut die Idee hinter Specios.
+:::
 
 1\. Der Wohlstand exisitierender Lebewesen muss so gut wie möglich gewahrt werden,
 sodass eine relative Gleichberechtigung zwischen allen Wesen entsteht.

@@ -14,7 +14,7 @@ Folgende Anforderungen müssen erfüllt werden, um einen erfolgreichen Wandel he
 
 ## Synthese {#sec-consequences-synthesis}
 
-Aus den Anforderungen folgt folgende notwendige Ideologie:
+Aus den Anforderungen ergibt sich folgende notwendige Ideologie:
 
 - Jegliche Meinungen der Menschen müssen in Relation zu ihrer Kompetenz auf dem themasierten Gebiet betrachtet werden
 und das System direkt beeinflussen.
@@ -32,5 +32,5 @@ Zu den Anpassungen zählen nicht nur einfache Daten sondern auch Formeln, welche
 Um nicht am Konservatismus zu scheitern muss eine möglichst vollständige Zielvorstellung vorgelegt werden.
 Dies kann am effektivsten mit dem Aufbau eines virtuellen \index{Parallelsystem}Parallelsystemes erfüllt werden,
 welches die Vorteile und Wege klar präsentiert und somit auf Basis der Einsicht und Akzeptanz fließend angewendet werden kann.
-Die herrschende Minderheit wird auf diese Weise moralisch gezwungen sein, die Weichen entsprechen zu stellen
-und schließlich gewaltlos entmächtigt.
+Die herrschende Minderheit wird durch den Druck der Gesellschaft gezwungen sein die Weichen entsprechend zu stellen
+und in diesem Prozess schließlich gewaltlos entmächtigt.

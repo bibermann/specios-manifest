@@ -11,24 +11,26 @@ da sie im Gegensatz zu uns in ihren Handlungsmöglichkeiten ziemlich beschränkt
 und die Umwelt genügend Zeit hat, auf Änderungen zu reagieren.
 Die Wesen passen sich durch evolutionäre Entwicklungen gegenseitig aneinander an.
 Die Macht der Intelligenz wird mit einem ausgeklügelten System aus Reflexen, Instinkten und schließlich Emotionen im Zaum gehalten.
-Ein Beispiel ist die Empathie unserer Mitmenschen gegenüber, was unterbewusst dafür sorgt,
+Ein Beispiel ist die Empathie unseren Mitmenschen gegenüber, was unterbewusst dafür sorgt,
 dass wir uns nicht gegenseitig auffressen oder Ähnliches.
 Je intelligenter und weitreichender Entscheidungen getroffen werden können,
 also je stärker diese "eingebauten" Regeln umgangen werden können,
 desto wichtiger werden externe Regeln, um das natürliche Gleichgewicht nicht zu stören.
 
 Die Gesellschaft definiert solche Regeln in verschiedenen Ebenen.
-Von durch kulturellen Einflüsse in nächster Umgebung mitgegebenen moralischen Werten, welche meist auf den biologischen aufsetzen,
-bis hin zu weniger transparenten Gesetzen, welche komplexere Zusammenhänge berücksichtigen.
+Von durch kulturellen Einflüssen in nächster Umgebung mitgegebenen moralischen Werten (wie Güte, Respekt, Toleranz usw.),
+welche meist auf den biologischen aufsetzen,
+bis hin zu weniger transparenten Regeln in der Gesetzgebung, welche komplexere Zusammenhänge berücksichtigen.
 Offensichtlich ist es aber ziemlich schwer, die tatsächlichen und relevanten Zusammenhänge zu erkennen
 und auch gehen die Meinungen diesbezüglich weit auseinander.
 Diesen Umstand möchte ich mit Hilfe moderner Informationsverarbeitung verbessern.
 Die Technik wird uns erlauben, gemeinsam optimale Regeln zu erstellen, welche den ursprünglichen Sinn derselben für uns extrapoliert:
 Die zerstörungsfreie Symbiose zwischen Mensch und Natur.
-Da Regeln alleine nicht viel nützen, ist die Konstruktion drumherum mindestens genauso wichtig.
+Aber nicht nur gute Regeln sollen gefunden werden.
+Mindestens genauso wichtig ist eine Infrastruktur, die die Anwendung der Regeln begünstigt und sicherstellt.
 
 Dies alles soll in der vorliegenden Arbeit besprochen werden.
-Für interessierte Leser sei angemerkt, dass sie keine Prosa enthalten wird.
+Für interessierte Leser sei angemerkt, dass sie relativ prosaisch gehalten ist.
 Gesellschaftssysteme sind komplex und viel diskutiert
 und bis heute ist es uns nicht gelungen, ein nachhaltig funktionierendes System zu entwickeln.
 Daher versuche ich so sachlich wie möglich zu bleiben, so dass Diskussionspunkte wohldefiniert sind

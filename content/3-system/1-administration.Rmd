@@ -1,11 +1,17 @@
 # Verwaltung {#sec-maintenance}
 
 Das Grundprinzip ist mit der Wikipedia vergleichbar: Das System ist interaktiv und multilingual,
-die Daten werden von den Mitgliedern über einen Internetzugang erstellt.
+die Daten werden von den Mitgliedern über einen
+Internetzugang^[Über die Hälfte der Weltbevölkerung hat bereits Zugriff auf das Internet. (@statshot_2021)]
+erstellt.
 Recherchieren Sie dazu die Themen [Schwarmauslagerung](https://de.wikipedia.org/wiki/Schwarmauslagerung)
 und [Schwarmintelligenz](https://de.wikipedia.org/wiki/Schwarmintelligenz).
 
 ## Lokalisierung {#sec-maintenance-localization}
+
+::: {.rmdwarning}
+Warnung: Der nachfolgende Text ist möglicherweise veraltet. Außerdem enthält er technische Details, die hier vielleicht nicht relevant sind.
+:::
 
 Da das System für alle Menschen mit den selben Inhalten zugänglich sein muss, habe ich für einfache Ausdrücke (Bezeichnungen, kurze Erklärungen udgl.) ein dynamisches Sprachsystem entwickelt, welches folgende Merkmale aufweist:
 
@@ -52,11 +58,13 @@ Zum Schutz vor Fehlinformationen aufgrund von Unwissenheit oder Meinungen aus de
 Zum einen werden vom System abstrahierte Sachverhalte, welche auf spezielleren, grundlegenderen Daten beruhen,
 höher bewertet als allgemeine Aussagen.
 Zum anderen werden die Qualifikationen des Wählers berücksichtigt,
-welche zur Erfassung des jeweiligen Sachverhaltes benötigt werden (Kompetenzwichtung).
+welche zur Erfassung des jeweiligen Sachverhaltes benötigt werden (Kompetenzgewichtung).
 Diese werden von anderen Mitgliedern (z.&nbsp;B. Lehrern, Professoren udgl.) geliefert und müssen verifiziert werden,
 bzw. ergeben sich aus Zeugnissen oder sonstigen Leistungsnachweisen.
 
 ### Benutzerschnittstelle
+
+Themen für Entscheidungen ergeben sich aus Datenlücken, -konflikten oder einfach den Interessen der Teilnehmer.
 
 In einer persönlichen Übersicht wird jedes Mitglied einsehen können,
 welche seiner Eingaben nicht mit den aktuellen Festlegungen übereinstimmen,
@@ -65,6 +73,17 @@ Umgekehrt werden "unsichere" Daten, die zwar auf mehrheitlichen oder fundamental
 aber (soweit möglich automatisch korrigierte) Konflikte mit anderen Daten aufweisen
 oder eine nicht zu vernachlässigende Menge an Gegenmeinungen besitzen, hervorgehoben,
 damit strukturelle Fehler, neue Erkenntnisse oder alternative Betrachtungen Aufmerksamkeit erhalten.
+
+### Datenschutz
+
+Getroffene Entscheidungen und hinterlegte Kompetenzen können nicht anonym sein, da das System transparent und dynamisch bleiben muss.
+Es könnte aber Vorkehrungen geben, um sie vor der allgemeinen Öffentlichkeit weitestgehend zu verbergen.
+Allerdings ist es fraglich, ob ein derartiger Schutz notwendig ist. Es ist nicht verwerflich,
+wenn sich jemand in einem Themengebiet nicht auskennet. Man muss schließlich nicht für seine Tätigkeiten werben,
+man macht einfach was einem gefällt.
+Wer lernen möchte, lernt. Wer lehren möchte, lehrt.
+Die Motivation ist nicht Geld, sondern Interesse und Spaß.
+Es gibt also keinen Grund, warum man fehlende Fähigkeiten verbergen wollen würde.
 
 ### Durchmischtes
 
@@ -103,9 +122,14 @@ erhöhen dabei die arbeitsgeschwindigkeit, also muss der kompromisse zwischen ze
 
 ## Sicherheit {#sec-maintenance-security}
 
-Vor Manipulationen kann man sich mit Hilfe verteilter Gegenrechnungen, zertifizierter Systemschnappschüsse und spezieller Notpläne schützen.
-\index{Notpläne}Mit Notplänen sind (gedruckte) zertifizierte Repräsentationen der wesentlichen abstrahierten Regeln gemeint,
-welche in jedem Haushalt oder ähnlichen, möglicherweise größeren Gruppierungen gehalten
-und durch einen sicheren, möglichst persönlichen Mehrheitsentscheid aktiviert werden können.
+Vor Manipulationen kann man sich auf vielfältige Weise schützen:
+
+- Verteilte Gegenrechnungen: Manipulierte Systeme würden durch Mehrheitsentscheid
+    einer größeren Menge anderer Systeme identifiziert werden können.
+- Zertifizierter Systemschnappschüsse.
+- Spezielle \index{Notpläne}Notpläne: Zertifizierte Repräsentationen der wesentlichen abgeleiteten Regeln.
+    Diese könnten in jedem Haushalt oder ähnlichen, möglicherweise größeren Gruppierungen gehalten werden
+    (z.&nbsp;B. auch in gedruckter Form) und durch einen sicheren, möglichst persönlichen Mehrheitsentscheid aktiviert werden können.
+
 Schnappschüsse und Notpläne besitzen eine zeitlich begrenzte Gültigkeit,
 um dem Missbrauch von nachträglich entdeckten Gesetzeslücken vorzubeugen.
