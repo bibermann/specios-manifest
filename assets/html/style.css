@@ -24,13 +24,14 @@ pre code {
 
 main {
     font-family: serif;
+    font-size: 1.25rem;
     line-height: 1.4;
     word-break: break-word;
 }
 
 main p {
-    text-indent: 1rem;
-    margin-bottom: 0;
+    text-indent: 1.2em;
+    margin-bottom: 1em;
     text-align: justify;
 }
 
@@ -40,17 +41,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .chapter-nav {
 
 main li {
     margin-bottom: 0;
-    padding-left: 1rem;
-    text-indent: -1rem;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
 }
 
 main ol, main ul {
-    padding-left: 1rem;
-    margin-left: 1rem;
+    padding-left: 1.2em;
+    margin-left: 1.2em;
+}
+
+main ol > li:first-child, main ul > li:first-child {
+    margin-top: 1em;
 }
 
 main ol > li:last-child, main ul > li:last-child {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1em;
 }
 
 h1 {
@@ -84,7 +89,7 @@ h5 {
 }
 
 main dl {
-    margin-top: 1rem;
+    margin-top: 1em;
 }
 
 /*.sidebar h2 {
@@ -106,7 +111,7 @@ footer a:hover {
 }
 
 .references p {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 /* Fix, maybe because nav is always expanded in our configuration */
