@@ -1,8 +1,5 @@
 # Willkommen {-}
 
-Das **Manifest des Specios** wird Ihnen eine Einführung in *Specios, la specio sistemo* geben,
-welches die Grundlage eines neues Gesellschaftskonzeptes darstellt.
-
 Dieses Buch wird gemeinschaftlich entwickelt auf
 [GitHub.com](https://github.com/bibermann/specios-manifest/graphs/contributors).
 Jeder ist eingeladen, an diesem Projekt mitzuwirken.
@@ -10,7 +7,37 @@ Jeder ist eingeladen, an diesem Projekt mitzuwirken.
 Der Begründer des Specios sowie derzeitiger Maintainer des Repositories ist
 [Fabian Sandoval Saldias](mailto:fabianvss@gmail.com?subject=Specios).
 Er ist Senior-Software-Entwickler, lebt in Berlin und hat sich dieses Projekt zu seiner Lebensaufgabe gemacht.
-Wir wollen modernste Technologie fernab der Industrie einsetzen, um ein einfaches Ziel zu erreichen:
-Verbesserung des Wohles eines jeden Wesens.
+
+Verwandte Ideologien
+
+: Direkte Demokratie, Ressourcenbasierte Wirtschaft.
+
+Verwandte Technologien
+
+: Wikidata, LiquidFeedback, Blockchain.
+
+## Specios {-}
+
+```{python results = "asis", echo=FALSE}
+import re
+
+f = open("../README.md", "r")
+while True:
+    line = f.readline()
+    if not line:
+        break
+    if re.search("^#+ Manifest des Specios$", line):
+        break
+
+while True:
+    line = f.readline()
+    if not line:
+        break
+    if line.startswith("#") or line.startswith("---"):
+        break
+    print(line, end='')
+```
 
 Viel Spaß beim Lesen!
+
+![[A Big World Out There by aJVL](https://www.deviantart.com/ajvl/art/A-Big-World-Out-There-496130817)](content/a_big_world_out_there_by_ajvl-d87dszl.png){width=100%}

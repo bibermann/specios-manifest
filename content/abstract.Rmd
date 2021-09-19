@@ -1,8 +1,21 @@
 # Zusammenfassung {-}
 
-```{python results = 'asis', echo=FALSE}
+```{python results = "asis", echo=FALSE}
+import re
+
 f = open("README.md", "r")
-for _ in range(3):
-    f.readline();
-print(f.read())
+while True:
+    line = f.readline()
+    if not line:
+        break
+    if re.search("^#+ Zusammenfassung$", line):
+        break
+
+while True:
+    line = f.readline()
+    if not line:
+        break
+    if line.startswith("#") or line.startswith("---"):
+        break
+    print(line, end='')
 ```
