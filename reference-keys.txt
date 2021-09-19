@@ -13,14 +13,17 @@ sec-basis
 sec-basis-aim
 feststellungen
 zielbestimmung
+kompetenzgewichtung
 sec-basis-implications
 religion
 genetik
 sec-rulebook
+idee
 sec-maintenance
 sec-maintenance-localization
 sec-maintenance-voting
 benutzerschnittstelle
+datenschutz
 durchmischtes
 sec-maintenance-security
 sec-ki

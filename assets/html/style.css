@@ -105,6 +105,10 @@ footer a:hover {
     color: white;
 }
 
+.references p {
+    margin-bottom: 1rem;
+}
+
 /* Fix, maybe because nav is always expanded in our configuration */
 
 nav[data-toggle="toc"] .nav-link + ul {
