@@ -1,0 +1,20 @@
+```{python results = "asis", echo=FALSE}
+import re
+
+def extract_from_md(filename, section):
+    f = open(filename, "r")
+    while True:
+        line = f.readline()
+        if not line:
+            break
+        if re.search(f"^#+ {section}$", line):
+            break
+
+    while True:
+        line = f.readline()
+        if not line:
+            break
+        if line.startswith("#") or line.startswith("---"):
+            break
+        print(line, end='')
+```

@@ -14,6 +14,8 @@ biblio-style: apalike
 csl: assets/chicago-fullnote-bibliography.csl
 ---
 
+```{r child="code-chunks/extract-from-md.Rmd"}
+```
 
 ```{r child="content/welcome.Rmd"}
 ```

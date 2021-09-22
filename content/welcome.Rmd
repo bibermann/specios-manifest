@@ -19,23 +19,7 @@ Verwandte Technologien
 ## Specios {-}
 
 ```{python results = "asis", echo=FALSE}
-import re
-
-f = open("../README.md", "r")
-while True:
-    line = f.readline()
-    if not line:
-        break
-    if re.search("^#+ Manifest des Specios$", line):
-        break
-
-while True:
-    line = f.readline()
-    if not line:
-        break
-    if line.startswith("#") or line.startswith("---"):
-        break
-    print(line, end='')
+extract_from_md("../README.md", "Manifest des Specios")
 ```
 
 Viel Spaß beim Lesen!
