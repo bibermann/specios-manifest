@@ -3,3 +3,13 @@
 ```{python results = "asis", echo=FALSE}
 extract_from_md("README.md", "Zusammenfassung")
 ```
+
+## Entwurfszustand {-}
+
+::: {.rmdwarning}
+
+```{python results = "asis", echo=FALSE}
+extract_from_md("README.md", "Entwurfszustand")
+```
+
+:::

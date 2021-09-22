@@ -7,6 +7,15 @@ welches die Grundlage eines neues Gesellschaftskonzeptes darstellt.
 Wir wollen modernste Informations-Technologie fernab der Industrie einsetzen, um ein einfaches Ziel zu erreichen:
 Verbesserung des Wohles eines jeden Wesens.
 
+## Entwurfszustand
+
+Sicherlich kann man einige der hier dargelegten Positionen als kontrovers empfinden 
+und Ziel dieses Repositories wird es sein, die Erklärungen und Lösungsansätze herauszuarbeiten.
+
+Der gegenwärtige Stand ist nur ein Entwurf und jeder ist aufgerufen sich einzubringen, 
+unseren Entwurf einer modernen Gesellschaft voranzubringen. 
+Das dafür angelegte GitHub-Repository ermöglicht es einer größeren Gruppe, ihre Beiträge einzubringen.
+
 ## Zusammenfassung
 
 Unser Gesellschaftsmodell hat ausgedient.
