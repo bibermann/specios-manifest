@@ -10,7 +10,7 @@ und [Schwarmintelligenz](https://de.wikipedia.org/wiki/Schwarmintelligenz).
 ## Lokalisierung {#sec-maintenance-localization}
 
 ::: {.rmdwarning}
-Warnung: Der nachfolgende Text ist möglicherweise veraltet. Außerdem enthält er technische Details, die hier vielleicht nicht relevant sind.
+Warnung: Der nachfolgende Text ist möglicherweise veraltet. Außerdem enthält er technische Details, die hier eher nicht relevant sind.
 :::
 
 Da das System für alle Menschen mit den selben Inhalten zugänglich sein muss, habe ich für einfache Ausdrücke (Bezeichnungen, kurze Erklärungen udgl.) ein dynamisches Sprachsystem entwickelt, welches folgende Merkmale aufweist:

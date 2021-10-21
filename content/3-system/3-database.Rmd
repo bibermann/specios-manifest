@@ -1,5 +1,9 @@
 # Datenbanksystem {#sec-database}
 
+::: {.rmdwarning}
+Warnung: Der nachfolgende Text ist möglicherweise veraltet. Außerdem enthält er technische Details, die hier eher nicht relevant sind.
+:::
+
 Es ist ein dokumentbasiertes Datenbanksystem erforderlich, bei dem jeder Datenpunkt durch eine Datei repräsentiert wird.
 Aufgrund der Menge an Daten ist ein kompliziertes Verwaltungssystem erforderlich, welches einfach überschaubar und handhabbar ist.
 Sämtliche Hilfssysteme wie ein Indizierungssystem müssen optional sein.
