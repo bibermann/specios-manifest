@@ -1,5 +1,6 @@
 ---
 title: "Manifest des Specios"
+lang: de
 author: "der [Community auf GitHub](https://github.com/bibermann/specios-manifest/graphs/contributors)"
 date: "`r format(Sys.Date(), '%d.%m.%Y')`"
 site: bookdown::bookdown_site
