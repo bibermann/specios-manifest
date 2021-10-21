@@ -31,8 +31,16 @@ main {
 
 main p {
     text-indent: 1.2em;
-    margin-bottom: 1em;
     text-align: justify;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    main p {
+        text-indent: 0;
+        text-align: left;
+        margin-bottom: 1em;
+    }
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .chapter-nav {
@@ -47,7 +55,14 @@ main li {
 
 main ol, main ul {
     padding-left: 1.2em;
-    margin-left: 1.2em;
+    text-align: justify;
+}
+
+@media (min-width: 992px) {
+    main ol, main ul {
+        margin-left: 1.2em;
+        text-align: left;
+    }
 }
 
 main ol > li:first-child, main ul > li:first-child {
@@ -114,11 +129,19 @@ footer a:hover {
     margin-bottom: 1em;
 }
 
-/* Fix, maybe because nav is always expanded in our configuration */
+/* Nav adjustments */
 
-nav[data-toggle="toc"] .nav-link + ul {
-    margin-top: 3px;
-    display: block;
+nav[data-toggle="toc"] .nav > li {
+    margin-bottom: 0;
+}
+
+nav[data-toggle="toc"] .nav > li > a {
+    padding: 0.125rem 0;
+    margin: 0.125rem 0;
+}
+
+nav[data-toggle="toc"] .nav-link.active + ul {
+    margin-top: 0;
 }
 
 /* Adjustments for menu max-height optimization */
@@ -133,4 +156,40 @@ nav[data-toggle="toc"] .nav-link + ul {
     .sidebar-chapter {
         margin-bottom: -3rem;
     }
+}
+
+/* Bottom navigation */
+
+.chapter-nav .prev,
+.chapter-nav .next {
+    padding: 0.5rem 0.75rem;
+    border-radius: 1.5rem;
+}
+
+/* Search field */
+
+input#search:not(:hover)::placeholder {
+    opacity: 0;
+}
+
+input#search {
+    border-radius: 0.25rem 1.5rem 1.5rem;
+}
+
+.algolia-autocomplete .aa-dropdown-menu {
+    border-radius: 0.25rem 1.5rem 0.25rem 0.25rem;
+    width: min(calc(100% - 1.5rem), 20rem);
+    margin-left: 1.5rem;
+}
+
+/* GitHub links */
+
+#book-source i,
+#book-edit i {
+    /* Remove some GitHub icons (build errors when removing in source code) */
+    display: none;
+}
+
+.book-extra a {
+    color: gray;
 }
