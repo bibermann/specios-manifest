@@ -33,6 +33,7 @@ main p {
     text-indent: 1.2em;
     text-align: justify;
     margin-bottom: 0;
+    hyphens: auto;
 }
 
 @media (min-width: 992px) {
@@ -40,6 +41,7 @@ main p {
         text-indent: 0;
         text-align: left;
         margin-bottom: 1em;
+        hyphens: none;
     }
 }
 
