@@ -32,16 +32,16 @@ main {
 main p {
     text-indent: 1.2em;
     text-align: justify;
-    margin-bottom: 0;
     hyphens: auto;
+    margin-bottom: 0;
 }
 
 @media (min-width: 992px) {
     main p {
         text-indent: 0;
         text-align: left;
-        margin-bottom: 1em;
         hyphens: none;
+        margin-bottom: 1em;
     }
 }
 
@@ -58,12 +58,14 @@ main li {
 main ol, main ul {
     padding-left: 1.2em;
     text-align: justify;
+    hyphens: auto;
 }
 
 @media (min-width: 992px) {
     main ol, main ul {
         margin-left: 1.2em;
         text-align: left;
+        hyphens: none;
     }
 }
 
