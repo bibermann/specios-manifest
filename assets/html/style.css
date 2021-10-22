@@ -18,6 +18,18 @@ pre code {
 
 /* General style */
 
+body {
+    word-break: break-word;
+    hyphens: auto;
+}
+
+@media (min-width: 992px) {
+    body {
+        word-break: normal;
+        hyphens: none;
+    }
+}
+
 .sidebar h2 {
     margin-bottom: 1rem;
 }
@@ -26,13 +38,11 @@ main {
     font-family: serif;
     font-size: 1.25rem;
     line-height: 1.4;
-    word-break: break-word;
 }
 
 main p {
     text-indent: 1.2em;
     text-align: justify;
-    hyphens: auto;
     margin-bottom: 0;
 }
 
@@ -40,7 +50,6 @@ main p {
     main p {
         text-indent: 0;
         text-align: left;
-        hyphens: none;
         margin-bottom: 1em;
     }
 }
@@ -58,14 +67,12 @@ main li {
 main ol, main ul {
     padding-left: 1.2em;
     text-align: justify;
-    hyphens: auto;
 }
 
 @media (min-width: 992px) {
     main ol, main ul {
         margin-left: 1.2em;
         text-align: left;
-        hyphens: none;
     }
 }
 
