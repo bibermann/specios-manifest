@@ -1,6 +1,6 @@
 # Manifest des Specios
 
-Das [**Manifest des Specios**](https://bibermann.github.io/specios-manifest/) 
+Das [**Manifest des Specios**](https://specios.github.io/specios-manifest/) 
 wird Ihnen eine Einführung in *Specios, la specio sistemo* geben,
 welches die Grundlage eines neues Gesellschaftskonzeptes darstellt.
 
@@ -33,4 +33,4 @@ und ein nachhaltig wohlständiges Leben auf dem gesamten Planeten und darüber h
 
 ---
 
-Lesen Sie weiter auf [GitHub Pages](https://bibermann.github.io/specios-manifest/).
+Lesen Sie weiter auf [GitHub Pages](https://specios.github.io/specios-manifest/).

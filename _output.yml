@@ -11,7 +11,7 @@ bookdown::bs4_book:
         family: IBM Plex Mono
         local: false
   repo:
-    base: https://github.com/bibermann/specios-manifest
+    base: https://github.com/specios/specios-manifest
     branch: main
   template: assets/html/template.html
 bookdown::pdf_book:

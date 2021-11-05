@@ -1,7 +1,7 @@
 # Willkommen {-}
 
 Dieses Buch wird gemeinschaftlich entwickelt auf
-[GitHub.com](https://github.com/bibermann/specios-manifest/graphs/contributors).
+[GitHub.com](https://github.com/specios/specios-manifest/graphs/contributors).
 Jeder ist eingeladen, an diesem Projekt mitzuwirken.
 
 Der Begründer des Specios sowie derzeitiger Maintainer des Repositories ist
