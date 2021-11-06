@@ -2,7 +2,7 @@
 
 Das [**Manifest des Specios**](https://specios.github.io/specios-manifest/) 
 wird Ihnen eine Einführung in *Specios, la specio sistemo* geben,
-welches die Grundlage eines neues Gesellschaftskonzeptes darstellt.
+welches die Grundlage eines neuen Gesellschaftskonzeptes darstellt.
 
 Wir wollen modernste Informations-Technologie fernab der Industrie einsetzen, um ein einfaches Ziel zu erreichen:
 Verbesserung des Wohles eines jeden Wesens.
@@ -19,7 +19,7 @@ Das dafür angelegte GitHub-Repository ermöglicht es einer größeren Gruppe, i
 ## Zusammenfassung
 
 Unser Gesellschaftsmodell hat ausgedient.
-Wir werden von einer Minderheit beherrscht, welche alles Erdenkliche tut, um ihre Machtposition zu erhalten.
+Wir werden von einer Minderheit beherrscht, welche alles Erdenkliche tut, um ihre Machtposition zu erhalten (*).
 Dies ist ein ganz natürliches Verhalten und wird durch unser profitorientiertes System leider unterstützt.
 Vor der Industrialisierung war das sogar sinnvoll.
 Heute aber führt dies zu Massenversklavung, Wohlstandsverlust und riesiger Ressourcenvernichtung.
@@ -30,6 +30,16 @@ Schließlich wird eine mögliche Lösung präsentiert: das Specios.
 Mit ihm wird ein grundlegend neues Gesellschaftskonzept vorgelegt und erläutert, 
 wie es in wenigen Jahren alle derzeitigen politischen und Rechtssysteme erfolgreich unterwandern 
 und ein nachhaltig wohlständiges Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
+
+*) Ja, das mag erstmal nach einer Verschwörungstheorie klingen.
+Aber nur, weil die Wahrheit zu offensichtlich ist.
+Nicht die Politik entscheidet. Konzerne entscheiden, denn sie haben die größte Marktmacht.
+Ich frage nach Eiern und bekomme Maschinen, die Küken zerhacken.
+Ich frage nach Mobilität und bekomme Kurzstreckenflüge.
+Ich frage nach Energie und bekomme CO₂ aus der Erde.
+Politik soll die Meinung der Gesellschaft vertreten.
+Tatsächlich bedeutet das aber lediglich die Förderung derjenigen, 
+die das Verlangen der Gesellschaft befriedigen - auf die billigste Art und Weise.
 
 ---
 
