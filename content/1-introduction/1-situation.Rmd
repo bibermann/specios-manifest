@@ -94,7 +94,7 @@ aller britischen Unternehmen für Verbrauchsgüter.
 
 Jedes Lebewesen ist im Kern egoistisch, das ist biologisch überlebensnotwendig.
 Allerdings muss es mit der Umwelt auf gewisse Weise kooperieren, wenn es überleben will.
-[*Überleben* als obersten Willen darzulegen ist nicht ganz korrekt, genügt aber hier. Das tatsächliche Lebensziel wird in Abschnitt \@ref(sec-basis-aim) behandelt.]
+^[*Überleben* als obersten Willen darzulegen ist nicht ganz korrekt, genügt aber hier. Das tatsächliche Lebensziel wird in Abschnitt \@ref(sec-basis-aim) behandelt.]
 Folglich muss sich ein Organismus einschränken und kontrollieren, um mit anderen erfolgreich zu interagieren.
 Diese symbiotischen Beziehungen werden komplexer, je wirkungsvoller und weitreichender (auch zeitlich) sie ausgelegt sind
 und können von einem Organismus ohne weiteres nicht vollständig überschaut werden.
