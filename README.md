@@ -31,6 +31,14 @@ Mit ihm wird ein grundlegend neues Gesellschaftskonzept vorgelegt und erläutert
 wie es in wenigen Jahren alle derzeitigen politischen und Rechtssysteme erfolgreich unterwandern 
 und ein nachhaltig wohlständiges Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
 
+Eine zentrale Rolle bei der Realisierung von Specios wird ein modernisiertes System demokratischer Wahlen spielen.
+Unter Verwendung von IT-Lösungen soll es jedem ermöglicht werden, 
+sich sowohl an abstrakten als auch an konkreten Abstimmungsprozessen zu beteiligen, die im Hintergrund formalisiert werden.
+Auf der Grundlage dieses Informationsnetzes werden automatisiert Implikationen berechnet, 
+die nicht nur dabei helfen Problemlösungen zu finden, sondern insbesondere auch ihren Einfluss zu verstehen.
+Damit wird plötzlich jedes Mitglied der Gesellschaft in die Lage versetzt,
+politische Entscheidungen nachzuvollziehen - und zu bewerten.
+
 *) Ja, das mag erstmal nach einer Verschwörungstheorie klingen.
 Aber nur, weil die Wahrheit zu offensichtlich ist.
 Nicht die Politik entscheidet. Konzerne entscheiden, denn sie haben die größte Marktmacht.
