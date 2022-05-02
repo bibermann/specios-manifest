@@ -6,7 +6,7 @@ Jeder ist eingeladen, an diesem Projekt mitzuwirken.
 
 Der Begründer des Specios sowie derzeitiger Maintainer des Repositories ist
 [Fabian Sandoval Saldias](mailto:fabianvss@gmail.com?subject=Specios).
-Er ist Senior-Software-Entwickler, lebt in Berlin und hat sich dieses Projekt zu seiner Lebensaufgabe gemacht.
+Er ist Senior-Softwareentwickler, lebt in Berlin und hat sich dieses Projekt zu seiner Lebensaufgabe gemacht.
 
 Verwandte Ideologien
 

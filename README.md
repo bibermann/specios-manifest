@@ -36,7 +36,7 @@ Dass die größten Konzerne (bzw. im Allgemeinen Entitäten, die den größten E
 in der Minderheit sind, unterstreicht die fehlende Demokratie an dieser Stelle.
 Durch unser profitorientiertes System wird dieses Ungleichgewicht auf ganz natürliche Weise unterstützt.
 Vor der Industrialisierung war das noch sinnvoll.
-Seit wir aber im Überfluss leben erleben wir einen Wendepunkt,
+Seit wir aber im Überfluss leben, erleben wir einen Wendepunkt,
 der zu Massenversklavung, Wohlstandsverlust und riesiger Ressourcenvernichtung führt.
 
 Dieses Manuskript wird den genannten Wandel erklären.

@@ -17,11 +17,11 @@ function finish {
     fi
 
     if [ ! -z ${container+x} ]; then
-        sudo docker stop $container
-        sudo docker rm $container
+        docker stop $container
+        docker rm $container
     fi
     if [ ! -z ${image+x} ]; then
-        sudo docker rmi $image
+        docker rmi $image
     fi
 }
 trap finish EXIT
@@ -32,13 +32,13 @@ cd $root
 rm -rf dist
 
 pushd .github/actions/bookdown-builder
-    sudo docker build -t specios-bookdown .
+    docker build -t specios-bookdown .
 popd
 
 image=specios-bookdown-app
-sudo docker build -t $image -f scripts/Dockerfile .
-container=$(sudo docker create --user docker $image)
+docker build -t $image -f scripts/Dockerfile .
+container=$(docker create --user docker $image)
 echo -e "${COLOR_LIGHT_CYAN}Building book...${COLOR_NO}"
-sudo docker start --attach $container
-sudo docker cp $container:/app/_book dist
-sudo chown -R $USER:$USER dist
+docker start --attach $container
+docker cp $container:/app/_book dist
+# sudo chown -R $USER:$USER dist
