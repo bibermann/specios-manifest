@@ -4,7 +4,9 @@
 
 Dieses Kapitel wird den Hintergrund und die Notwendigkeit von einem grundlegend neuen Gesellschaftssystem verdeutlichen.
 
-Verschiedenste Probleme sind allgemein bekannt:
+Verschiedenste Probleme sind allgemein bekannt^[
+Speziell zu den klimatologischen gibt es den seit August 2021 erschienen sechsten Sachstandsbericht des Weltklimarats IPCC.
+]:
 
 - Hunger, Verschmutzung, niedrige Lebensqualität
 - Tierquälerei (Massentierhaltung mit allen Konsequenzen,
