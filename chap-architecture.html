@@ -8,14 +8,14 @@
 <title>System-Architektur | Manifest des Specios</title>
 <meta name="author" content="der Community auf GitHub">
 <meta name="description" content="In den folgenden Kapiteln wird die praktische Umsetzung des zuletzt beschriebenen Konzeptes von Specios betrachtet; die Implementierung eines Supera Specios.    // Adjustments for menu max-height...">
-<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta name="generator" content="bookdown 0.26 with bs4_book()">
 <meta property="og:title" content="System-Architektur | Manifest des Specios">
 <meta property="og:type" content="book">
 <meta property="og:description" content="In den folgenden Kapiteln wird die praktische Umsetzung des zuletzt beschriebenen Konzeptes von Specios betrachtet; die Implementierung eines Supera Specios.    // Adjustments for menu max-height...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="System-Architektur | Manifest des Specios">
 <meta name="twitter:description" content="In den folgenden Kapiteln wird die praktische Umsetzung des zuletzt beschriebenen Konzeptes von Specios betrachtet; die Implementierung eines Supera Specios.    // Adjustments for menu max-height...">
-<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="https://fonts.googleapis.com/css2?family=IBM%20Plex%20Mono&amp;display=swap" rel="stylesheet">
 <script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -81,18 +81,19 @@ die Implementierung eines Supera Specios.</p>
 </div>
 <script>
     // Adjustments for menu max-height optimization
-    
+
     let footer;
+
     function recalculateMenuHeight() {
         const footerTop = footer[0].getBoundingClientRect().top;
         const viewHeight = $("body").prop("clientHeight");
         const diff = viewHeight - footerTop;
-        $('.sidebar').each(function() {
+        $('.sidebar').each(function () {
             const el = $(this);
-            if(el.css('position')!=='sticky') {
+            if (el.css('position') !== 'sticky') {
                 el.css('max-height', '');
             } else {
-                if(diff > 0) {
+                if (diff > 0) {
                     const value = 'calc(100vh - ' + diff + 'px)';
                     el.css('max-height', value);
                 } else {
@@ -101,13 +102,28 @@ die Implementierung eines Supera Specios.</p>
             }
         });
     }
-    (function() {
-        $(document).ready(function() {
+
+    (function () {
+        $(document).ready(function () {
             footer = $("footer");
             recalculateMenuHeight();
             $(window).resize(recalculateMenuHeight);
             $(window).scroll(recalculateMenuHeight);
         });
+    })();
+
+    // Change popover trigger from focus (default) to click
+    // and add close button (see https://stackoverflow.com/a/24112291/704821)
+    var genericCloseBtnHtml = '<button onclick="$(this).closest(\'div.popover\').popover(\'hide\');" type="button" class="close" aria-hidden="true">&times;</button>';
+    (function () {
+        $('[data-toggle="popover"]').popover({
+            container: 'body',
+            html: true,
+            trigger: 'click',
+            placement: 'top',
+            sanitize: false,
+            title: '&nbsp;' + genericCloseBtnHtml,
+        })
     })();
 </script><div class="chapter-nav">
 <div class="prev"><a href="sec-rulebook.html"><span class="header-section-number">4</span> Regelwerk</a></div>
@@ -131,7 +147,7 @@ die Implementierung eines Supera Specios.</p>
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-12 mt-3">
-    <p>"<strong>Manifest des Specios</strong>" wurde geschrieben von der <a href="https://github.com/specios/specios-manifest/graphs/contributors">Community auf GitHub</a>. Zuletzt geändert am 22.11.2021.</p>
+    <p>"<strong>Manifest des Specios</strong>" wurde geschrieben von der <a href="https://github.com/specios/specios-manifest/graphs/contributors">Community auf GitHub</a>. Zuletzt geändert am 02.05.2022.</p>
   </div>
 
 </div></div>

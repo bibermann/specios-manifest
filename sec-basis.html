@@ -8,14 +8,14 @@
 <title>Kapitel 3 Grundlage | Manifest des Specios</title>
 <meta name="author" content="der Community auf GitHub">
 <meta name="description" content="Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt, noch ist es explizit für den Planeten Erde entwickelt. Ein System, welches...">
-<meta name="generator" content="bookdown 0.24 with bs4_book()">
+<meta name="generator" content="bookdown 0.26 with bs4_book()">
 <meta property="og:title" content="Kapitel 3 Grundlage | Manifest des Specios">
 <meta property="og:type" content="book">
 <meta property="og:description" content="Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt, noch ist es explizit für den Planeten Erde entwickelt. Ein System, welches...">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Kapitel 3 Grundlage | Manifest des Specios">
 <meta name="twitter:description" content="Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt, noch ist es explizit für den Planeten Erde entwickelt. Ein System, welches...">
-<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><link href="https://fonts.googleapis.com/css2?family=IBM%20Plex%20Mono&amp;display=swap" rel="stylesheet">
 <script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -96,7 +96,7 @@ Moral soll hier keine Rolle spielen, da sie kulturabhängig und meist auf religi
 und auch kein höheres Ziel, wie z. B. das Leben selbst oder den Wohlstand im engeren Sinne.
 Man muss verstehen, dass wir lediglich die zufällige Folge einer physikalischen Kettenreaktion sind.
 Angefangen beim Urknall, der zwar noch ein Rätsel darstellt aber hier irrelevant ist,<a class="footnote-ref" tabindex="0" data-toggle="popover" data-content='&lt;p&gt;Ob unsere Physik mit dem Urknall geschaffen wurde oder bereits vorher bestand ändert nichts an der Allgegenwärtigkeit
-derselben. Recherchieren Sie dazu auch das Thema &lt;a href="https://de.wikipedia.org/wiki/Paralleluniversum"&gt;Paralleluniversum&lt;/a&gt;.&lt;/p&gt;'><sup>12</sup></a>
+derselben. Recherchieren Sie dazu auch das Thema &lt;a href="https://de.wikipedia.org/wiki/Paralleluniversum"&gt;Paralleluniversum&lt;/a&gt;.&lt;/p&gt;'><sup>13</sup></a>
 über die Formung unseres Planeten, bis hin zur Evolution des Menschen.</p>
 <p>Die Existenz eines Geistes kann ebenfalls ausgeschlossen werden, sein Begriff existiert aus demselben Grund wie griechische Götter.
 Denn obwohl biologische Prozesse wie die Zellteilung oder unser Nervensystem
@@ -190,18 +190,19 @@ Sie füllt sozusagen die Wissenslücke zur Existenzbegründung des Universums.</
 
 <script>
     // Adjustments for menu max-height optimization
-    
+
     let footer;
+
     function recalculateMenuHeight() {
         const footerTop = footer[0].getBoundingClientRect().top;
         const viewHeight = $("body").prop("clientHeight");
         const diff = viewHeight - footerTop;
-        $('.sidebar').each(function() {
+        $('.sidebar').each(function () {
             const el = $(this);
-            if(el.css('position')!=='sticky') {
+            if (el.css('position') !== 'sticky') {
                 el.css('max-height', '');
             } else {
-                if(diff > 0) {
+                if (diff > 0) {
                     const value = 'calc(100vh - ' + diff + 'px)';
                     el.css('max-height', value);
                 } else {
@@ -210,13 +211,28 @@ Sie füllt sozusagen die Wissenslücke zur Existenzbegründung des Universums.</
             }
         });
     }
-    (function() {
-        $(document).ready(function() {
+
+    (function () {
+        $(document).ready(function () {
             footer = $("footer");
             recalculateMenuHeight();
             $(window).resize(recalculateMenuHeight);
             $(window).scroll(recalculateMenuHeight);
         });
+    })();
+
+    // Change popover trigger from focus (default) to click
+    // and add close button (see https://stackoverflow.com/a/24112291/704821)
+    var genericCloseBtnHtml = '<button onclick="$(this).closest(\'div.popover\').popover(\'hide\');" type="button" class="close" aria-hidden="true">&times;</button>';
+    (function () {
+        $('[data-toggle="popover"]').popover({
+            container: 'body',
+            html: true,
+            trigger: 'click',
+            placement: 'top',
+            sanitize: false,
+            title: '&nbsp;' + genericCloseBtnHtml,
+        })
     })();
 </script><div class="chapter-nav">
 <div class="prev"><a href="chap-concept.html">Konzept</a></div>
@@ -254,7 +270,7 @@ Sie füllt sozusagen die Wissenslücke zur Existenzbegründung des Universums.</
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-12 mt-3">
-    <p>"<strong>Manifest des Specios</strong>" wurde geschrieben von der <a href="https://github.com/specios/specios-manifest/graphs/contributors">Community auf GitHub</a>. Zuletzt geändert am 22.11.2021.</p>
+    <p>"<strong>Manifest des Specios</strong>" wurde geschrieben von der <a href="https://github.com/specios/specios-manifest/graphs/contributors">Community auf GitHub</a>. Zuletzt geändert am 02.05.2022.</p>
   </div>
 
 </div></div>
