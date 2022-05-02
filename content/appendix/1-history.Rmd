@@ -1,5 +1,9 @@
 # Geschichte {#sec-history}
 
+November 2021 bis April 2022
+
+: Entwicklung des Datenmodells für die Speicherung und Verarbeitung der Daten des Wahlsystems.
+
 September 2021
 
 : Umarbeitung des Manifestes von LaTeX nach Bookdown und Veröffentlichung auf GitHub.
