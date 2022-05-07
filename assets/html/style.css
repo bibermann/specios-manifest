@@ -129,8 +129,8 @@ main ul + p {
     text-indent: 0;
 }
 
-dd p:first-child {
-    text-indent: 1.2em;
+dd {
+    padding-left: 1.2em;
 }
 
 @media (min-width: 992px) {
