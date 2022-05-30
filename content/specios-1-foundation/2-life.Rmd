@@ -1,19 +1,10 @@
-# Grundlage {#sec-basis}
-
-Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt,
-noch ist es explizit für den Planeten Erde entwickelt.
-
-Ein System, welches für alle Wesen funktioniert (ohne sie spezifizieren zu müssen)
-ist viel besser als eines, welches auf den Menschen geeicht ist.
-Je weniger Ausnahmen oder Sonderfälle es gibt (die man alle begründen müsste), desto kleiner ist der Angriffsvektor auf die Ideologie.
-
-## Ziel {#sec-basis-aim}
+# Der Sinn des Lebens {#sec-foundation-life}
 
 Die Frage nach dem eigentlichen Ziel ist die tiefgreifendste und zugleich schwierigste.
 Daher wird nun versucht, dieses so wissenschaftlich wie möglich herzuleiten.
 Moral soll hier keine Rolle spielen, da sie kulturabhängig und meist auf religiös verankerte Axiome fundiert ist.
 
-### Feststellungen
+## Feststellungen
 
 Zunächst muss man feststellen, dass es keinen \index{Gott}göttlichen Grund für die Existenz von Lebewesen gibt
 und auch kein höheres Ziel, wie z.&nbsp;B. das Leben selbst oder den Wohlstand im engeren Sinne.
@@ -35,7 +26,7 @@ oder aus der Vergangenheit rekonstruierten Ereignisse passen zusammen, ohne dass
 Da jedoch eine gewisse Unsicherheit vorliegt, vor Allem bei der Modellierung von Quanteneffekten und biologischen Prozessen,
 dürfen wir uns nicht anmaßen, dort grob fahrlässig eingreifen zu dürfen.
 
-### Zielbestimmung
+## Zielbestimmung
 
 Nachdem man einsehen muss, dass es keinen Gott und keine andere höhere Macht gibt, welche mit uns ein Ziel verfolgen könnte,
 und auch die Existenz eines Geistes nicht erforderlich ist, um unser Dasein und Handeln zu erklären,
@@ -74,35 +65,3 @@ Dabei werden von den Mitgliedern möglichst elementare Entscheidungen getroffen
 und nach oben zu allgemeineren Schlussfolgerungen synthetisiert.
 Entscheidungen können auf allen Abstraktions-Ebenen getroffen werden, aber je tiefer sie ansetzt, desto höher ist ihr Gewicht.
 Dies wird im Teil [System-Architektur](#chap-architecture) näher erläutert.
-
-#### Kompetenzgewichtung
-
-Die Betrachtung der Quelle einer Entscheidung bzw. Meinung ist wichtig, um die Wahrscheinlichkeit ihrer Korrektheit zu bestimmen.
-
-Ein wesentliches Merkmal muss die Kompetenz der Quelle sein, also z.&nbsp;B. des Menschen der eine Aussage trifft.
-Denn nicht jeder kann über alle Themen gleichzeitig bescheid wissen.
-Man muss also Experten identifizieren können bzw. müssen sich die Menschen für bestimmte Themen qualifizieren können.
-Dieser Prozess muss dynamisch sein und die persönliche Entwicklung berücksichtigen.
-
-## Implikationen {#sec-basis-implications}
-
-Nur lebende biologische Organismen werden als Mitglieder akzeptiert, sofern sie dem zustimmen.
-Das Erbgut vorhandener Mitglieder definiert indirekt den Schutzgrad aller anderen Wesen.
-
-Das System wird mit einer beliebigen Mitgliederzahl arbeiten,
-kann zunächst also beispielsweise auf kommunaler oder nationaler Ebene angewendet werden.
-Es wird im Wohle seiner Mitglieder arbeiten und kann jederzeit auf weitere Wesen ausgedehnt werden.
-
-Darüberhinaus ist es wichtig zu berücksichtigen,
-dass der Sinn unserer Existenz dabei mit Religion und Natürlichkeit aufrecht erhalten werden muss,
-wie die Folgenden Abschnitte darlegen.
-
-### Religion
-
-Religion (nicht unbedingt im klassischen Sinne) ist wichtig für hochintelligente Wesen, auch wenn es keine Götter gibt,
-um mit der Tatsache, dass eigentlich alles egal ist, umgehen zu können.
-Sie füllt sozusagen die Wissenslücke zur Existenzbegründung des Universums.
-
-### Genetik
-
-Eingriffe in die Genetik des Menschen lassen uns vom Evolutionsgedanken entgleisen, auf dem das System aber fundiert ist.

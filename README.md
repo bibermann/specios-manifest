@@ -2,7 +2,7 @@
 
 Das [**Manifest des Specios**](https://specios.github.io/specios-manifest/) 
 wird Ihnen eine Einführung in *Specios, la specio sistemo* geben,
-welches die Grundlage eines neuen Gesellschaftskonzeptes darstellt.
+welches die Grundlage eines neuen Gesellschaftssystems darstellt.
 
 Wir wollen modernste Informations-Technologie fernab der Industrie einsetzen, um ein einfaches Ziel zu erreichen:
 Verbesserung des Wohles eines jeden Wesens.
@@ -18,11 +18,11 @@ Das dafür angelegte GitHub-Repository ermöglicht es einer größeren Gruppe, i
 
 ## Zusammenfassung
 
-Unser Gesellschaftsmodell braucht zwingend einen Paradigmen-Wechsel.
+Unsere Gesellschaftsmodelle brauchen zwingend einen Paradigmen-Wechsel.
 Ein schönes aktuelles Beispiel für dessen Notwendigkeit ist - der von vielen Menschen nicht erwartete -
 geringe Einfluss der _Fridays for Future_-Bewegung.
 Uns wird erneut vorgeführt, dass die Verantwortung nicht auf die einzelne Person abgewälzt werden kann
-(siehe auch [Situation » Gesetze](https://specios.github.io/specios-manifest/sec-situation.html#sec-situation-laws)).
+(siehe auch [Situation » Gesetze](https://specios.github.io/specios-manifest/sec-situation-laws)).
 Eine noch wichtigere Wiedererkenntnis ist es zu sehen, wie machtlos die Politik ist.
 Nicht sie, sondern Konzerne entscheiden - denn sie haben die größte Marktmacht.
 Ich frage nach Eiern und bekomme Maschinen, die Küken zerhacken.
@@ -43,7 +43,7 @@ Dieses Manuskript wird den genannten Wandel erklären.
 Da viele Probleme des Kapitalismus schon länger bekannt sind, wird auch untersucht,
 warum sich alternative Systeme wie der Kommunismus bisher nicht etablieren konnten.
 Schließlich wird eine mögliche Lösung präsentiert: das Specios.
-Mit ihm wird ein grundlegend neues Gesellschaftskonzept vorgelegt und erläutert, 
+Mit ihm wird ein grundlegend neues Gesellschaftssystem vorgelegt und erläutert, 
 wie es in wenigen Jahren alle derzeitigen politischen und Rechtssysteme erfolgreich unterwandern 
 und ein nachhaltig wohlständiges Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
 

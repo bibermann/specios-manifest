@@ -1,0 +1,6 @@
+# (PART\*) Anforderungs-Synthese {-}
+
+# Anforderungs-Synthese {-#chap-consequences}
+
+In diesem Abschnitt werden die Konsequenzen aus der in Kapitel \@ref(sec-situation-analysis) dargelegten Situations-Analyse gezogen,
+welche die notwendigen Anforderungen an die Gesellschaftsrevolution definieren.

@@ -1,8 +1,6 @@
-# (PART\*) Konzept {-}
+# Specios, la specio sistemo {#sec-foundation-specios}
 
-# Konzept {-#chap-concept}
-
-Dieses Kapital wird eine Lösung skizzieren, welche die in Kapitel \@ref(sec-consequences) dargelegten Anforderungen erfüllt.
+Dieses Kapital wird eine Lösung skizzieren, welche die in Kapitel \@ref(sec-consequences-synthesis) dargelegten Anforderungen erfüllt.
 
 Ich nenne das System \index{Specios}*Specios, la specio sistemo*.
 ^["Specios, la specio sistemo" (\index{Esperanto}epo.) bedeutet "Specios, das Arten-System",

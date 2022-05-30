@@ -1,8 +1,6 @@
-# (PART\*) Einführung {-}
+# (PART\*) Situation unserer Gesellschaft {-}
 
-# Einführung {-#chap-introduction}
-
-Dieses Kapitel wird den Hintergrund und die Notwendigkeit von einem grundlegend neuen Gesellschaftssystem verdeutlichen.
+# Situation unserer Gesellschaft {-#chap-situation}
 
 Verschiedenste Probleme sind allgemein bekannt^[
 Speziell zu den klimatologischen gibt es den seit August 2021 erschienen sechsten Sachstandsbericht des Weltklimarats IPCC.
@@ -18,8 +16,5 @@ Pelz-Beschaffung, überflüssige Tierversuche, Missbrauch für Unterhaltungszwec
 - niedere Arbeiten
 - Überbevölkerung
 
-Ein großer Fehler bei den meisten bisherigen Versuchen einer entsprechenden Problemlösungsstrategie
-oder zunächst einmal einer Ursachensanalyse innerhalb der Gesellschaftsordnung war der,
-nicht naturwissenschaftlich an die Probleme heranzugehen; geblendet von Religionen und klassischen Ideologien.
-Es fängt bei der Argumentation an, was denn das Ziel für die Gesellschaft und den einzelnen Menschen darstellen soll,
-welche nur auf Grundlage willkürlicher Moralvorstellungen oder überhaupt nicht geführt wurde.
+Dieser Abschnitt wird die derzeitige Gesellschaftssituation verdeutlichen, warum wir hier gelandet sind,
+warum es scheinbar ganz gut funktioniert, warum bisherige Änderungsversuche scheiterten und warum das auf keinen Fall so bleiben darf.

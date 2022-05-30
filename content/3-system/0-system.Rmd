@@ -1,6 +1,0 @@
-# (PART\*) System-Architektur {-}
-
-# System-Architektur {-#chap-architecture}
-
-In den folgenden Kapiteln wird die praktische Umsetzung des zuletzt beschriebenen [Konzeptes](#chap-concept) von Specios betrachtet;
-die Implementierung eines \index{Supera Specios}Supera Specios.

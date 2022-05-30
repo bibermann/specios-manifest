@@ -1,0 +1,10 @@
+# (PART\*) Technische Details (veraltet) {-}
+
+# Technische Details (veraltet) {-#chap-architecture}
+
+::: {.rmdwarning}
+Warnung: Das gesamte Kapitel ist veraltet und reflektiert nicht den derzeiten Stand der Technik.
+:::
+
+In den folgenden Kapiteln wird die praktische Umsetzung des in den vorherigen Kapiteln beschriebenen Konzeptes von Specios betrachtet;
+die Implementierung eines \index{Supera Specios}Supera Specios.

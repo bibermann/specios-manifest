@@ -1,0 +1,36 @@
+# Arbeit {#sec-situation-work}
+
+Ich führe nun den letzten Gedanken des letzten Abschnittes fort.
+Man soll demnach nicht arbeiten müssen, um ein Mindestwohlstandslevel zu erhalten.
+Für Luxusgüter wäre dies dagegen denkbar.
+Die Frage, die sich dabei auftut, ist die folgende: Wie soll die Welt funktionieren, wenn niemand arbeitet?
+Ein Punkt wurde bereits erwähnt und ist erheblich:
+Fortschritt und damit auch Automatisierung wird durch Patente oder sinnlose (es gibt auch sinnvolle)
+Parallel- oder Neuentwicklungen derselben oder bereits existierender Technologien bzw. Produkte erschwert.
+Oft sind Maschinen in unserem Wirtschaftssystem auch einfach nur unwirtschaftlich; eine Eigenschaft,
+welche in einem nicht-monetären System gänzlich anders definiert wäre.
+Die Grenzen wären nicht das Kapital und die eigenen Kompetenzen, sondern lediglich die tatsächlich vorhanden Ressourcen,
+und das Ziel wäre nicht die lokale Maximierung von Profit unter Anwendung diverser Tricks und Manipulationen auf Kosten des Gesamtwohles,
+sondern die direkte und tatsächliche Maximierung des Gesamtwohles.
+
+Ein weiterer Punkt ist die falsche Annahme, dass wir nur für Geld arbeiten.
+Tatsächlich gibt es genügend andere Motive.
+Dies beweist beispielsweise die Tatsache, dass sich sogar jetzt schon etwa 10--40\% der Konsumenten
+meist ohne direkte materielle Gegenleistungen an (Weiter-)Entwicklungen, Modifikationen und Verbesserungen von Produkten beteiligen.
+[@piller_oi_2006, S. 11]
+Folgende Beweggründe sind dafür verantwortlich. [@piller_oi_2006, SS. 11--13]
+
+- Extrinsische Motive (Selbstnutzungserwartung).
+- Intrinsische Motive (Befriedigung des Spieltriebes (Spaß, Kreativität) und des Forschungsdranges,
+verbunden mit dem Erreichen eines Flow-Zustandes (Fesselung von der Arbeit), sofern eine erfüllbare Herausforderung erkannt wird;
+eine direkte Leistungsrückkopplung steigert den Effekt).
+- Soziale Motive (Anerkennung der eigenen Arbeit
+(von anderen Menschen, insbesondere von Mitarbeitern oder einer entsprechenden Gemeinschaft)
+und gegenseitige Unterstützung).
+
+Das Potenzial wird auch anhand einer Studie deutlich [@hippel_2010], nach der sich 6,2\% der britischen Verbraucher
+an Innovationsprozessen beteiligten^[Beobachtet wurde ein Zeitraum von drei Jahren.],
+d.&nbsp;h. entweder eigene Produkte geschaffen oder bestehende angepasst haben.
+Die jährlichen Aufwendungen der Verbraucher entsprachen dabei dem 2,3-fachen der Forschungs- und Entwicklungskosten
+aller britischen Unternehmen für Verbrauchsgüter.
+<!-- (vgl. auch die Entwicklung von *Closed Innovation* zu *Open Innovation*) -->

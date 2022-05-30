@@ -42,7 +42,7 @@ caption <- paste(
   sep = " ")
 ```
 ```{r choices, echo=FALSE, out.width="75%", fig.alt="Wahlsystem (Übersicht)", fig.cap=caption}
-knitr::include_graphics("content/3-system/speciosgraph2_small.png")
+knitr::include_graphics("content/system/speciosgraph2_small.png")
 ```
 
 Mit Hilfe des Wahlsystemes entscheidet jedes Mitglied über grundlegende Dinge und Daten bzw. definiert sie,

@@ -1,18 +1,4 @@
-# Konsequenzen {#sec-consequences}
-
-In diesem Abschnitt werden die Konsequenzen aus der in Kapitel \@ref(sec-situation) dargelegten Situations-Analyse gezogen,
-welche die notwendigen Anforderungen an die Gesellschaftsrevolution definieren.
-
-## Anforderungen {#sec-consequences-requirements}
-
-Folgende Anforderungen müssen erfüllt werden, um einen erfolgreichen Wandel herbeizuführen:
-
-- Massive Verhaltensänderungen oder massive Proteste gegen gegenwärtige Ideologien müssen organisiert und konsistent ablaufen.
-- Es muss viel bessere Aufklärungsarbeit geleistet werden -- flächendeckend, logisch und einfach nachvollziehbar.
-- Die Regeln müssen jederzeit von jedem nachvollziehbar sein und in Frage gestellt werden können.
-- kein Mensch oder anderes Lebewesen darf im Mittel mehr Einfluss haben als die anderen.
-
-## Synthese {#sec-consequences-synthesis}
+# Ideologie {#sec-consequences-synthesis}
 
 Aus den Anforderungen ergibt sich folgende notwendige Ideologie:
 

@@ -1,0 +1,10 @@
+# (PART\*) Regelwerk des Specios {-}
+
+# Regelwerk des Specios {-#chap-rulebook}
+
+Das Regelwerk des Specios formuliert die Grundgesetze und legt den Umgang mit anderen Systemen und Lebewesen fest.
+Aufbauend darauf können dann spezielle, auf die jeweilige Umgebung angepasste,
+sogenannte \index{Supera Specios}Supera Specios erstellt werden,
+die eine realistische politische und gesetzliche Umgebung schaffen,
+sich aber vollständig, also kompromisslos, an das Regelwerk halten müssen.
+Die Schaffung eines Supera Specios wird im Teil [System-Architektur](#chap-architecture) beschrieben.

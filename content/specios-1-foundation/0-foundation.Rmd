@@ -1,0 +1,10 @@
+# (PART\*) Grundlagen des Specios {-}
+
+# Grundlagen des Specios {-#chap-foundation}
+
+Das Projekt ist weder speziell für den Menschen konzipiert, stellt ihn also auch nicht unbegründet in den Mittelpunkt,
+noch ist es explizit für den Planeten Erde entwickelt.
+
+Ein System, welches für alle Wesen funktioniert (ohne sie spezifizieren zu müssen)
+ist viel besser als eines, welches auf den Menschen geeicht ist.
+Je weniger Ausnahmen oder Sonderfälle es gibt (die man alle begründen müsste), desto kleiner ist der Angriffsvektor auf die Ideologie.

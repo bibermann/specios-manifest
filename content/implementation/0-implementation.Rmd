@@ -1,0 +1,3 @@
+# (PART\*) Das neue Gesellschaftssystem {-}
+
+# Das neue Gesellschaftssystem {-#chap-implementation}
