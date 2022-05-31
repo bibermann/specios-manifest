@@ -68,7 +68,7 @@ caption, p.caption,
     color: gray;
 }
 
-main a[href*='#sec-'] {
+main a[href*='#sec-']:not(.anchor) {
     font-family: var(--font-family-monospace);
     font-size: smaller;
 }
@@ -79,6 +79,17 @@ main a[href*='#sec-'] {
 
 .anchor {
     vertical-align: middle;
+    display: inline;
+    visibility: hidden;
+    font-size: inherit;
+    position: absolute;
+    z-index: 1;
+}
+.anchor i {
+    font-size: calc(0.8 * var(--base-font-size));
+}
+h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
+    visibility: visible;
 }
 
 .popover {
