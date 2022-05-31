@@ -1,0 +1,89 @@
+# Datenmodell {#sec-implementation-data-model}
+
+Es wird unterschieden zwischen Eingabedaten und Modelldaten.
+
+## Eingabedaten
+
+Jede Eingabedaten-Einheit besitzt Metadaten wie eine eindeutige ID, den Autor, einen Zeitstempel
+sowie kryptografische Daten um die Authentizität sicherzustellen.
+
+Darüberhinaus besitzen sie typenspezifische Details:
+Eine Objekt-ID, die die zu beschreibende Sache referenzierbar macht,
+den Objekt-Typen, der den Typen der Sache festlegt
+und natürlich die eigentlich Nutzdaten selbst.
+
+Derzeit wird zwischen den folgenden Typen unterschieden:
+
+member
+: Repräsentiert ein Gesellschaftsmitglied.
+
+program
+: Definiert ein Programm, welches an vielen anderen Stellen verwendet werden kann.
+    Mithilfe von Programmen können beliebige Berechnungen ausgeführt werden,
+    die z.B. in Simulationen verwendet werden.
+
+effect
+: Definiert einen Effekt, der eine mögliche Auswirkung einer Sache definiert.
+
+effect_group
+: Eine Gruppe von Effekten sind solche, die sich gegenseitig ausschließen,
+    z.B. weil sie in verschiedenen Abstraktionsschichten definiert sind.
+
+action
+: Definiert eine mögliche Aktion, die in Simulationen angewendet werden kann.
+    Eine Aktion kann als Vorschlag für eine potenzielle Verbesserung gesehen werden.
+
+entity
+: Repräsentiert eine beliebige andere Sache, eine Entität.
+    Z.B. ein abstraktes Konzept oder ein Objekt in der realen Welt.
+    Kann einen beliebigen Inhalt besitzen.
+    Z.B. eine Zahl, die auch stochastisch angegeben werden kann.
+    Oder eine Berechnung, die unter Verwendung eines beliebigen Programmes
+    Zusammenhänge zwischen Entitäten und/oder ihren Attributen definiert.
+
+relation
+: Definiert die Zugehörigkeit eines Effektes zu einer Effekt-Gruppe,
+    macht eine Entität zu einem Teil einer anderen Entität
+    oder definiert eine Entität als Realisierung eines Konzeptes.
+    Ein Teil einer Entität, welches zugleich die Realisierung eines Konzeptes
+    darstellt, kann als Attribut betrachtet werden -
+    z.B. kann eine Ortsangabe das Konzept Ort erfüllen und Teil einer Entität sein,
+    die eine reale Sache beschreibt, z.B. ein bestimmtes Windkraftwerk.
+
+annotation
+: Ein Objekt beschreiben oder kommentieren.
+
+revoke
+: Ein selbst erstelltes Objekt revidieren.
+
+questioning
+: Ein nicht selbst erstelltes Objekt infrage stellen.
+
+confidence
+: Die Vertrauenswürdigkeit eines Objektes bewerten.
+
+## Modelldaten
+
+Aus den Eingabedaten werden Modelldaten errechnet,
+die jederzeit zu den Eingabedaten zurückverfolgt werden können.
+
+In den Modelldaten werden bereits angegebene Vertrauenswürdigkeiten, Kompetenzen,
+Infragestellungen usw. ausgewertet um _saubere_ Daten zu generieren,
+die in Simulationen verwendet werden können.
+
+Die Modelldaten können durchaus miteinander in Konflikt stehen
+oder dieselben Dinge auf unterschiedliche Arten beschreiben.
+Sie könnten z.B. unterschiedliche Vertrauenswürdigkeiten besitzen
+oder unterschiedlich aufwändig zu berechnen sein (mehr oder weniger detailliert).
+
+## Simulation
+
+Wenn Modelldaten in Simulationen verwendet werden,
+werden neue Modelldaten erzeugt.
+
+Was simuliert wird und welche Daten verwendet werden,
+kann experimentell von KI-Systemen ermittelt werden,
+um in minimaler Zeit maximal genaue Vorhersagen zu treffen.
+
+Die Berechnungen werden redundant überall auf der Welt ausgeführt und miteinander verglichen,
+um die Systeme gegenseitig zu validieren und somit Fehler oder gezielte Manipulationen zu unterbinden.

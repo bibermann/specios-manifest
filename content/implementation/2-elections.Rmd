@@ -1,0 +1,102 @@
+# Der Wahlapparat {#sec-implementation-elections}
+
+Das Herz des Supera Specios ist das gemeinschaftlich verwaltete Informations- und Wahlsystem.
+Hiermit werden nicht nur die Wünsche des Volkes erfasst,
+sondern auch die Konsistenz und Nachhaltigkeit von Entscheidungen sichergestellt.
+
+Die Regeln der Gesellschaft werden demokratisch in einem sicheren, verteilten Computernetzwerk gesammelt.
+Ähnlich wie bei Crypto-Währungen wird die Sicherheit durch eine dezentrale Architektur gewährleistet.
+
+## Transparenz
+
+Jedes Mitglied kann jederzeit zu allen möglichen Themen Daten und Meinungen beisteuern.
+Entsprechende Tools sorgen für die Vernetzbarkeit der Daten.
+Außerdem ist der Ursprung aller Daten jederzeit validierbar;
+natürlich auch dann, wenn aus ihnen automatische Schlussfolgerungen gezogen werden.
+
+Es gibt öffentlich zugängliche Web-Apps, um die Daten im System zu pflegen.
+Dazu gehört nicht nur das Hinzufügen neuer Daten,
+sondern auch die Bewertung von potenziellen Schwachstellen, Inkonsistenzen oder zweifelhaften Fakten.
+KIs helfen dabei, wichtige zu prüfende Daten oder fehlenden Verknüpfungen zu identifizieren
+und eine Plattform zu präsentieren die auf das Know-How des jeweiligen Benutzers zugeschnitten ist.
+Es muss nicht erwähnt werden, das die gesamte Infrastruktur Open-Source sein wird
+und es keine Möglichkeit geben wird, die Plattform ungemerkt zur Manipulation von Meinungen zu missbrauchen.
+Ebenso wird es Mechanismen geben, die einem Tunnelblick entgegenwirken.
+
+## Unterschied zur direkten Demokratie
+
+Meinungen sind oft emotional geprägt oder werden wegen fehlender Fachkenntnis falsch bewertet.
+Damit das nicht zum Problem wird, gibt es mehrere Mechanismen.
+
+### Kompetenzgewichtung
+
+Zum einen sind alle Daten, auch abgeleitete Daten, mit den Personen verknüpft,
+von denen sie initial ausgingen bzw. die sie bewertet oder bestätigt haben.
+Somit können die Verursacher von falschen Informationen leicht zur Rechenschaft gezogen werden.
+
+Darüber hinaus gibt es Mechanismen, um die eigene Kompetenz in den jeweiligen Bereichen zu verifizieren.
+Das bedeutet, dass alle eigegebenen Daten gewichtet sind
+und man sich qualifizieren muss, um ein höheres Stimmgewicht zu erlangen.
+Sei es durch Arbeitsnachweise, abgeschlossene Seminare
+oder unter Umständen auch durch kulturelle oder lebenstechnische Besonderheiten.
+
+Zum Beispiel ist es wahrscheinlich,
+dass ein indogenes Volk vieles über die Heilwirkungen bestimmter Planzen beitragen kann,
+auch wenn im Einzelfall kein abgeschlossenes Studium nachgewiesen werden kann.
+
+Ebenso ist es wahrscheinlich, dass über die Tauglichkeit von Maßnahmen zur Barrierefreiheit
+direkt betroffene Person besser urteilen können.
+
+Die Beurteilung der Kompetenz hat also viele Facetten.
+
+### Fristen
+
+Ein weiterer Unterschied ist der, dass Abstimmungen keine Fristen besitzen.
+Daten können jederzeit geändert, erweitert oder zurückgenommen werden.
+Eine Abstimmung zu einem Thema ist also keine einmalige, zeitlich begrenzte Aktion,
+sondern ein Prozess, der niemals endet.
+
+Kontroll- und Erinnerungssysteme, bewertet von KIs, werden eingesetzt,
+um verwaiste oder veraltete Daten zu identifizieren.
+Dazu gehören z.B. auch Meinungen, die mehrheitlich 
+durch andere Daten in tieferen Abstaktionsschichten widerlegt wurden.
+
+## Daten-Verarbeitung
+
+Neben dem Wahlsystem ist das allgemeine Informationssystem von zentraler Bedeutung.
+
+### Abstraktionsschichten
+
+Die Begriffe _Daten_, _Meinungen_ und _Abstimmungen_ wurden bisher bunt gemischt verwendet.
+
+Tatsächlich ist es wichtig, Daten als ganz abstrakte Einheit zu betrachten.
+Eine _Abstimmung_ ist keine Präsentation einer Idee, die man nur mit Ja oder Nein beantworten kann
+und am Ende von einem Politiker ausgewertet wird.
+
+Jede Daten-Einheit steht mit anderen Daten in Zusammenhang.
+Auch Schlussfolgerungen oder Voraussetzungen von Daten können definiert werden.
+Dies kann in beliebigen Abstraktionsschichten passieren.
+
+Zum Beispiel kann man definieren, unter welchen Bedingungen ein bestimmter Baum wieviel Sauerstoff freigibt.
+Oder man definiert, wie viel Sauerstoff ganze Wälder in bestimmten Regionen freisetzen.
+Das sind Definitionen in unterschiedlichen Abstraktionsschichten 
+und unter Umständen kann die untere (Sauerstoff pro Baum) die obere (Sauerstoff pro Region) errechnen.
+
+Dies hängt nicht nur von den vorhandenen physikalischen Daten 
+und den definierten Zusammenhängen zwischen ihnen ab,
+sondern insbesondere auch von der notwendigen Rechenleistung und damit verbunden
+von der zur Verfügung stehenden Zeit in Relation zur Wichtigkeit der resultierenden Erkenntnis.
+Auch hier werden KI-Systeme versuchen, die richtige Balance zu finden,
+um den Fokus der Berechnungen zu lenken.
+
+Die oberste Abstraktionsschicht, zu der alle Daten zusammenlaufen und nach denen sie bewertet werden,
+ist sowohl der extrapolierte Wohlstandslevel der Lebewesen in ferner Zukunft
+als auch der minmale zwischenzeitliche Wohlstandslevel bestimmter Arten 
+oder gar einzelner Lebewesen.
+Specios will den Wohlstand nicht nur maximieren, er darf auch niemals unter ein gewisses Niveau fallen,
+auch nicht, wenn danach alles besser werden sollte.
+
+Die konkreten Grenzwerte werden wie die anderen Parameter des Systems auch,
+von den Mitgliedern beigetragen - es sind Daten wie alle anderen auch.
+
+Details zum Datenmodell werden in Kapitel \@ref(sec-implementation-data-model) erläutert.
