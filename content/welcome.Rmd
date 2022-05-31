@@ -1,10 +1,12 @@
 # Willkommen {-}
 
-Dieses Buch wird gemeinschaftlich entwickelt auf
-[GitHub.com](https://github.com/specios/specios-manifest/graphs/contributors).
+Dieses Buch wird
+[gemeinschaftlich](https://github.com/specios/specios-manifest/graphs/contributors)
+entwickelt auf
+[GitHub.com](https://github.com/specios/specios-manifest).
 Jeder ist eingeladen, an diesem Projekt mitzuwirken.
 
-Der Begründer des Specios sowie derzeitiger Maintainer des Repositories ist
+Der Begründer des Specios sowie derzeitiger Betreuer des Repositories ist
 [Fabian Sandoval Saldias](mailto:fabianvss@gmail.com?subject=Specios).
 Er ist Senior-Softwareentwickler, lebt in Berlin und hat sich dieses Projekt zu seiner Lebensaufgabe gemacht.
 

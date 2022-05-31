@@ -1,7 +1,7 @@
 # Arbeit {#sec-situation-work}
 
-Ich führe nun den letzten Gedanken des letzten Abschnittes fort.
-Man soll demnach nicht arbeiten müssen, um ein Mindestwohlstandslevel zu erhalten.
+Wie in Kapitel \@ref(sec-situation-capitalism-work) geschlussfolgert,
+soll man nicht arbeiten müssen, um ein Mindestwohlstandslevel zu erhalten.
 Für Luxusgüter wäre dies dagegen denkbar.
 Die Frage, die sich dabei auftut, ist die folgende: Wie soll die Welt funktionieren, wenn niemand arbeitet?
 Ein Punkt wurde bereits erwähnt und ist erheblich:

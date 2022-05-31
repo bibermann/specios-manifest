@@ -28,7 +28,7 @@ auf lange Sicht zu maximieren.
 
 Dazu werden mögliche Aktionskombinationen nicht willkürlich durchprobiert,
 sondern sie werden anhand der Zieldefinitionen und diverser Wahrscheinlichkeitsfaktoren errechnet und dynamisch verfeinert,
-so dass das System jederzeit mit der maximal denkbaren Fortschrittsgeschwindigkeit läuft.
+sodass das System jederzeit mit der maximal denkbaren Fortschrittsgeschwindigkeit läuft.
 Um wegen chaotischem Verhalten von Aktionen oder Fehlern nicht fehlgeleitet zu werden,
 werden suboptimale Lösungswege sowie zufällig gewählte parallel analysiert, je nach Priorität der Kernanalyseaufgaben.
 
@@ -42,11 +42,11 @@ Viele Daten besitzen zusätzlich Orts-, Zeit-/Gültigkeits- und Genauigkeits-Ang
 Warnung: Es folgen nicht überarbeitete Notizen.
 :::
 
-ich glaube die implementierung von specios würde einer ki wie wir sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
-z.&nbsp;B. muss es informationen verallgemeinern können (aus effizienzgründen),
-abschätzen welchen fehler informationen haben und ggf. spezialisieren/neu berechnen.
-dafür muss es aber hoffentlich nicht unbedingt informationen in zusammenhang setzen oder neue informationen ableiten,
-das ist ja mehr oder weniger der demokratische akt: meinungen sammeln, zusammenhänge aufbauen, gesetze formulieren.
-das system zeigt quasi nur auf abstrakter weise auf was sache ist und was getan werden muss.
-und es muss aktivitäten simulieren, was auswirkungen auf sämtliche daten hat und erkenntnisse zulässt.
-das hauptproblem neben der spezifikation ist vermutlich der denkvorgang mit dem beschränkten arbeitsspeicher.
+Ich glaube die implementierung von specios würde einer ki wie wir sie bisher halbwegs geplant haben ziemlich nahe kommen müssen:
+z.&nbsp;B. muss es informationen verallgemeinern können (aus Effizienzgründen),
+abschätzen welchen Fehler Informationen haben und ggf. spezialisieren/neu berechnen.
+dafür muss es aber hoffentlich nicht unbedingt Informationen in Zusammenhang setzen oder neue Informationen ableiten,
+das ist ja mehr oder weniger der demokratische Akt: Meinungen sammeln, Zusammenhänge aufbauen, Gesetze formulieren.
+Das System zeigt quasi nur auf abstrakter Weise auf, was Sache ist und was getan werden muss.
+und es muss Aktivitäten simulieren, was Auswirkungen auf sämtliche Daten hat und Erkenntnisse zulässt.
+Das Hauptproblem neben der Spezifikation ist vermutlich der Denkvorgang mit dem beschränkten Arbeitsspeicher.

@@ -13,7 +13,7 @@ Es ist also ein (wenn man so will im wahrsten Sinne des Wortes diktatorisches) C
 dessen "Gehirn" von der Menschheit demokratisch aufgebaut wird und dadurch nicht selbst korrupt werden kann.
 Sämtliche abstrahierten/finalen Entscheidungen sind demnach architektonisch bedingt von der Bevölkerung gedeckt
 und können jederzeit durch Argumentationsarbeit (Erweiterung/Korrektur des Wissens des Systemes) angepasst werden.
-Zu den Anpassungen zählen nicht nur einfache Daten sondern auch Formeln, welche Zusammenhänge definieren.
+Zu den Anpassungen zählen nicht nur einfache Daten, sondern auch Formeln, welche Zusammenhänge definieren.
 
 Um nicht am Konservatismus zu scheitern muss eine möglichst vollständige Zielvorstellung vorgelegt werden.
 Dies kann am effektivsten mit dem Aufbau eines virtuellen \index{Parallelsystem}Parallelsystemes erfüllt werden,

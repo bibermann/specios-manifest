@@ -1,39 +1,21 @@
 # Vorwort {-#chap-prologue}
 
-Wir wissen im Grunde alle, wie schlecht wir unseren Heimatplaneten behandeln.
-Wir nehmen bei unseren Aktionen kaum Rücksicht auf Langzeitfolgen, eher streben wir nach greifbarem Glück.
-In der Folge werden wertvolle Ressourcen ausgebeutet, die Flora und Fauna wird ausgerottet
-und unsere Lebensbedingungen pendeln sich in Extrema ein.
-Der Mensch kann mit dieser riesen Verantwortung, welche durch sein immenses Handlungspotenzial einhergeht, nicht wirklich umgehen.
+Ja, das Ziel ist weit gesetzt und es ist kaum zu glauben,
+dass die Lösung so greifbar nahe liegen kann.
 
-Die restlichen Lebewesen bekommen das alles einigermaßen hin,
-da sie im Gegensatz zu uns in ihren Handlungsmöglichkeiten ziemlich beschränkt sind
-und die Umwelt genügend Zeit hat, auf Änderungen zu reagieren.
-Die Wesen passen sich durch evolutionäre Entwicklungen gegenseitig aneinander an.
-Die Macht der Intelligenz wird mit einem ausgeklügelten System aus Reflexen, Instinkten und schließlich Emotionen im Zaum gehalten.
-Ein Beispiel ist die Empathie unseren Mitmenschen gegenüber, was unterbewusst dafür sorgt,
-dass wir uns nicht gegenseitig auffressen oder Ähnliches.
-Je intelligenter und weitreichender Entscheidungen getroffen werden können,
-also je stärker diese "eingebauten" Regeln umgangen werden können,
-desto wichtiger werden externe Regeln, um das natürliche Gleichgewicht nicht zu stören.
+Andererseits wissen wir nicht erst seit dem
+ab August 2021 erschienen sechsten Sachstandsbericht des Weltklimarats IPCC,
+dass es eigentlich schon viel zu spät ist und ein Wunder geschehen muss.
+Viele Lebewesen sind schon ausgestorben und wir müssen alles darauf setzen,
+nicht noch mehr Ökosysteme zu zerstören, da das am Ende auch uns zerstören wird.
 
-Die Gesellschaft definiert solche Regeln in verschiedenen Ebenen.
-Von durch kulturellen Einflüssen in nächster Umgebung mitgegebenen moralischen Werten (wie Güte, Respekt, Toleranz usw.),
-welche meist auf den biologischen aufsetzen,
-bis hin zu weniger transparenten Regeln in der Gesetzgebung, welche komplexere Zusammenhänge berücksichtigen.
-Offensichtlich ist es aber ziemlich schwer, die tatsächlichen und relevanten Zusammenhänge zu erkennen
-und auch gehen die Meinungen diesbezüglich weit auseinander.
-Diesen Umstand möchte ich mit Hilfe moderner Informationsverarbeitung verbessern.
-Die Technik wird uns erlauben, gemeinsam optimale Regeln zu erstellen, welche den ursprünglichen Sinn derselben für uns extrapoliert:
-Die zerstörungsfreie Symbiose zwischen Mensch und Natur.
-Aber nicht nur gute Regeln sollen gefunden werden.
-Mindestens genauso wichtig ist eine Infrastruktur, die die Anwendung der Regeln begünstigt und sicherstellt.
+Es muss daher unsere Pflicht sein, potenzielle Lösungen zumindest auszuprobieren,
+wenn wir ihre Umsetzbarkeit nicht widerlegen können.
 
-Dies alles soll in der vorliegenden Arbeit besprochen werden.
-Für interessierte Leser sei angemerkt, dass sie relativ prosaisch gehalten ist.
 Gesellschaftssysteme sind komplex und viel diskutiert
 und bis heute ist es uns nicht gelungen, ein nachhaltig funktionierendes System zu entwickeln.
-Daher versuche ich so sachlich wie möglich zu bleiben, so dass Diskussionspunkte wohldefiniert sind
+Daher versuchen wir so sachlich wie möglich zu bleiben, 
+sodass Diskussionspunkte wohldefiniert sind
 und Kritik oder Verbesserungsvorschläge systematisch untersucht werden können.
 
 Ich wünsche allen Lesern eine aufregende Zukunftsvorfreude.

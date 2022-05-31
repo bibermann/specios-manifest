@@ -9,7 +9,7 @@ Moral soll hier keine Rolle spielen, da sie kulturabhängig und meist auf religi
 Zunächst muss man feststellen, dass es keinen \index{Gott}göttlichen Grund für die Existenz von Lebewesen gibt
 und auch kein höheres Ziel, wie z.&nbsp;B. das Leben selbst oder den Wohlstand im engeren Sinne.
 Man muss verstehen, dass wir lediglich die zufällige Folge einer physikalischen Kettenreaktion sind.
-Angefangen beim Urknall, der zwar noch ein Rätsel darstellt aber hier irrelevant ist,
+Angefangen beim Urknall, der zwar noch ein Rätsel darstellt, aber hier irrelevant ist,
 ^[Ob unsere Physik mit dem Urknall geschaffen wurde oder bereits vorher bestand ändert nichts an der Allgegenwärtigkeit
 derselben. Recherchieren Sie dazu auch das Thema [Paralleluniversum](https://de.wikipedia.org/wiki/Paralleluniversum).]
 über die Formung unseres Planeten, bis hin zur Evolution des Menschen.
@@ -23,7 +23,7 @@ und beispielsweise durch eine Turing-Maschine reproduziert werden könnte.
 Beziehungsweise präziser ausgedrückt: Es spricht bisher absolut nichts dagegen, denn alle jemals beobachteten
 oder aus der Vergangenheit rekonstruierten Ereignisse passen zusammen, ohne dass eine unbekannte Macht einmal hätte eingreifen müssen.
 
-Da jedoch eine gewisse Unsicherheit vorliegt, vor Allem bei der Modellierung von Quanteneffekten und biologischen Prozessen,
+Da jedoch eine gewisse Unsicherheit vorliegt, vor allem bei der Modellierung von Quanteneffekten und biologischen Prozessen,
 dürfen wir uns nicht anmaßen, dort grob fahrlässig eingreifen zu dürfen.
 
 ## Zielbestimmung
@@ -36,7 +36,7 @@ Aufgrund der erwähnten Unsicherheit müssen wir aber vorsichtig sein,
 also gehen wir von der grundlegensten sicheren Beobachtung aus, die wir machen können.
 
 Durch das Studium der Entwicklung aller lebenden Wesen können wir relativ sicher eine Gemeinsamkeit feststellen,
-welche man zum Ziel bzw. Recht erheben kann: Die Fortpflanzung seiner selbst bzw. den Erhalt seiner Spezies.
+welche man zum Ziel bzw. Recht erheben kann: die Fortpflanzung seiner selbst bzw. den Erhalt seiner Spezies.
 Welches von beiden das jeweils andere impliziert, spielt dabei keine Rolle.
 Mit dieser Grundlage kann man alle sozialen Strukturen erklären (nicht nur menschliche).
 Der Umgang mit anderen Wesen und der Umwelt, insbesondere seiner Nachkommen, erfolgt hierbei zweckdienlich.
@@ -59,8 +59,8 @@ die sich an die festgelegten Regeln halten,
 von aktiver Schädigung befreien und allgemein gegen die Herstellung maximaler Zufriedenheit streben.
 Je nach genetischer Verwandtheit werden die Rechte auf andere Lebensformen entsprechend übertragen,
 d.&nbsp;h. insbesondere, dass auch Tiere ein Recht auf Wohlstand haben.
-Ob es erlaubt sein wird, sie zu töten um sie zu verspeisen, hängt von vielen Wichtungsfaktoren ab, welche, wie alles andere auch,
-mit Hilfe eines kompetenzgewichtet-demokratischen Wahlsystemes festgelegt werden.
+Ob es erlaubt sein wird sie zu töten, um sie zu verspeisen, hängt von vielen Wichtungsfaktoren ab, welche, wie alles andere auch,
+mithilfe eines kompetenzgewichtet-demokratischen Wahlsystemes festgelegt werden.
 Dabei werden von den Mitgliedern möglichst elementare Entscheidungen getroffen
 und nach oben zu allgemeineren Schlussfolgerungen synthetisiert.
 Entscheidungen können auf allen Abstraktions-Ebenen getroffen werden, aber je tiefer sie ansetzt, desto höher ist ihr Gewicht.

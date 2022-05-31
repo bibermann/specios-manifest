@@ -1,21 +1,69 @@
 # Gesetze {#sec-situation-laws}
 
+Wir wissen im Grunde alle, wie schlecht wir unseren Heimatplaneten behandeln.
+Wir nehmen bei unseren Aktionen kaum Rücksicht auf Langzeitfolgen, eher streben wir nach greifbarem Glück.
+In der Folge werden wertvolle Ressourcen ausgebeutet, die Flora und Fauna wird ausgerottet
+und unsere Lebensbedingungen pendeln sich in Extrema ein.
+Der Mensch kann mit dieser riesen Verantwortung, welche durch sein immenses Handlungspotenzial einhergeht, 
+nicht wirklich umgehen.
+
+Andere Lebewesen haben mit diesen Problemen nicht zu kämpfen,
+da sie im Gegensatz zu uns in ihren Handlungsmöglichkeiten relativ beschränkt sind
+und die Umwelt genügend Zeit hat, auf Änderungen zu reagieren.
+Die Wesen passen sich durch evolutionäre Entwicklungen gegenseitig aneinander an.
+
+## Vom Egoismus zum Altruismus
+
 Jedes Lebewesen ist im Kern egoistisch, das ist biologisch überlebensnotwendig.
 Allerdings muss es mit der Umwelt auf gewisse Weise kooperieren, wenn es überleben will.
-^[*Überleben* als obersten Willen darzulegen ist nicht ganz korrekt, genügt aber hier. Das tatsächliche Lebensziel wird in Abschnitt \@ref(sec-foundation-life) behandelt.]
+^[*Überleben* als obersten Willen darzulegen ist nicht ganz korrekt, genügt aber hier. 
+Das tatsächliche Lebensziel wird in Abschnitt \@ref(sec-foundation-life) behandelt.]
 Folglich muss sich ein Organismus einschränken und kontrollieren, um mit anderen erfolgreich zu interagieren.
-Diese symbiotischen Beziehungen werden komplexer, je wirkungsvoller und weitreichender (auch zeitlich) sie ausgelegt sind
+
+Diese symbiotischen Beziehungen werden komplexer,
+je wirkungsvoller und weitreichender (auch zeitlich) sie ausgelegt sind
 und können von einem Organismus ohne weiteres nicht vollständig überschaut werden.
-Daher sind (global) einzuhaltende Regeln erforderlich, um letzlich das eigene Wohl sicherzustellen.
-Aus diesem Grund haben sich auch Grundbedürfnisse und Instinkte ausgebildet und sind wir Rudeltiere geworden:
+
+Die Macht der Intelligenz bzw. des freien Willesn wird daher mit einem ausgeklügelten System
+aus Reflexen, Instinkten, Grundbedürfnisse und schließlich Emotionen im Zaum gehalten.
+Die Empathie unseren Mitmenschen gegenüber verhindert beispielsweise,
+dass wir uns gegenseitig auffressen.
+
+Wir sind also Rudeltiere geworden:
 Unsere Vorfahren haben sich in Gruppen überschauberer Größe organisiert.
 Evolutionstechnisch ist es daher auch nicht abwegig, Fremde zunächst als Feinde zu betrachten.
 Folglich wirkt Altruismus höchstens in einem Familien-Clan.
 
-Die durch unsere Gesetze und Verhaltensweisen derzeit eher destruktive Beeinflussung der Welt liegt darin begründet,
-dass wir unsere vererbten Verhaltensweisen dank komplexer Lernfunktionalitäten in immer kürzerer Zeit umgehen können.
+Je intelligenter und weitreichender Entscheidungen getroffen werden können,
+also je stärker diese "eingebauten" Regeln umgangen werden können,
+desto wichtiger werden externe Regeln, um das natürliche Gleichgewicht nicht zu stören
+und letzlich das eigene Wohl sicherzustellen.
+
+Die Gesellschaft definiert solche Regeln in verschiedenen Ebenen.
+Von durch kulturellen Einflüssen in nächster Umgebung mitgegebenen moralischen Werten
+(wie Güte, Respekt, Toleranz usw.), welche meist auf den biologischen aufsetzen,
+bis hin zu weniger transparenten Regeln in der Gesetzgebung,
+welche komplexere Zusammenhänge berücksichtigen.
+Offensichtlich ist es aber ziemlich schwer, die tatsächlichen und relevanten Zusammenhänge zu erkennen
+und auch gehen die Meinungen diesbezüglich weit auseinander.
+
+## Geschwindigkeit der Intelligenz
+
+Die durch unsere Gesetze und Verhaltensweisen derzeit eher destruktive Beeinflussung der Welt 
+liegt darin begründet, dass wir unsere vererbten Verhaltensweisen 
+dank komplexer Lernfunktionalitäten in immer kürzerer Zeit umgehen können.
 Das unausweichlich eingeschränkte Gesamtbild, Ignoranz bzw. Egoismus und damit Machtgier
 sind hierbei grundlegende Faktoren für die Fehlentwicklung.
-Bisher konnte sich die Natur bei solchen extremen Abweichungen durch genetische Anpassungen immer selbstständig die Waage halten.
-Seit der Mensch aber so "vehement viel denkt", laufen die Veränderungen viel zu schnell und in einem zu großem Maßstab ab,
-wobei er die Auswirkungen selbst erst jetzt zu überblicken vermag.
+Bisher konnte sich die Natur bei solchen extremen Abweichungen durch genetische Anpassungen 
+immer selbstständig die Waage halten.
+Seit der Mensch aber so "vehement viel denkt", laufen die Veränderungen viel zu schnell 
+und in einem zu großem Maßstab ab, wobei er die Auswirkungen selbst erst jetzt zu überblicken vermag.
+
+## Bessere Regeln
+
+Die fehlende Weitsicht können wir mithilfe moderner Informationsverarbeitung verbessern.
+Die Technik wird uns erlauben, gemeinsam optimale Regeln zu erstellen, 
+welche den ursprünglichen Sinn derselben für uns extrapoliert:
+die zerstörungsfreie Symbiose zwischen Mensch und Natur.
+Aber nicht nur gute Regeln sollen gefunden werden.
+Mindestens genauso wichtig ist eine Infrastruktur, die die Anwendung der Regeln begünstigt und sicherstellt.
