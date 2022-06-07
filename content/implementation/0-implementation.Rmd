@@ -2,8 +2,8 @@
 
 # Das neue Gesellschaftssystem {-#chap-implementation}
 
-Bevor wir mit der detaillierten Situations-Analyse 
-und der Erarbeitung des Konzeptes von Specios beginnen,
+Bevor wir mit der detaillierten Situations-Analyse beginnen
+und darauf aufbauend das Konzept von Specios erarbeiten,
 wird in den folgenden Kapiteln ein konkreter Umsetzungsvorschlag vorweggenommen.
 
 Bei unklaren Annahmen dürfen Sie also gerne in die späteren Kapitel hineinschnuppern.

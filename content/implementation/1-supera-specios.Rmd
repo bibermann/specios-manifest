@@ -16,7 +16,7 @@ Wie ein solches Supera Specios aussehen könnte, werden wir nun skizzieren.
 ## Grundlegende Ideen des Specios
 
 Wie auf den ersten Seiten bereits beschrieben,
-wird die Gesellschaft mit Specios komplett neu gedacht,
+wird die Gesellschaft mit Specios komplett neu gedacht -
 frei von unbegründeten Altlasten.
 
 Das Wertesystem und die Regeln werden aus wenigen gut begründeten Grundannahmen hergeleitet.
@@ -32,5 +32,5 @@ sowie der genetischen bzw. biologischen Verwandtschaft zu den Gesellschaftsmitgl
 ## Realisierung
 
 Die Verwirklichung dieser Ideen in einem Supera Specios
-erfordert neben entsprechender Technologien zur Verwaltung
+erfordert neben entsprechenden Technologien zur Verwaltung
 auch Strategien, um sich im Kapitalismus zu behaupten.
