@@ -23,7 +23,7 @@ Die verschiedenen Prozesse werden im Folgenden näher beschrieben.
 Die KI führt Effizienz-Abschätzungen durch, wobei für mögliche Tätigkeiten und Betrachtungen
 jeweils die Wahrscheinlichkeit berechnet wird, wie zielführend eine nähere Untersuchung sein wird.
 Im Endeffekt wird fortwährend versucht die erwartete Wahrscheinlichkeit, Grundgesetze einzuhalten,
-und variable Systemparameter (wie der Wohlstand von Systemmitgliedern und anderen Lebewesen, siehe dazu Abschnitt \@ref(sec-foundation-life))
+und variable Systemparameter (wie das Wohlbefinden von Systemmitgliedern und anderen Lebewesen, siehe dazu Abschnitt \@ref(sec-foundation-life))
 auf lange Sicht zu maximieren.
 
 Dazu werden mögliche Aktionskombinationen nicht willkürlich durchprobiert,

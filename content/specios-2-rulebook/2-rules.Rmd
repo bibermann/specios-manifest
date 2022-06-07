@@ -4,16 +4,16 @@
 Warnung: Das nachfolgende Regelwerk stammt aus einer alten Konzeptbeschreibung, veranschaulicht aber gut die Idee hinter Specios.
 :::
 
-1\. Der Wohlstand exisitierender Lebewesen muss so gut wie möglich gewahrt werden,
+1\. Das Wohlbefinden exisitierender Lebewesen muss so gut wie möglich gewahrt werden,
 sodass eine relative Gleichberechtigung zwischen allen Wesen entsteht.
 
 1.1\. Dabei müssen Mitglieder eines Supera Specios, im folgenden Mitglieder genannt, dafür sorgen,
 dass alle Mitglieder erhalten bleiben, d.&nbsp;h. es dürfen auch keine Opferungen gegen den Willen des Opfernden stattfinden.
 
-1.1.1\. Unter "erhalten bleiben" versteht sich die Erhaltung eines minimalen Wohlstandslevels,
+1.1.1\. Unter "erhalten bleiben" versteht sich die Erhaltung eines gewissen Gerades an Wohlbefinden,
 welcher über folgenden beispielhaften Zuständen liegt: Tod, irreversible Verletzungen (körperliche wie seelische).
 
-1.2\. Der Grad des zu wahrenden Wohlstandes hängt von der Wichtigkeit des jeweiligen Lebewesens ab.
+1.2\. Der Grad des zu wahrenden Wohlbefindens hängt von der Wichtigkeit des jeweiligen Lebewesens ab.
 
 1.2.1\. Die Wichtigkeit eines Lebewesens berechnet sich wie folgt: Entwicklungsgrad * Intelligenz.
 

@@ -39,7 +39,7 @@ und im speziellen solche, die dies auf die billigste Art und Weise erreichen.
 
 Mit Specios wird ein grundlegend neues Gesellschaftssystem vorgelegt und erläutert, 
 wie es in wenigen Jahren alle derzeitigen politischen und Rechtssysteme unterwandern 
-und ein nachhaltig wohlständiges Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
+und ein nachhaltig glückliches Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
 
 Neben einer eigenen Ideologie soll ein modernisiertes System demokratischer Wahlen
 die zentrale Rolle spielen:

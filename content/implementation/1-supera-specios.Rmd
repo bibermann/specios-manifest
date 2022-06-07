@@ -4,7 +4,7 @@ Das Specios definiert zum einen den grundlegenden ideologischen Rahmen,
 in dem sich die Gesellschaft bewegen kann.
 Dazu gehört insbesondere, dass der Menschen nicht per-se in den Mittelpunkt gestellt wird.
 Es gibt klare Regeln, um mit der Umwelt im Einklang leben zu können.
-Das Ziel ist es stets, den Wohlstand aller Lebewesen zu maximieren,
+Das Ziel ist es stets, das Wohlbefinden aller Lebewesen zu maximieren,
 unter Einhaltung gewissen Rahmenbedingungen.
 
 Darauf aufbauend können sogenannte _Supera Specios_ geschaffen werden,
@@ -23,7 +23,7 @@ Das Wertesystem und die Regeln werden aus wenigen gut begründeten Grundannahmen
 Dadurch wird sichergestellt, dass die Basis aller Entscheidungen dem Geimeinwohl dient
 und nicht durch Traditionen oder zum Nutzen Priviligierter beeinflusst werden kann.
 
-Der Schutz von Lebewesen und das Level des sicherzustellenden Wohlstands
+Der Schutz von Lebewesen und das Level des sicherzustellenden Wohlbefindens
 ist abhängig von der jeweiligen Gattung
 und wird gewichtet durch ihren Entwicklungsstand, insbesondere ihrer Intelligenz,
 der Populationsanteil in ihrem Lebensraum

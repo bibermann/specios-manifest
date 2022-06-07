@@ -90,10 +90,10 @@ Auch hier werden KI-Systeme versuchen, die richtige Balance zu finden,
 um den Fokus der Berechnungen zu lenken.
 
 Die oberste Abstraktionsschicht, zu der alle Daten zusammenlaufen und nach denen sie bewertet werden,
-ist sowohl der extrapolierte Wohlstandslevel der Lebewesen in ferner Zukunft
-als auch der minmale zwischenzeitliche Wohlstandslevel bestimmter Arten 
-oder gar einzelner Lebewesen.
-Specios will den Wohlstand nicht nur maximieren, er darf auch niemals unter ein gewisses Niveau fallen,
+ist sowohl der extrapolierte Stand des Wohlbefindens der Lebewesen in ferner Zukunft
+als auch der minmale zwischenzeitliche Stand (lokales Minimum) 
+für bestimmte Arten oder gar einzelne Lebewesen.
+Specios will das Wohlbefinden nicht nur maximieren, es darf auch niemals unter ein gewisses Niveau fallen,
 auch nicht, wenn danach alles besser werden sollte.
 
 Die konkreten Grenzwerte werden wie die anderen Parameter des Systems auch,
