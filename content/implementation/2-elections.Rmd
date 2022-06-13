@@ -10,15 +10,15 @@ Die Regeln der Gesellschaft werden demokratisch in einem sicheren, verteilten Co
 ## Transparenz
 
 Jedes Mitglied kann jederzeit zu allen möglichen Themen Daten und Meinungen beisteuern.
-Entsprechende Tools sorgen für die Vernetzbarkeit der Daten.
+Entsprechende Systeme sorgen für die Vernetzbarkeit der Daten.
 Außerdem ist der Ursprung aller Daten jederzeit validierbar;
-natürlich auch dann, wenn aus ihnen automatische Schlussfolgerungen gezogen werden.
+natürlich auch dann, wenn aus ihnen automatische Schlussfolgerungen gezogen wurden.
 
 Es gibt öffentlich zugängliche Web-Apps, um die Daten im System zu pflegen.
 Dazu gehört nicht nur das Hinzufügen neuer Daten,
 sondern auch die Bewertung von potenziellen Schwachstellen, Inkonsistenzen oder zweifelhaften Fakten.
 KIs helfen dabei, wichtige zu prüfende Daten oder fehlenden Verknüpfungen zu identifizieren
-und eine Plattform zu präsentieren die auf das Know-How des jeweiligen Benutzers zugeschnitten ist.
+und eine Plattform zu präsentieren, die auf das Know-How des jeweiligen Benutzers zugeschnitten ist.
 Es muss nicht erwähnt werden, das die gesamte Infrastruktur Open-Source sein wird
 und es keine Möglichkeit geben wird, die Plattform ungemerkt zur Manipulation von Meinungen zu missbrauchen.
 Ebenso wird es Mechanismen geben, die einem Tunnelblick entgegenwirken.
@@ -45,9 +45,17 @@ dass ein indogenes Volk vieles über die Heilwirkungen bestimmter Planzen beitra
 auch wenn im Einzelfall kein abgeschlossenes Studium nachgewiesen werden kann.
 
 Ebenso ist es wahrscheinlich, dass über die Tauglichkeit von Maßnahmen zur Barrierefreiheit
-direkt betroffene Person besser urteilen können.
+direkt betroffene Personen besser urteilen können.
 
 Die Beurteilung der Kompetenz hat also viele Facetten.
+
+#### Delegation von Kompetenzen
+
+Zusätzlich soll jedes Mitglied sein Vertrauen
+in die Kompetenz eines anderen Mitgliedes zu bestimmten Sachverhalten
+mitteilen können, was entsprechende Daten des anderen Mitgliedes höher gewichten lässt.
+
+Dieses Konzept ist auch bekannt als "Delegated Voting".
 
 ### Fristen
 

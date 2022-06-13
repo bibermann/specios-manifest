@@ -1,0 +1,13 @@
+# Weiterführende Links {#sec-appendix-links}
+
+## IPCC-Report {#sec-appendix-links-ipcc}
+
+Aktueller, sechster Sachstandsbericht des Weltklimarats IPCC:
+
+- [ipcc.ch » Report 6, Teil 1: The Physical Science Basis](https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/) (August 2021)
+- [ipcc.ch » Report 6, Teil 2: Impacts, Adaptation and Vulnerability](https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/) (Februar 2022)
+- [ipcc.ch » Report 6, Teil 3: Mitigation of Climate Change](https://www.ipcc.ch/report/sixth-assessment-report-working-group-3/) (April 2022)
+
+Ausführliche Vorstellung der Inhalte in einem Podcast:
+
+- [podigee.io » Podcast "Das Klima"](https://dasklima.podigee.io/) (wöchentlich seit August 2021, deutsch)

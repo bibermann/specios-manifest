@@ -1,4 +1,4 @@
-# Meilensteine {#sec-milestones}
+# Meilensteine {#sec-appendix-milestones}
 
 1. Ausarbeitung des Konzeptes.
 2. Strukturiertes System zur Erstellung und Bewertung von Inhalten.

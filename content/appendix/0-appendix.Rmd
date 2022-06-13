@@ -2,5 +2,5 @@
 
 # Anhang {-#chap-appendix}
 
-- [Geschichte](#sec-history)
-- [Meilensteine](#sec-milestones)
+- [Geschichte](#sec-appendix-history)
+- [Meilensteine](#sec-appendix-milestones)

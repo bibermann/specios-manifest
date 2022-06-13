@@ -43,7 +43,8 @@ rmd_files: [
     "content/system/3-database.Rmd",
     "content/appendix/0-appendix.Rmd",
     "content/appendix/1-history.Rmd",
-    "content/appendix/2-milestones.Rmd",
+    "content/appendix/1-milestones.Rmd",
+    "content/appendix/1-links.Rmd",
     "content/conclusion.Rmd",
     "content/references.Rmd",
 ]

@@ -10,7 +10,7 @@ sowie kryptografische Daten um die Authentizität sicherzustellen.
 Darüberhinaus besitzen sie typenspezifische Details:
 Eine Objekt-ID, die die zu beschreibende Sache referenzierbar macht,
 den Objekt-Typen, der den Typen der Sache festlegt
-und natürlich die eigentlich Nutzdaten selbst.
+und natürlich die eigentlichen Nutzdaten selbst.
 
 Derzeit wird zwischen den folgenden Typen unterschieden:
 
@@ -61,6 +61,14 @@ questioning
 
 confidence
 : Die Vertrauenswürdigkeit eines Objektes bewerten.
+
+::: {.rmdcaution}
+To-Dos:
+
+- Delegation
+- Competence-calculation supporting categories
+- Abstraction level relations
+:::
 
 ## Modelldaten
 

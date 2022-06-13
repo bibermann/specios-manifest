@@ -1,8 +1,8 @@
 # Supera Specios {#sec-implementation-supera-specios}
 
-Das Specios definiert zum einen den grundlegenden ideologischen Rahmen,
+Das _Specios_ definiert zum einen den grundlegenden ideologischen Rahmen,
 in dem sich die Gesellschaft bewegen kann.
-Dazu gehört insbesondere, dass der Menschen nicht per-se in den Mittelpunkt gestellt wird.
+Dazu gehört insbesondere, dass der Mensch nicht per-se in den Mittelpunkt gestellt wird.
 Es gibt klare Regeln, um mit der Umwelt im Einklang leben zu können.
 Das Ziel ist es stets, das Wohlbefinden aller Lebewesen zu maximieren,
 unter Einhaltung gewissen Rahmenbedingungen.
@@ -17,7 +17,9 @@ Wie ein solches Supera Specios aussehen könnte, werden wir nun skizzieren.
 
 Wie auf den ersten Seiten bereits beschrieben,
 wird die Gesellschaft mit Specios komplett neu gedacht -
-frei von unbegründeten Altlasten.
+frei von unbegründeten Altlasten^[
+Mit Altlasten meine ich Dinge wie die religiöse Schriften oder kulturelle Eigenheiten/Normen.
+].
 
 Das Wertesystem und die Regeln werden aus wenigen gut begründeten Grundannahmen hergeleitet.
 Dadurch wird sichergestellt, dass die Basis aller Entscheidungen dem Geimeinwohl dient
@@ -26,7 +28,7 @@ und nicht durch Traditionen oder zum Nutzen Priviligierter beeinflusst werden ka
 Der Schutz von Lebewesen und das Level des sicherzustellenden Wohlbefindens
 ist abhängig von der jeweiligen Gattung
 und wird gewichtet durch ihren Entwicklungsstand, insbesondere ihrer Intelligenz,
-der Populationsanteil in ihrem Lebensraum
+dem Populationsanteil in ihrem Lebensraum
 sowie der genetischen bzw. biologischen Verwandtschaft zu den Gesellschaftsmitgliedern.
 
 ## Realisierung
@@ -34,3 +36,4 @@ sowie der genetischen bzw. biologischen Verwandtschaft zu den Gesellschaftsmitgl
 Die Verwirklichung dieser Ideen in einem Supera Specios
 erfordert neben entsprechenden Technologien zur Verwaltung
 auch Strategien, um sich im Kapitalismus zu behaupten.
+Dies wird in den folgenden beiden Kapiteln beschrieben.

@@ -25,10 +25,12 @@ Das dafür angelegte GitHub-Repository ermöglicht es einer größeren Gruppe, i
 
 Unsere Gesellschaftsmodelle brauchen zwingend einen Paradigmen-Wechsel.
 Ein aktuelles Beispiel für dessen Notwendigkeit ist der 
-erschreckend geringe Einfluss der _Fridays for Future_-Bewegung.
-Uns wird erneut vorgeführt, dass die Verantwortung nicht auf die einzelne Person abgewälzt werden kann
-(siehe auch [Situation » Gesetze](https://specios.github.io/specios-manifest/sec-situation-laws)).
-Eine noch wichtigere Wiedererkenntnis ist es zu sehen, wie machtlos die Politik ist.
+erschreckend geringe Einfluss der Klimastreik-Bewegung _Fridays for Future_.
+Mit der Bewegung wird uns erneut vorgeführt, 
+dass die Verantwortung nicht auf die einzelne Person abgewälzt werden kann,
+sondern eine höhere Instanz eingreifen muss
+(siehe auch [Situation unserer Gesellschaft » Gesetze](https://specios.github.io/specios-manifest/sec-situation-laws)).
+Leider wird uns dabei bestätigt, wie machtlos die Politik tatsächlich ist.
 Nicht sie, sondern Konzerne entscheiden - denn sie haben die größte Marktmacht:
 Ich frage nach Eiern und bekomme Maschinen, die Küken zerhacken;
 ich frage nach Mobilität und bekomme Kurzstreckenflüge;
@@ -38,17 +40,18 @@ Tatsächlich fördert sie aber lediglich diejenigen, die das _Verlangen_ der Ges
 und im speziellen solche, die dies auf die billigste Art und Weise erreichen.
 
 Mit Specios wird ein grundlegend neues Gesellschaftssystem vorgelegt und erläutert, 
-wie es in wenigen Jahren alle derzeitigen politischen und Rechtssysteme unterwandern 
+wie es langfristig alle derzeitigen politischen und Rechtssysteme unterwandern 
 und ein nachhaltig glückliches Leben auf dem gesamten Planeten und darüber hinaus garantieren kann.
 
-Neben einer eigenen Ideologie soll ein modernisiertes System demokratischer Wahlen
+Neben einer eigenen Ideologie soll ein modernes, demokratisches Wahlsystem
 die zentrale Rolle spielen:
 Jeder Mensch soll sich zeitlich unabhängig
-an allen Informations- und Entscheidungsprozessen beteiligen können.
+an allen Informations- und Entscheidungsprozessen beteiligen können
+(siehe auch [Das neue Gesellschaftssystem » Der Wahlapparat](https://specios.github.io/specios-manifest/sec-situation-laws)).
 Durch eine strenge formale Spezifikation der Daten
 sind sie über verschiedene Abstraktionsebenen hinweg miteinander vernetzbar.
 Dadurch können nicht nur komplexe Problemlösungen hergeleitet werden.
-Insbesondere werden auch ihre Voraussetzungen und Implikationen ersichtlich.
+Insbesondere werden auch ihre Voraussetzungen und Konsequenzen sichtbar.
 
 Mittelfristig wird mit Specios jedes Mitglied der Gesellschaft in die Lage versetzt,
 politische Entscheidungen nachzuvollziehen - und zu bewerten.

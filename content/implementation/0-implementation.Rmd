@@ -2,8 +2,8 @@
 
 # Das neue Gesellschaftssystem {-#chap-implementation}
 
-Bevor wir mit der detaillierten Situations-Analyse beginnen
-und darauf aufbauend das Konzept von Specios erarbeiten,
+Bevor wir mit der detaillierten Situations-Analyse beginnen (ab Kapitel \@ref(sec-situation-capitalism))
+und darauf aufbauend das Konzept von Specios erarbeiten (ab Kapitel \@ref(sec-consequences-requirements)),
 wird in den folgenden Kapiteln ein konkreter Umsetzungsvorschlag vorweggenommen.
 
 Bei unklaren Annahmen dürfen Sie also gerne in die späteren Kapitel hineinschnuppern.

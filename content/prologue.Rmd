@@ -1,16 +1,16 @@
 # Vorwort {-#chap-prologue}
 
-Ja, das Ziel ist weit gesetzt und es ist kaum zu glauben,
+Das Ziel von Specios ist weit gesetzt und es ist kaum zu glauben,
 dass die Lösung so greifbar nahe liegen kann.
 
 Andererseits wissen wir nicht erst seit dem
-ab August 2021 erschienen sechsten Sachstandsbericht des Weltklimarats IPCC,
-dass es eigentlich schon viel zu spät ist und ein Wunder geschehen muss.
-Viele Lebewesen sind schon ausgestorben und wir müssen alles darauf setzen,
-nicht noch mehr Ökosysteme zu zerstören, da das am Ende auch uns zerstören wird.
+ab 2021 erschienen [sechsten Sachstandsbericht](#sec-appendix-links-ipcc) des Weltklimarats IPCC,
+dass es eigentlich schon viel zu spät ist und ein Wunder geschehen müsste.
+Viele Lebewesen sind schon ausgestorben und wir müssen alles daran setzen,
+nicht noch mehr Ökosysteme zu zerstören, da das am Ende auch uns zerstören würde.
 
-Es muss daher unsere Pflicht sein, potenzielle Lösungen zumindest auszuprobieren,
-wenn wir ihre Umsetzbarkeit nicht widerlegen können.
+Es muss daher unsere Pflicht sein, potenzielle Lösungen auszuprobieren,
+erst recht, wenn wir ihre Umsetzbarkeit nicht widerlegen können.
 
 Gesellschaftssysteme sind komplex und viel diskutiert
 und bis heute ist es uns nicht gelungen, ein nachhaltig funktionierendes System zu entwickeln.

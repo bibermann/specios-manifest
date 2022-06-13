@@ -2,9 +2,7 @@
 
 # Situation unserer Gesellschaft {-#chap-situation}
 
-Verschiedenste Probleme sind allgemein bekannt^[
-Speziell zu den klimatologischen gibt es den seit August 2021 erschienen sechsten Sachstandsbericht des Weltklimarats IPCC.
-]:
+Verschiedenste Probleme sind allgemein bekannt:
 
 - Hunger, Verschmutzung, niedrige Lebensqualität
 - Tierquälerei (Massentierhaltung mit allen Konsequenzen,
