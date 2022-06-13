@@ -6,6 +6,7 @@ sec-implementation-elections
 transparenz
 unterschied-zur-direkten-demokratie
 kompetenzgewichtung
+delegation-von-kompetenzen
 fristen
 daten-verarbeitung
 abstraktionsschichten
@@ -52,5 +53,7 @@ sec-ki-simulation
 daten
 durchmischtes-1
 sec-database
-sec-history
-sec-milestones
+sec-appendix-history
+sec-appendix-milestones
+sec-appendix-links
+sec-appendix-links-ipcc
