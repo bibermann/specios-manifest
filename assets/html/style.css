@@ -4,6 +4,24 @@
     --font-family-monospace: "IBM Plex Mono", "Courier New", monospace;
 }
 
+@media (max-width: 991.98px) {
+    :root {
+        --base-font-size: 1.375rem;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --base-font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 400px) {
+    :root {
+        --base-font-size: 1rem;
+    }
+}
+
 p.caption {
     color: #777;
     margin-top: 10px;
@@ -43,12 +61,15 @@ footer,
 caption, p.caption,
 .anchor,
 .algolia-autocomplete .aa-dropdown-menu .aa-suggestion,
-.form-control /* font of bootstrap.min.css */ {
+.form-control /* font of bootstrap.min.css */
+{
     font-family: var(--font-family-serif);
     font-size: calc(0.8 * var(--base-font-size));
     line-height: 1.0;
 }
-.book-extra i /* font of font-awesome icons */ {
+
+.book-extra i /* font of font-awesome icons */
+{
     font-size: calc(0.8 * var(--base-font-size));
     line-height: 1.0;
 }
@@ -59,6 +80,33 @@ caption, p.caption,
         font-family: var(--font-family-serif);
         font-size: calc(0.8 * var(--base-font-size));
         line-height: 1.0;
+    }
+}
+
+/* move scrollbar of TOC to the left side */
+
+.sidebar {
+    direction: rtl;
+}
+
+.sidebar > * {
+    direction: ltr;
+}
+
+/* Sidebars should be on the sides without width restriction */
+@media (min-width: 1200px) {
+    .container-fluid .row {
+        justify-content: space-between;
+    }
+
+    .container-fluid,
+    .sidebar {
+        max-width: none;
+    }
+
+    #main-nav {
+        width: fit-content;
+        margin-right: auto;
     }
 }
 
@@ -85,9 +133,11 @@ main a[href*='#sec-']:not(.anchor) {
     position: absolute;
     z-index: 1;
 }
+
 .anchor i {
     font-size: calc(0.8 * var(--base-font-size));
 }
+
 h1:hover .anchor, h2:hover .anchor, h3:hover .anchor, h4:hover .anchor, h5:hover .anchor, h6:hover .anchor {
     visibility: visible;
 }
@@ -177,11 +227,8 @@ main ol, main ul {
     }
 }
 
-main ol > li:first-child, main ul > li:first-child {
+main ol, main ul, main dl {
     margin-top: 1em;
-}
-
-main ol > li:last-child, main ul > li:last-child {
     margin-bottom: 1em;
 }
 
@@ -215,10 +262,6 @@ h5 {
     font-size: calc(1.0 * var(--base-font-size));
 }
 
-main dl {
-    margin-top: 1em;
-}
-
 /*.sidebar h2 {
   font-weight: bold;
 }*/
@@ -229,7 +272,14 @@ nav li.book-part {
 
 nav li.book-part + li {
     margin-top: 1rem;
+}
+
+nav li.book-part + li a {
     /*font-weight: bold;*/
+    font-family: var(--font-family-monospace);
+    font-size: smaller;
+    /*font-style: italic;*/
+    text-decoration: underline;
 }
 
 footer a,
@@ -279,6 +329,10 @@ nav[data-toggle="toc"] .nav-link.active + ul {
     margin-top: 0;
 }
 
+.book-extra {
+    border-color: #ced4da;
+}
+
 /* Adjustments for menu max-height optimization */
 
 @media (min-width: 992px) {
@@ -297,8 +351,33 @@ nav[data-toggle="toc"] .nav-link.active + ul {
 
 .chapter-nav .prev,
 .chapter-nav .next {
-    padding: 0.5rem 0.75rem;
-    border-radius: 1.5rem;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    margin-top: calc(1.618 * 1.0 * var(--base-font-size));
+}
+
+.chapter-nav .prev a,
+.chapter-nav .next a {
+    padding: 0.5rem;
+    border: 1px solid #ced4da;
+    border-radius: 0.2rem;
+    /*box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);*/
+    /*padding: 0.5rem 0.75rem;*/
+    /*border-radius: 1.5rem;*/
+}
+
+.chapter-nav .prev a {
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    background-color: white;
+}
+
+.chapter-nav .next a {
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    background-color: #eee;
+    border-color: #eee;
 }
 
 /* Search field */
@@ -327,4 +406,10 @@ input#search {
 
 .book-extra a {
     color: gray;
+}
+
+/* Images */
+
+.figure {
+    display: block; /* to eat margin top/bottom of surrounding blocks */
 }
