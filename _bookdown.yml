@@ -17,6 +17,7 @@ rmd_files: [
     "content/implementation/1-supera-specios.Rmd",
     "content/implementation/2-elections.Rmd",
     "content/implementation/2-politics.Rmd",
+    "content/implementation/2-work.Rmd",
     "content/implementation/3-data-model.Rmd",
     "content/society-1-situation/0-situation.Rmd",
     "content/society-1-situation/1-capitalism.Rmd",

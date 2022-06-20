@@ -1,0 +1,74 @@
+# Neue Arbeitswelt {#sec-implementation-work}
+
+Das Konzept der Arbeit wird den wohl größten Wandel erfahren.
+
+Unter dem Begriff _Bedingungsloses Grundeinkommen_ wurde die Idee,
+nicht für seinen Lebensunterhalt arbeiten zu müssen,
+bereits ausgiebig diskutiert.
+Mit Specios werden wir einen Schritt weiter gehen und sehen,
+dass die Nachteile, die man heute vom bedingungslosen Grundeinkommen hätte,
+nicht mehr relevant sind.
+
+## Konkurrenz und Geheimhaltung
+
+Um sich vor der Konkurrenz zu behaupten und teure Forschungsarbeit zu refinanzieren
+gibt es Patente, deren Existenz nur im Kapitalismus sinnvoll ist.
+
+Patente bzw. allgemein die Geheimhaltung und allgeimeine Unzugänglichkeit
+von Forschungs- und Entwicklungsergebnissen werden mit Specios entfallen,
+was die technologische Weiterentwicklung beschleunigen wird.
+
+## Arbeits-Kapazitäten
+
+Wenn wir uns anschauen, was es alles für Tätigkeiten gibt,
+werden wir schnell feststellen, dass die meisten davon überflüssig sind:
+
+Im Kapitalismus ist Arbeit eine Grundvorraussetzung, um leben zu können.
+Daher gibt es nicht genug Anreiz, niedere Arbeiten zu automatisieren.
+Wenn man jedoch genau das Gegenteil anstrebt - nicht mehr arbeiten zu müssen -
+wird Automatisierung eine der größten Prioritäten sein.
+Da es kein direktes finanzielles Risiko geben wird, die Prozesse umzugestalten,
+können dabei sehr schnell Erfolge erzielt werden.
+
+Darüber hinaus gibt es viele Tätigkeiten, die unnötig sind:
+
+- Marketing.
+    Typischerweise 10-13&nbsp;%[@marketing_expenses_2021] des Umsatzes werden heutzutage dafür ausgegeben.
+- Erforschung von Dingen, die bereits erforscht sind.
+    Viele Parallelentwicklungen können vermieden werden.
+- Produktion von Wegwerfgütern.
+    _Billig_ wird eine andere Bedeutung haben, sobald die Nachhaltigkeit von Produkten berücksichtigt wird.
+
+In der Folge wird es für die Grundversorgung viel weniger Arbeitsbedarf geben,
+selbst wenn die Leute weniger arbeiten.
+
+## Arbeits-Moral
+
+Wie in Kapitel \@ref(sec-situation-work) dargelegt wird,
+gibt es genug Motive, ohne finanzielle Anreize zu arbeiten.
+
+Da man keinen existenziellen Druck zum Arbeiten hat,
+wird man Spaß an der Arbeit haben
+und qualitativ viel hochwertigere Ergebnisse liefern können.
+
+## Geld für Arbeitszeit
+
+Wie bereits erwähnt, wird man kein Geld brauchen, um gut zu leben.
+Specios wird den allgemeinen Wohlstand sogar tendenziell verbessern.
+
+Trotzdem gibt es ein Grundeinkommen, von dem man begrenzte Angebote erwerben kann,
+also solche, die begrenzte Ressourcen aufbrauchen.
+Das können Rohstoffe (wie Kaffebohnen) oder auch Platz (z.B. ein Platz am Strand) sein.
+Jeder kann also selber entscheiden, was für ihn wichtiger ist.
+
+Gewisse Tätigkeiten können das Grundeinkommen ergänzen.
+Je nachdem wie sehr sie für die Lösung von akuten Problemen beitragen,
+werden sie mehr oder weniger hoch bezahlt.
+Beispiele für höher bezahlte Tätigkeiten sind:
+
+- Katastrophenhilfe
+- Erstbehandlung von Unfallfolgen
+- Reperatur von Infrastruktur
+- Entwicklung und Anwendung von aktuell kritischen Dingen,
+    die der Einhaltung der Regeln von Specios dienen
+    (z.B. versorgungstechnische, menschenrechtliche oder klimatologische Maßnahmen)

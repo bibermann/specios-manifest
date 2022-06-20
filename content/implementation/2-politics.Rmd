@@ -7,3 +7,43 @@ Und wie kann es die Welt verändern?
 ## Überzeugung
 
 Der Schlüssel zum Erfolg ist Überzeugung.
+Die Menschen müssen sehen und verstehen, dass die Daten, die Specios liefert,
+tatsächlich die Probleme erklärt und mögliche Lösungen verständlich darlegen kann.
+
+Wenn die Mehrheit überzeugt ist, würde es keinen Sinn mehr ergeben,
+Parteien oder andere Organe zu wählen,
+die nicht versuchen wollen, die vorgeschlagenen Ziele umzusetzen.
+
+## Aufmerksamkeit
+
+Damit die Menschen von Specios aber überzeugt werden können,
+müssen sie überhaupt erst mit Specios konfrontiert werden und die Motivation verspüren,
+sich mit diesem System zu beschäftigen.
+
+Um dies zu erreichen, gibt es zahlreiche Wege:
+
+- Meetups, um die Idee zu propagieren. Einen gibt es bereits:
+    [meetup.com » Entwicklung und Umsetzung eines neuen Gesellschafts-Konzepts](https://www.meetup.com/de-DE/enwticklung-und-umsetzung-eines-neuen-gesellschafts-konzepts/)
+    (Berlin)
+- Verteilen von Flyern. 
+    Die offizielle Landing-Page ist [https://meet.specios.org](https://meet.specios.org)
+    und ebenfalls [auf GitHub bearbeitbar](https://github.com/specios/landing-page/edit/main/index.html).
+- Organisieren von Vorträge und Konferenzen zu den Details von Specios.
+- Schreiben von Computerspielen. Zum Beispiel Wirtschaftssimulationen, 
+    die reale Daten von Specios verwenden.
+    Oder Abenteuer-Spiele, in denen man mit diversen Optionen, 
+    die von Specios vorgeschlagen werden, experimentieren kann.
+    Es könnte eine mögliche Zukunft gezeichnet werden,
+    in der unsere derzeitigen Probleme überwunden sind.
+- Am Buch mitarbeiten, um den Nutzen von Specios noch überzeugender darzulegen.
+- Am Code mitarbeiten, um erste Prototypen bauen zu können,
+    mit denen die Öffentlichkeitsarbeit effektiver möglich wäre.
+
+## Gesetze
+
+Wenn die Politik nun gezwungen wird, Dinge aus Specios umzusetzen, weil es das Volk so möchte,
+dann werden zwangsläufig immer mehr Gesetze entstehen müssen,
+die kapitalistisch wirtschaftene Unternehmen immer weiter einschränken werden.
+
+Somit wird der Weg zu fortschrittlicheren Systemen kontinuierlich geebnet.
+Letzlich werden kapitalistische Strukturen immer unattraktiver.
