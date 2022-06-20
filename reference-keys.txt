@@ -13,6 +13,12 @@ abstraktionsschichten
 sec-implementation-politics
 überzeugung
 aufmerksamkeit
+gesetze
+sec-implementation-work
+konkurrenz-und-geheimhaltung
+arbeits-kapazitäten
+arbeits-moral
+geld-für-arbeitszeit
 sec-implementation-data-model
 eingabedaten
 modelldaten
