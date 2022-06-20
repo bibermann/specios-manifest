@@ -12,6 +12,7 @@ daten-verarbeitung
 abstraktionsschichten
 sec-implementation-politics
 überzeugung
+aufmerksamkeit
 sec-implementation-data-model
 eingabedaten
 modelldaten
