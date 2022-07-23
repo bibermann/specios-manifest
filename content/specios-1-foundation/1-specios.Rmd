@@ -2,7 +2,7 @@
 
 Dieses Kapital wird eine Lösung skizzieren, welche die in Kapitel \@ref(sec-consequences-synthesis) dargelegten Anforderungen erfüllt.
 
-Ich nenne das System \index{Specios}*Specios, la specio sistemo*.
+Wir nennen das System \index{Specios}*Specios, la specio sistemo*.
 ^["Specios, la specio sistemo" (\index{Esperanto}epo.) bedeutet "Specios, das Arten-System",
 wobei *Art* im Sinne von *Spezies* zu verstehen ist, und *System* u.&nbsp;A. im politischen Sinne.
 Also ein Verwaltungssystem für jede Art von Lebewesen.

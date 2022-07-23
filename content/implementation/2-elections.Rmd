@@ -19,9 +19,10 @@ Dazu gehört nicht nur das Hinzufügen neuer Daten,
 sondern auch die Bewertung von potenziellen Schwachstellen, Inkonsistenzen oder zweifelhaften Fakten.
 KIs helfen dabei, wichtige zu prüfende Daten oder fehlenden Verknüpfungen zu identifizieren
 und eine Plattform zu präsentieren, die auf das Know-How des jeweiligen Benutzers zugeschnitten ist.
+^[Um einem Tunnelblick entgegenzuwirken, könnten Nutzer regelmäßig mit fachfremden Informationen konfrontiert werden.
+Die bereits erwähnte aktive Suche nach Inkonsistenzen kann hier ebenfalls helfen.]
 Es muss nicht erwähnt werden, das die gesamte Infrastruktur Open-Source sein wird
 und es keine Möglichkeit geben wird, die Plattform ungemerkt zur Manipulation von Meinungen zu missbrauchen.
-Ebenso wird es Mechanismen geben, die einem Tunnelblick entgegenwirken.
 
 ## Unterschied zur direkten Demokratie
 
@@ -78,7 +79,7 @@ Neben dem Wahlsystem ist das allgemeine Informationssystem von zentraler Bedeutu
 Die Begriffe _Daten_, _Meinungen_ und _Abstimmungen_ wurden bisher bunt gemischt verwendet.
 
 Tatsächlich ist es wichtig, Daten als ganz abstrakte Einheit zu betrachten.
-Eine _Abstimmung_ ist keine Präsentation einer Idee, die man nur mit Ja oder Nein beantworten kann
+Eine _Abstimmung_ ist keine Präsentation einer Idee, die man nur mit "Ja" oder "Nein" beantworten kann
 und am Ende von einem Politiker ausgewertet wird.
 
 Jede Daten-Einheit steht mit anderen Daten in Zusammenhang.
