@@ -4,7 +4,7 @@ Ein besseres Wahlsystem zu haben ist ja schön und gut,
 aber wie sorgt man dafür, dass es auch verwendet wird?
 Und wie kann es die Welt verändern?
 
-## Überzeugung
+## Überzeugung {#sec-implementation-politics-conviction}
 
 Der Schlüssel zum Erfolg ist Überzeugung.
 Die Menschen müssen sehen und verstehen, dass die Daten, die Specios liefert,

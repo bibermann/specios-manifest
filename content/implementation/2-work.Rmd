@@ -18,7 +18,7 @@ Patente bzw. allgemein die Geheimhaltung und allgeimeine Unzugänglichkeit
 von Forschungs- und Entwicklungsergebnissen werden mit Specios entfallen,
 was die technologische Weiterentwicklung beschleunigen wird.
 
-## Arbeits-Kapazitäten
+## Arbeits-Kapazitäten {#sec-implementation-work-capacities}
 
 Wenn wir uns anschauen, was es alles für Tätigkeiten gibt,
 werden wir schnell feststellen, dass die meisten davon überflüssig sind:
@@ -51,7 +51,7 @@ Da man keinen existenziellen Druck zum Arbeiten hat,
 wird man Spaß an der Arbeit haben
 und qualitativ viel hochwertigere Ergebnisse liefern können.
 
-## Geld für Arbeitszeit
+## Geld für Arbeitszeit {#sec-implementation-work-money}
 
 Wie bereits erwähnt, wird man kein Geld brauchen, um gut zu leben.
 Specios wird den allgemeinen Wohlstand sogar tendenziell verbessern.
