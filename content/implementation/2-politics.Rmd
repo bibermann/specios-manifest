@@ -47,3 +47,25 @@ die kapitalistisch wirtschaftende Unternehmen immer weiter einschränken werden.
 
 Somit wird der Weg zu fortschrittlicheren Systemen kontinuierlich geebnet.
 Letzlich werden kapitalistische Strukturen immer unattraktiver.
+
+### Bestrafung
+
+Die Exekutive wird in Specios etwas anders funktionieren.
+Derzeitige Strafsysteme sind verzeifelte Versuche, kaputte Gesellschaftssysteme zu flicken.
+In Specios wird es keine Gründe für die meisten der heutigen Verbrechen mehr geben.
+Beispielsweise wird niemand mehr hungern müssen.
+
+Ohne Armut oder andere undwürdige Lebensbedingungen
+können Kinder besser erzogen und unterrichtet werden,
+was die Ursache von vielen Straftaten nichtig macht.
+
+Geldstrafen können systembedingt keine Existenzen ruinieren
+(siehe dazu Kapitel \@ref(sec-implementation-work)).
+Diese sind die einzigen Strafen, die zur Abschreckung dienen in dem Sinne,
+dass ein Verstoß gegen Regeln unattraktiver ist als der Verstoß selbst.
+
+Freiheitsstrafen wird es nur mit begleitenden Therapien geben.
+Die Dauer einer solchen Strafe wird nicht im Vorhinein festgelegt,
+sondern endet grundsätzlich nach der erfolgreichen Therapie.
+
+Selbstredend wird es keine körperlich oder geistig schädigenden Strafen geben.
