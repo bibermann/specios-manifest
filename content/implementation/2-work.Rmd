@@ -56,7 +56,7 @@ und qualitativ viel hochwertigere Ergebnisse liefern können.
 Wie bereits erwähnt, wird man kein Geld brauchen, um gut zu leben.
 Specios wird den allgemeinen Wohlstand sogar tendenziell verbessern.
 
-Trotzdem gibt es ein Grundeinkommen, von dem man begrenzte Angebote erwerben kann,
+Trotzdem gibt es eine Art Grundeinkommen, von dem man begrenzte Angebote erwerben kann,
 also solche, die begrenzte Ressourcen aufbrauchen.
 Das können Rohstoffe (wie Kaffebohnen) oder auch Platz (z.B. ein Platz am Strand) sein.
 Jeder kann also selber entscheiden, was für ihn wichtiger ist.
@@ -72,3 +72,45 @@ Beispiele für höher bezahlte Tätigkeiten sind:
 - Entwicklung und Anwendung von aktuell kritischen Dingen,
     die der Einhaltung der Regeln von Specios dienen
     (z.B. versorgungstechnische, menschenrechtliche oder klimatologische Maßnahmen)
+
+### Währungssystem {#sec-implementation-work-money-system}
+
+Die Währung und sämtliche Kurse werden von Specios auf ähnliche Weise verwaltet wie andere Daten,
+d.h. die jeweiligen Kurse werden durch gemeinschaftlich erarbeiteten Formeln
+und den zugehörigen Echtzeit-Daten errechnet.
+
+Folgende Kurs-Gruppen gibt es:
+
+- Grundeinkommen pro Mitglied.
+- Lohn für die Lösung von akuten Problemen.
+- Kosten für begrenzte Ressourcen.
+
+Zur Berechnung der Kurse könnten exemplarisch folgende Größen einen Einfluss haben:
+
+- Menge der verfügbaren Ressourcen und die "Folgekosten" des Verbrauches derselben.
+- Dringlichkeit von akuten Problemen.
+- Verfügbarkeit von Unternehmen oder Personen, die akute Probleme lösen können und wollen.
+
+Das bedeutet, dass die die Dienstleitung ausführenden Unternehmen
+(bzw. die beteiligten Personen) nicht den Preis bestimmen.
+
+### Handelssystem
+
+Damit das Währungssystem funktioniert, muss das Handelssystem verändert werden.
+
+Da der Wert von begrenzten Ressourcen von Specios berechnet wird,
+ist der freie Handel nicht mehr notwendig.
+
+Damit das wiederum funktioniert, müssen sämtliche Prozesse der Produktion transparent sein.
+Das bedeutet zum Beispiel, dass es keine Betriebsgeheimnisse, Patente udgl. mehr geben darf.
+
+Auch gehören Produktions- und Konsumgüter nicht den erzeugenden Unternehmen/Personen.
+Das bedeutet, dass sie nicht verkauft werden dürfen,
+bzw. allgemein, dass mit ihnen kein Handel getrieben werden darf.
+Die Weiterverteilung wird von Specios geregelt;
+bei begrenzten Ressourcen muss der neue Besitzer dafür zahlen.
+
+Falls Schwarzmärkte entdeckt werden, müssen die Kurse so angepasst werden,
+dass eine Fortführung dieser Praktiken nicht mehr lukrativ erscheint.
+Sofern das Ziel von Specios nicht behindert wird,
+können gewisse Märkte aber auch ohne Anpassungen toleriert werden.
